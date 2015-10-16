@@ -12,7 +12,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/cover.css" rel="stylesheet">
+    <link href="navbar-fixed-top.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,28 +21,44 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style type="text/css" id="holderjs-style"></style></head>
-<body>
-    <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
-      	<div class="cover-container">
-			<div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Zach Knox</h3>
-              <ul class="nav masthead-nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li class="active"><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          </div>
-          <div class="inner cover">
-          
-          <h2>Projects</h2>
-          	<br />
-          		<div class="row">
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Zach Knox</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Projects</h1>
+        <p>Anything that I am publicly working on or have worked on should be here.</p>
+        <p>Some of the things I make are open source, although I'm not sure whether or not you would want to look at my code...</p>
+      </div>
+      
+                		<div class="row">
  					<div class="col-sm-6 col-md-4">
 			    	<div class="thumbnail">
 			        	<img data-src="http://i.imgur.com/OCEE8nZ.jpg" alt=".Image of the website..">
@@ -50,7 +66,7 @@
 			        	<h3>zmknox.github.io</h3>
 			        	<p>A site where I can show of the stuff I've made!</p>
 			        	<p><a href="/" class="btn btn-primary" role="button">View</a> <a href="https://github.com/zmknox/zmknox.github.io" class="btn btn-default" role="button">View on Github</a></p>
-			      	</div>
+			      		</div>
 			      	</div>
 			      	</div>
 			      	<div class="col-sm-6 col-md-4">
@@ -60,7 +76,7 @@
 			        	<h3>Breakout</h3>
 			        	<p>The year end project from my high school junior year, a Breakout clone in Java!</p>
 			        	<p><a href="https://github.com/zmknox/Breakout/releases" class="btn btn-primary" role="button">View</a> <a href="https://github.com/zmknox/Breakout" class="btn btn-default" role="button">View on Github</a></p>
-			      	</div>
+			      		</div>
 			      	</div>
 			      	</div>
 			      	<div class="col-sm-6 col-md-4">
@@ -70,12 +86,18 @@
 			        	<h3>More Things</h3>
 			        	<p>Because you never know what may come in the future</p>
 			        	<p><a href="/" class="btn btn-primary" role="button">Coming Soon&#8482</a> </p>
-			      	</div>
+			      		</div>
 			    	</div>
 			  		</div>
-			  </div>
-          </div>
-    	</div>
-	</div>
-</body>
-</html>
+
+    </div> <!-- /container -->
+    
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/docs.min.js"></script>
+  
+
+</body></html>
