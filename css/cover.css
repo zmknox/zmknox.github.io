@@ -110,12 +110,6 @@ body {
 /* Background Image */
 body { 
   background: url(http://scienceblogs.com/gregladen/files/2012/12/Beautifull-cat-cats-14749885-1600-1200.jpg) no-repeat center center fixed; 
-  filter: blur(5px);
-  // Browser Specific
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
