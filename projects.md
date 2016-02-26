@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Here is a list of my personal projects. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects,
+This is a list of my personal projects. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects,
 which you can find here: {% include icon-github.html username="SRCT" %}
 
 
