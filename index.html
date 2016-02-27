@@ -24,7 +24,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <a href="/posts/">⬅ All Posts</a>
-
+  {% if posts < 4 %}
+    <a href="/posts/">⬅ All Posts</a>
+  {% endif %}
 </div>
