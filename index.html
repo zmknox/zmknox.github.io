@@ -7,13 +7,15 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts offset: 0 limit: 4 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post-homepage">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div class="post-content" itemprop="articleBody">
-          {{ post.content }}
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <div class="post-content" itemprop="articleBody">
+                {{ post.content }}
+            </div>
         </div>
       </li>
     {% endfor %}
