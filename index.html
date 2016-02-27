@@ -14,7 +14,11 @@ layout: default
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
             <div class="post-content" itemprop="articleBody">
-                {{ post.content }}
+                {% if post.content contains "<!-- more -->" %}
+                    {{ post.content | split:"<!-- more -->" | first % }}
+                {% else %}
+                    {{ post.content }}
+                {% endif %}
             </div>
         </div>
       </li>
