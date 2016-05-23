@@ -1,30 +1,16 @@
 ---
-layout: default
+layout: homepage
 ---
+<center>
 
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts offset: 0 limit: 4 %}
-      <li>
-        <div class="post-homepage">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <div class="post-content" itemprop="articleBody">
-                {% if post.content contains "<!-- more -->" %}
-                    {{ post.content | split:"<!-- more -->" | first % }}
-                {% else %}
-                    {{ post.content }}
-                {% endif %}
-            </div>
-        </div>
-      </li>
+<div class="homepage">
+    <h1 class="home-h1">Zach Knox</h1>
+    {% for my_page in site.pages %}
+      {% unless my_page.title contains "Archive" == false%}
+        <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <!---Needs some work--->
+      {% endunless %}
     {% endfor %}
-  </ul>
-  {% if posts < 4 %}
-    <a href="/posts/">⬅ All Posts</a>
-  {% endif %}
 </div>
+
+</center>

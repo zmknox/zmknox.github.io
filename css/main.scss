@@ -52,3 +52,30 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.homepage {
+    margin: 0;
+    background: $brand-color;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.home-h1 {
+    font-size: 148px;
+    color: white;
+}
+.home-links {
+    color: white;
+    display: block;
+    font-size: 24px;
+    text-decoration: none;
+}
+.home-links:visited {
+    color: white;
+}
+.home-footer {
+    color: white;
+}

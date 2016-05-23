@@ -15,7 +15,7 @@
 
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% unless my_page.title contains "Contact" == false%}
+          {% unless my_page.title contains "Archive" == false%}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           <!---Needs some work--->
           {% endunless %}

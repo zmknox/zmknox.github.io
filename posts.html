@@ -1,25 +1,32 @@
 ---
 layout: page
-title: Archive
+title: Posts
 permalink: /posts/
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Archive</h1>
-
   <ul class="post-list">
-    {% for post in site.posts%}
+    {% for post in site.posts offset: 0 limit: 4 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post-homepage">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <div class="post-content" itemprop="articleBody">
+                {% if post.content contains "<!-- more -->" %}
+                    {{ post.content | split:"<!-- more -->" | first % }}
+                {% else %}
+                    {{ post.content }}
+                {% endif %}
+            </div>
+        </div>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  {% if posts < 4 %}
+    <a href="/archive/">⬅ All Posts</a>
+  {% endif %}
 </div>
