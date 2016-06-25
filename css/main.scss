@@ -67,8 +67,7 @@ a:hover{
 
 .post-list{
 
-    text-align: left;
-    margin-left: auto;
+    text-align: center;
 
 }
 .post-box{
@@ -145,6 +144,13 @@ text-align: center;
   letter-spacing: 2px;
 
 }
+
+.jumbotron{
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.navbar{
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+}
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -192,7 +198,8 @@ $on-laptop:        800px;
 
 .homepage {
     margin: 0;
-    background: $brand-color;
+    font-family: -apple-system, San Francisco, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* background: #aa292f; */
     color: white;
     position: absolute;
     top: 50%;
@@ -206,7 +213,7 @@ $on-laptop:        800px;
 }
 .home-links {
     color: white;
-    display: block;
+    display: inline;
     font-size: 24px;
     text-decoration: none;
 }

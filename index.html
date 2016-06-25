@@ -7,7 +7,7 @@ layout: homepage
     <h1 class="home-h1">Zach Knox</h1>
     {% for my_page in site.pages %}
       {% unless my_page.title contains "Archive" == false%}
-        <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>&#9;
         <!---Needs some work--->
       {% endunless %}
     {% endfor %}

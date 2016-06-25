@@ -1,5 +1,6 @@
 <section>
 <nav class="navbar navbar-default navbar-fixed-top">
+
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -16,9 +17,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         {% for page in site.pages %}
+        {% unless page.title contains "Archive" == false%}
         {% if page.title %}
         <li><a href="{{page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
+
         {% endif %}
+        {% endunless %}
         {% endfor %}
 
 
