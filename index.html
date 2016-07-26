@@ -5,9 +5,11 @@ layout: homepage
 
 <div class="homepage">
     <h1 class="home-h1">Zach Knox</h1>
+    <span class="home-links">|</span>
     {% for my_page in site.pages %}
       {% unless my_page.title contains "Archive" == false%}
-        <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>&#9;
+        <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}"> {{ my_page.title }} </a>&#9;
+        <span class="home-links">|</span>
         <!---Needs some work--->
       {% endunless %}
     {% endfor %}

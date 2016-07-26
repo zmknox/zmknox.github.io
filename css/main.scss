@@ -28,7 +28,7 @@
 }
 body{
   background-color: #022335 !important;
-  font-family: "Fira Mono" !important;
+  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #abc0ca !important;
 }
 .page-stuff{
@@ -39,7 +39,7 @@ body{
         color:#03a4fb !important;
         text-decoration: none !important;
         border-bottom: 1px dotted #03a4fb;
-        padding-bottom:0.5em;
+        /* padding-bottom:0.5em; */
       }
     }
   }
@@ -67,8 +67,8 @@ a:hover{
 
 .post-list{
 
-    text-align: center;
-
+    text-align: left;
+    list-style-type: none;
 }
 .post-box{
   padding-top: 2em;
@@ -93,6 +93,10 @@ padding-bottom: 0.3em;
   font-size: 19px;
   text-align: justify;
   padding-bottom: 5em;
+}
+.post-content img {
+    width: 720px;
+    height: auto;
 }
 pre{
 background-color: black !important;
@@ -152,7 +156,7 @@ text-align: center;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
 }
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -228,4 +232,7 @@ input, textarea {
     background: #093750;
     border: none;
     padding: 3pt;
+}
+#post-item li {
+    list-style-type: none;
 }
