@@ -1,0 +1,52 @@
+==================================================================
+https://keybase.io/zmknox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.zachknox.com
+  * I am zmknox (https://keybase.io/zmknox) on keybase.
+  * I have a public key ASCq2YM8VKRcwqB0NyonzkThnaVro-1c_a93HXFNzu6UCwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120aad9833c54a45cc2a074372a27ce44e19da56ba3ed5cfdaf771d714dceee940b0a",
+            "host": "keybase.io",
+            "kid": "0120aad9833c54a45cc2a074372a27ce44e19da56ba3ed5cfdaf771d714dceee940b0a",
+            "uid": "1a1253c388459d3906504319e2a63419",
+            "username": "zmknox"
+        },
+        "service": {
+            "hostname": "www.zachknox.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1476044145,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1476044117,
+        "hash": "e7b09e03fb7432f2159ed8726b55ecf45af721e20c97e2878773c40c663611f83bc4ca8a84acbdd3aa81eb6feee52a03c3bdfd8d44c16f7e8704bea26eeb479d",
+        "seqno": 670580
+    },
+    "prev": "ac5cf2cf0e66da65716136e9d95f6d8003d89d442f028dde6449740e4da0edc0",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqtmDPFSkXMKgdDcqJ85E4Z2la6PtXP2vdx1xTc7ulAsKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYWFkOTgzM2M1NGE0NWNjMmEwNzQzNzJhMjdjZTQ0ZTE5ZGE1NmJhM2VkNWNmZGFmNzcxZDcxNGRjZWVlOTQwYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYWFkOTgzM2M1NGE0NWNjMmEwNzQzNzJhMjdjZTQ0ZTE5ZGE1NmJhM2VkNWNmZGFmNzcxZDcxNGRjZWVlOTQwYjBhIiwidWlkIjoiMWExMjUzYzM4ODQ1OWQzOTA2NTA0MzE5ZTJhNjM0MTkiLCJ1c2VybmFtZSI6Inpta25veCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LnphY2hrbm94LmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzYwNDQxNDUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3NjA0NDExNywiaGFzaCI6ImU3YjA5ZTAzZmI3NDMyZjIxNTllZDg3MjZiNTVlY2Y0NWFmNzIxZTIwYzk3ZTI4Nzg3NzNjNDBjNjYzNjExZjgzYmM0Y2E4YTg0YWNiZGQzYWE4MWViNmZlZWU1MmEwM2MzYmRmZDhkNDRjMTZmN2U4NzA0YmVhMjZlZWI0NzlkIiwic2Vxbm8iOjY3MDU4MH0sInByZXYiOiJhYzVjZjJjZjBlNjZkYTY1NzE2MTM2ZTlkOTVmNmQ4MDAzZDg5ZDQ0MmYwMjhkZGU2NDQ5NzQwZTRkYTBlZGMwIiwic2Vxbm8iOjE0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDS7cNuZS1KOhFjmP2qB9Yrd9otriVIEVw/lLPsMGjbXcufu2g60aMItPFMYC471e/Xa3+7ztfCmv5RMLc+mSwmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBKQjqVlT9XoHZc5er0FqplqNZMhwD+7+udRJt1M8YObaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zmknox
