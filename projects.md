@@ -13,6 +13,10 @@ which you can find here: [<i class="fa fa-github"></i> SRCT](https://github.com/
 Current Projects
 ================
 
+## **Hackathon Project**: Almost Birdie
+I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.
+
+[<i class="fa fa-safari"></i> Devpost page](https://devpost.com/software/sphero-putt-putt-practice)
 
 ## Zach Knox
 This website is run on Github Pages and Jekyll. It has info about me and my
