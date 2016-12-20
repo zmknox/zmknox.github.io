@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-This is a list of my personal projects. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects,
+This is a list of my projects past and present. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed,
 which you can find here: [<i class="fa fa-github"></i> SRCT](https://github.com/SRCT)
 
 
@@ -13,12 +13,13 @@ which you can find here: [<i class="fa fa-github"></i> SRCT](https://github.com/
 Current Projects
 ================
 
-## **Hackathon Project**: Almost Birdie
-I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.
+### SRCT Weather
+Weather apps all provide similar information, so it's a nice playground to try new things. SRCT is building
+a mobile-responsive website to show the weather for all of the Mason campuses, in a beautiful.
 
-[<i class="fa fa-safari"></i> Devpost page](https://devpost.com/software/sphero-putt-putt-practice)
+[<i class="fa fa-gitlab"></i> SRCT](https://git.gmu.edu/srct) / [Weather](https://git.gmu.edi/srct/weather)
 
-## Zach Knox
+### Zach Knox
 This website is run on Github Pages and Jekyll. It has info about me and my
 projects.
 
@@ -31,9 +32,17 @@ projects.
 Past Projects
 =============
 
-
-## Breakout
+### Breakout
 This was a project made for my introductory computer science class's year end
 project. It has a couple bugs but it fully playable. I hope you enjoy it.
 
 [<i class="fa fa-github"></i> zmknox](https://github.com/zmknox) / [Breakout](http://github.com/zmknox/Breakout/)
+
+### Hackathon Project: Almost Birdie
+I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.
+
+[<i class="fa fa-safari"></i> Devpost page](https://devpost.com/software/sphero-putt-putt-practice)
+
+----------------------------
+
+_Future Projects?_ I've got an idea in mind for a surprising productivity app for iOS. Hopefully I'll be able to work on that more soon...

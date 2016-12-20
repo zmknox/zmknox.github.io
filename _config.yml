@@ -15,7 +15,7 @@ description: "A Computer Science student at George Mason University"
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zachknox.com" # the base hostname & protocol for your site
+url: "http://www.zachknox.com" # the base hostname & protocol for your site
 twitter_username: zmknox
 github_username:  zmknox
 
