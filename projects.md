@@ -13,6 +13,12 @@ which you can find here: [<i class="fa fa-github"></i> SRCT](https://github.com/
 Current Projects
 ================
 
+### Bingo Card Generator
+A simple Node.js/Express app to generate 'bingo' cards for major events (like Apple keynotes)
+filled with predictions using a JSON file.
+
+[<i class="fa fa-github"></i> zmknox](https://github.com/zmknox) / [bingo-card-generator](https://github.com/zmknox/bingo-card-generator)
+
 ### SRCT Weather
 Weather apps all provide similar information, so it's a nice playground to try new things. SRCT is building
 a mobile-responsive website to show the weather for all of the Mason campuses, in a beautiful.
