@@ -4,8 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-This is a list of my projects past and present. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed,
-which you can find here: [<i class="fa fa-github"></i> SRCT](https://github.com/SRCT)
+#### This is a list of my projects past and present. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed, which you can find here: [<i class="fa fa-github"></i> SRCT](https://github.com/SRCT)
 
 
 
@@ -23,7 +22,13 @@ filled with predictions using a JSON file.
 Weather apps all provide similar information, so it's a nice playground to try new things. SRCT is building
 a mobile-responsive website to show the weather for all of the Mason campuses, in a beautiful.
 
-[<i class="fa fa-gitlab"></i> SRCT](https://git.gmu.edu/srct) / [Weather](https://git.gmu.edi/srct/weather)
+[<i class="fa fa-gitlab"></i> SRCT](https://git.gmu.edu/srct) / [weather](https://git.gmu.edu/srct/weather)
+
+### What's Open for iOS
+SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open.
+The goal of this project is to use that API in a native app using native Swift and UIKit.
+
+[<i class="fa fa-gitlab"></i> SRCT](https://git.gmu.edu/srct) / [whats-open-ios](https://git.gmu.edu/srct/whats-open-ios)
 
 ### Zach Knox
 This website is run on Github Pages and Jekyll. It has info about me and my

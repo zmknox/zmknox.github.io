@@ -16,13 +16,36 @@ If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) 
 You can find me on Github too (that's actually where this site is hosted)!
 [<i class="fa fa-github"></i> zmknox](https://github.com/zmknox)
 
-### Skills
+#### You can find inromation on projects I've worked on over on my [projects page]({{ base }}/projects).
+## Skills
 
--   Programming. I'm proficcent in Java, but I dabble in other languages like JavaScript (particularly NodeJS), and a little bit of Python and Swift
+-   Programming Language Knowledge:
+    -   Comfortable working in: Java, Swift, HTML & CSS
+    -   Sometimes comfortable: JavaScript, C
+    -   Still learning, but have exposure to: Python
+-   Frameworks
+    -   NodeJS (and NPM)
+    -   Meteor
+    -   iOS (Cocoa Touch/UIKit)
+    -   Bootstrap
+    -   Material Design Lite (MDL)
+    -   Django
+    -   Arduino (Sort of counts as a programming language, but it's more of a C framework)
+-   Software Applications and Tools
+    -   macOS (OS X), Linux/UNIX (Primarily Ubuntu/Debian based distributions), Windows
+    -   git (Version Control) — This website literally runs on Github
+    -   Cisco IOS
+    -   Atom, Visual Studio Code, vim (if need be)
+    -   Microsoft Office
+    -   Bash (Terminal)
+    -   Apple iWork (Pages, Keynote, Numbers)
+    -   Slack
 -   Video Editing. I have worked, and feel confident, in Final Cut Pro X, and am able to produce video content of many varieties.
 -   Vast knowledge of Apple devices and software
 
-### Accomplishments
+## Accomplishments
 
 -   Eagle Scout (as of December 2014)
 -   Cisco Certified ENT (ICND1) (as of June 2015)
+
+#### I realize this about page may not have everything you're looking for (such as a full resumé) due to privacy concerns. If you would like a full resumé or other information, feel free to [contact me]({{ base }}/contact)
