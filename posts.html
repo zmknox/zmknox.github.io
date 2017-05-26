@@ -11,9 +11,9 @@ permalink: /posts/
       <li id="post-item">
         <div class="post-homepage">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
             <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a class="post-link" href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{% if post.link %}<i class="fa fa-link"></i> {% endif %}{{ post.title }}</a>
+                {% if post.link %}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-arrow-circle-right"></i></a>{% endif %}
             </h2>
             <div class="post-content" itemprop="articleBody">
                 {% if post.content contains "<!-- more -->" %}
