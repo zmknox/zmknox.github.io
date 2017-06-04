@@ -6,7 +6,7 @@ layout: default
     <div class="container">
       <{% if page.link %}h2{% else %}h1{% endif %} class="post-title-main" itemprop="name headline">{% if page.link %}<i class="fa fa-link"></i> {% endif %}{{ page.title }}</{% if page.link %}h2{% else %}h1{% endif %}>
       <center><p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-      {% if page.link %}<br /><a href="{{ page.link }}"><i class="fa fa-external-link"></i></a>{% endif %}</p></center>
+      {% if page.link %}<br /><h2><a href="{{ page.link }}"><i class="fa fa-external-link"></i></a></h2>{% endif %}</p></center>
     </div>
 </div>
   <div class="post-content container" itemprop="articleBody">
