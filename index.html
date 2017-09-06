@@ -5,9 +5,11 @@ layout: homepage
 
 <div class="homepage">
     <h1 class="home-h1">Zach Knox</h1>
-    <br />
-    <br />
+    {% assign post = site.posts.first %}
+    <div class='home-links'>Latest Post: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <i class="fa fa-arrow-circle-right"></i></a></div>
 
+    <br />
+    <br />
     {% for my_page in site.pages %}
       {% unless my_page.title contains "Archive" == false %}
         {% if my_page.title contains "" %}
