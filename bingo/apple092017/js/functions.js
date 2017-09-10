@@ -29,6 +29,10 @@ function generate() {
 			var freeSpace = document.getElementById("freeSpace");
 			for(var i = 1; i <= 25; i++) {
 				var element = document.getElementById(i.toString());
+				$(element).removeClass("red-cell");
+				$(element).removeClass("white-cell")
+				$(element).removeClass("blue-cell");
+				$(element).addClass("white-cell")
 				if(i == 13 && freeSpace.checked == true) {
 					element.innerHTML = result.freespaceTest;
 				}
@@ -48,3 +52,20 @@ function generate() {
     	}
 	});
 }
+
+$(function () {
+	$('th').click(function () {
+		if ($(this).hasClass("blue-cell")) {
+			$(this).addClass("red-cell");
+			$(this).removeClass("blue-cell");
+		}
+		else if ($(this).hasClass("red-cell")) {
+			$(this).addClass("white-cell");
+			$(this).removeClass("red-cell");
+		}
+		else if ($(this).hasClass("white-cell")) {
+			$(this).addClass("blue-cell");
+			$(this).removeClass("white-cell");
+		}
+	});
+});
