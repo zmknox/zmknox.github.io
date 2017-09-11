@@ -4,9 +4,10 @@
 @charset "utf-8";
 
 .navbar-default{
-  background: #093750 !important;
+  background: #022335 !important;
   border: none !important;
-
+  margin-top: 10px;
+  position: relative;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -21,6 +22,7 @@
 }
 .navbar-default .navbar-brand{
   color:#abc0ca !important;
+  font-size: 24pt;
 }
 .footer-content{
   text-align: center;
@@ -28,7 +30,7 @@
 }
 body{
   background-color: #022335 !important;
-  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #abc0ca !important;
 }
 .page-stuff{
@@ -85,8 +87,13 @@ color:  #abc0ca !important;
 padding-top: 0.5em;
 padding-bottom: 0.3em;
 }
+.page-title-main{
+  text-align: left;
+  font-size: 64pt;
+  color: #abc0ca !important;
+}
 .post-title-main{
-  text-align: center;
+  text-align: left;
   color: #abc0ca !important;
 }
 .post-content{
@@ -235,4 +242,6 @@ input, textarea {
 }
 #post-item li {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
