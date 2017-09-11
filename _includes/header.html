@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         {% for page in site.pages %}
-        {% unless page.title contains "Archive" == false%}
+        {% unless page.in_nav == false %}
         {% if page.title %}
         <li><a href="{{page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
 

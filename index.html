@@ -11,7 +11,7 @@ layout: homepage
     <br />
     <br />
     {% for my_page in site.pages %}
-      {% unless my_page.title contains "Archive" == false %}
+      {% unless my_page.in_nav == false %}
         {% if my_page.title contains "" %}
         <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}"> {{ my_page.title }} </a>&#9;
         <br />
