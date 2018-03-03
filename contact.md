@@ -4,7 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
-There are many ways you can get in touch with me if needed. Here are a few I'd reccoment
+## Need to get in touch? Here's how
+##### There are many ways you can get in touch with me if needed. Here are a few I'd recommend
+
+-----------------
 
 ### Secure IM
 You can send me a secure message on [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox).
@@ -22,7 +25,7 @@ but I also don't want to just publicly post an email address either).
     <p>Your Email address: <br /><input type="email" name="_replyto" placeholder="sam@frootloops.yum"></p><br />
     <p>Message subject: <br /><input type="text" name="_subject" placeholder="Need more Froot Loops"></p><br />
     <p>Your message:<br /><textarea name="contents" placeholder="Message" cols="40" rows="6"></textarea></p><br />
-    <p><input name="submit" type="submit" value="Submit"></input></p>
+    <p><input name="submit" type="submit" value="Submit" /></p>
 </form>
 
 

@@ -14,7 +14,7 @@ If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) 
 <a href="https://keybase.io/zmknox"><img src="https://keybase.onlineth.com/zmknox.png?theme=dark" width="420" height="116" alt="keybase.io profile for zmknox"></a>
 
 You can find me on Github too (that's actually where this site is hosted)!
-[<i class="fa fa-github"></i> zmknox](https://github.com/zmknox)
+[<i class="fab fa-github"></i> zmknox](https://github.com/zmknox)
 
 #### You can find inromation on projects I've worked on over on my [projects page]({{ base }}/projects).
 ## Skills

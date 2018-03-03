@@ -6,27 +6,26 @@ permalink: /posts/
 
 <div class="home">
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts offset: 0 limit: 4 %}
-      <li id="post-item">
+      <div id="post-item">
         <div class="post-homepage">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h2>
                 <a class="post-link" href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{% if post.link %}<i class="fa fa-link"></i> {% endif %}{{ post.title }}</a>
                 {% if post.link %}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-arrow-circle-right"></i></a>{% endif %}
             </h2>
-            <div class="post-content" itemprop="articleBody">
+            <div class="post-content-excerpt" itemprop="articleBody">
                 {% if post.content contains "<!-- more -->" %}
                     {{ post.content | split:"<!-- more -->" | first }}
-                    <br />
-                    <p><a href="{{ post.url | prepend: site.baseurl }}">Read More...</a></p>
+                    <p><strong><a href="{{ post.url | prepend: site.baseurl }}">Read More...</a></strong></p>
                 {% else %}
                     {{ post.content }}
                 {% endif %}
             </div>
         </div>
-      </li>
+    </div>
     {% endfor %}
-  </ul>
+</div>
   <a href="/archive/">⬅ All Posts</a>
 </div>

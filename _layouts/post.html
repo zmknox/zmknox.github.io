@@ -4,12 +4,13 @@ layout: default
 
 <div class="post">
     <div class="container">
-      <{% if page.link %}h2{% else %}h1{% endif %} class="post-title-main" itemprop="name headline">{% if page.link %}<i class="fa fa-link"></i> {% endif %}{{ page.title }}</{% if page.link %}h2{% else %}h1{% endif %}>
+      <{% if page.link %}h2{% else %}h1{% endif %} class="post-title-main" itemprop="name headline">{% if page.link %}<i class="fa fa-link smaller-link"></i> {% endif %}{{ page.title }}</{% if page.link %}h2{% else %}h1{% endif %}>
       <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-      {% if page.link %}<br /><h2><a href="{{ page.link }}"><i class="fa fa-external-link"></i></a></h2>{% endif %}</p>
     </div>
     <br />
   <div class="post-content container" itemprop="articleBody">
     {{ content }}
+    <br />
+    {% if page.link %}<br /><h2><a href="{{ page.link }}"><i class="fas fa-external-link-alt"></i></a></h2>{% endif %}</p>
   </div>
 </div>

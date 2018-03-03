@@ -1,5 +1,29 @@
-<nav class="navbar navbar-default navbar-bottom">
+<!--nav class="navbar navbar-default navbar-bottom">
   <div class="container footer-content">
     Copyright &#169; 2016-{{ site.time | date: '%y' }} Zach Knox | <a href="{{ base }}/feed.json">JSON Feed</a> | <a href="{{ base }}/feed.xml">RSS Feed</a>
   </div>
 </nav>
+
+
+<!--This footer code is based hevilly on David Haynes' work on the footer for SRCT's Go. https://git.gmu.edu/srct/go -->
+<!-- define the footer template -->
+<footer class="footer">
+  <!-- note: this is a special css class (see styles.css) -->
+  <div class="d-none d-sm-block text-center valign-center">
+    <span class="text-muted">Copyright &#169; 2016-{{ site.time | date: '%y' }} Zach Knox
+      | <a href="{{ base }}/feed.json">JSON Feed</a> | <a href="{{ base }}/feed.xml">RSS Feed</a>
+    </span>
+  </div>
+
+  <div class="container text-center d-block d-sm-none">
+    <div class="col-sm-4 text-muted">
+       Copyright &#169; 2016-{{ site.time | date: '%y' }} Zach Knox
+    </div>
+    <div class="col-sm-4 text-muted">
+      <a href="{{ base }}/feed.json">JSON Feed</a>
+    </div>
+    <div class="col-sm-4 text-muted">
+      <a href="{{ base }}/feed.xml">RSS Feed</a>
+    </div>
+  </div>
+</footer>

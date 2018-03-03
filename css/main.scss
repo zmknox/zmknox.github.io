@@ -50,8 +50,11 @@ body{
 }
 
 .page-stuff{
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 5em;
+}
+.page-separator > hr {
+  color: white !important;
 }
 .jumbotron {
   background: #093750 !important;
@@ -67,6 +70,9 @@ a:hover{
 
 }
 
+.post {
+  padding-top: 3em !important;
+}
 .post-list{
 
     text-align: left;
@@ -76,7 +82,12 @@ a:hover{
   padding-top: 2em;
 padding-bottom: 2em;
 }
-
+.post-link {
+  .padding-top: 8px !important;
+}
+.smaller-link {
+  font-size: 80% !important;
+}
 .post-title{
   font-size: 20px !important;
 color:  #abc0ca !important;
@@ -99,7 +110,12 @@ padding-bottom: 0.3em;
 .post-content{
   font-size: 19px;
   text-align: justify;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
+}
+.post-content-excerpt{
+  font-size: 19px;
+  text-align: justify;
+  padding-bottom: 2em;
 }
 .post-content img {
     width: 720px;
@@ -115,6 +131,8 @@ color:white !important;
 }
 .post-meta{
   color: skyblue !important;
+  padding-bottom: 7px;
+  font-size: 120%;
 }
 
 code{
@@ -233,6 +251,22 @@ $on-laptop:        800px;
 }
 .home-footer {
     color: white;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+.valign-center {
+  height: 60px;
+  line-height: 60px;
+}
+.valign-center span {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 input, textarea {
