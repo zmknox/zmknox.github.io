@@ -6,8 +6,7 @@ permalink: /projects/
 
 #### This is a list of my projects past and present. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed, which you can find here: [<i class="fab fa-github"></i> SRCT](https://github.com/SRCT)
 
-
-
+-------------------------
 
 Current Projects
 ================
@@ -40,7 +39,7 @@ projects.
 
 
 
-Past Projects
+Completed Projects
 =============
 
 ### Breakout
@@ -53,6 +52,12 @@ project. It has a couple bugs but it fully playable. I hope you enjoy it.
 I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.
 
 [<i class="fab fa-safari"></i> Devpost page](https://devpost.com/software/sphero-putt-putt-practice)
+
+### WWDC18 Scholarship Application: The Need for Accessibility
+My submission to Apple's WWDC scholarship application. I used my Swift playground to show the
+importance of accessibility in software design.
+
+[<i class="fab fa-github"></i> zmknox](https://github.com/zmknox) / [WWDC18-Scholarship-Application](https://github.com/zmknox/WWDC18-Scholarship-Application)
 
 ----------------------------
 

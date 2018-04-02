@@ -3,7 +3,7 @@ layout: post
 title: "Did Soneone Say Speculation?"
 date: 2017-07-08 15:20:00 -400
 categories: iPhone rumors
-link: https://daringfireball.net/2017/07/speculation_on_new_iphone_pricing
+extlink: https://daringfireball.net/2017/07/speculation_on_new_iphone_pricing
 ---
 
 The other day, Gruber had an excellent piece speculating on the pricing of the next iPhone (the one with no bezels and OLED screen which I will, from now on, refer to as the ‘iPhone Pro’) as well as an iPhone 7s and 7s Plus. It also spooked me a bit that This new phone I’ve been getting more and more excited about may be breaking the bank for me. Because of this, I got to thinking, and came up with my own pricing speculation based on nothing that Gruber didn’t already mention.
