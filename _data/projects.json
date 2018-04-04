@@ -1,0 +1,70 @@
+[
+    {
+        "name":"Bingo Card Generator",
+        "description":"A simple Node.js/Express app to generate ‘bingo’ cards for major events (like Apple keynotes) filled with predictions using a JSON file.",
+        "github":{
+            "profile":"zmknox",
+            "project-name":"bingo-card-generator",
+            "project-url":"https://github.com/zmknox/bingo-card-generator"
+            },
+        "current":true
+    },
+    {
+        "name":"SRCT Weather",
+        "description":"Weather apps all provide similar information, so it’s a nice playground to try new things. SRCT is building a mobile-responsive website to show the weather for all of the Mason campuses, in a pretty web app.",
+        "gitlab":{
+            "profile-name":"SRCT",
+            "profile-url":"https://git.gmu.edu/srct",
+            "project-name":"weather",
+            "project-url":"https://git.gmu.edu/srct/weather"
+            },
+        "current":true
+    },
+    {
+        "name":"What's Open for iOS",
+        "description":"SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open. The goal of this project is to use that API in a native app using native Swift and UIKit.",
+        "gitlab":{
+            "profile-name":"SRCT",
+            "profile-url":"https://git.gmu.edu/srct",
+            "project-name": "whats-open-ios",
+            "project-url":"https://git.gmu.edu/srct/whats-open-ios"
+            },
+        "current":true
+    },
+    {
+        "name":"Zach Knox",
+        "description":"This website is run on Github Pages and Jekyll. It has info about me and my projects.",
+        "github":{
+            "profile":"zmknox",
+            "project-name":"zmknox.github.io",
+            "project-url":"https://github.com/zmknox/zmknox.github.io/"
+            },
+        "current":true
+    },
+        {
+        "name":"Breakout",
+        "description":"This was a project made for my introductory computer science class’s year end project. It has a couple bugs but it fully playable. I hope you enjoy it.",
+        "github":{
+            "profile-name":"zmknox",
+            "project-name":"Breakout",
+            "project-url":"http://github.com/zmknox/Breakout/"
+            },
+        "current":false
+    },
+    {
+        "name":"Hackathon Project: Almost Birdie",
+        "description":"I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.",
+        "devpost":"https://devpost.com/software/sphero-putt-putt-practice",
+        "current":false
+    },
+    {
+        "name":"WWDC18 Scholarship Application: The Need for Accessibility",
+        "description":"My submission to Apple’s WWDC scholarship application. I used my Swift playground to show the importance of accessibility in software design.",
+        "github":{
+            "profile-name":"zmknox",
+            "project-name":"WWDC18-Scholarship-Application",
+            "project-url":"https://github.com/zmknox/WWDC18-Scholarship-Application"
+            },
+        "current":false
+    }
+]

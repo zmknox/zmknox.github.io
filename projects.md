@@ -11,54 +11,42 @@ permalink: /projects/
 Current Projects
 ================
 
-### Bingo Card Generator
-A simple Node.js/Express app to generate 'bingo' cards for major events (like Apple keynotes)
-filled with predictions using a JSON file.
+{% for project in site.data.projects %}
+{% if project.current == true %}
 
-[<i class="fab fa-github"></i> zmknox](https://github.com/zmknox) / [bingo-card-generator](https://github.com/zmknox/bingo-card-generator)
+### {{ project.name }}
+{{ project.description }}
 
-### SRCT Weather
-Weather apps all provide similar information, so it's a nice playground to try new things. SRCT is building
-a mobile-responsive website to show the weather for all of the Mason campuses, in a beautiful.
+{% if project.github %}
+[<i class="fab fa-github"></i> {{ project.github.profile }}](https://github.com/{{ project.github.profile }}) / [{{ project.github.project-name }}]({{ project.github.project-url }})
+{% elsif project.gitlab %}
+[<i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}]({{ project.gitlab.profile-url }}) / [{{ project.gitlab.project-name }}]({{ project.gitlab.project-url }})
+{% elsif project.devpost %}
+[<i class="fab fa-safari"></i> Devpost page]({{ project.devpost }})
+{% endif %}
 
-[<i class="fab fa-gitlab"></i> SRCT](https://git.gmu.edu/srct) / [weather](https://git.gmu.edu/srct/weather)
-
-### What's Open for iOS
-SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open.
-The goal of this project is to use that API in a native app using native Swift and UIKit.
-
-[<i class="fab fa-gitlab"></i> SRCT](https://git.gmu.edu/srct) / [whats-open-ios](https://git.gmu.edu/srct/whats-open-ios)
-
-### Zach Knox
-This website is run on Github Pages and Jekyll. It has info about me and my
-projects.
-
-[<i class="fab fa-github"></i> zmknox](https://github.com/zmknox) / [zmknox.github.io](https://github.com/zmknox/zmknox.github.io/)
-
-
-
-
+{% endif %}
+{% endfor %}
 
 Completed Projects
 =============
 
-### Breakout
-This was a project made for my introductory computer science class's year end
-project. It has a couple bugs but it fully playable. I hope you enjoy it.
+{% for project in site.data.projects %}
+{% if project.current == false %}
 
-[<i class="fab fa-github"></i> zmknox](https://github.com/zmknox) / [Breakout](http://github.com/zmknox/Breakout/)
+### {{ project.name }}
+{{ project.description }}
 
-### Hackathon Project: Almost Birdie
-I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.
+{% if project.github %}
+[<i class="fab fa-github"></i> {{ project.github.profile }}](https://github.com/{{ project.github.profile }}) / [{{ project.github.project-name }}]({{ project.github.project-url }})
+{% elsif project.gitlab %}
+[<i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}]({{ project.gitlab.profile-url }}) / [{{ project.gitlab.project-name }}]({{ project.gitlab.project-url }})
+{% elsif project.devpost %}
+[<i class="fab fa-safari"></i> Devpost page]({{ project.devpost }})
+{% endif %}
 
-[<i class="fab fa-safari"></i> Devpost page](https://devpost.com/software/sphero-putt-putt-practice)
-
-### WWDC18 Scholarship Application: The Need for Accessibility
-My submission to Apple's WWDC scholarship application. I used my Swift playground to show the
-importance of accessibility in software design.
-
-[<i class="fab fa-github"></i> zmknox](https://github.com/zmknox) / [WWDC18-Scholarship-Application](https://github.com/zmknox/WWDC18-Scholarship-Application)
-
+{% endif %}
+{% endfor %}
 ----------------------------
 
 _Future Projects?_ I've got an idea in mind for a surprising productivity app for iOS. Hopefully I'll be able to work on that more soon...
