@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bingo Card Generator</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="js/functions.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <center>
+        <h1 id="heading" onload="title()">Bingo Card Generator</h1>
+        <br />
+        <div id="image"></div>
+        <br />
+        <table class="bingo-table table table-bordered" id="bingo">
+            <tr>
+                <th id="1" class="white-cell"></th>
+                <th id="2" class="white-cell"></th>
+                <th id="3" class="white-cell"></th>
+                <th id="4" class="white-cell"></th>
+                <th id="5" class="white-cell"></th>
+            </tr>
+            <tr>
+                <th id="6" class="white-cell"></th>
+                <th id="7" class="white-cell"></th>
+                <th id="8" class="white-cell"></th>
+                <th id="9" class="white-cell"></th>
+                <th id="10" class="white-cell"></th>
+            </tr>
+            <tr>
+                <th id="11" class="white-cell"></th>
+                <th id="12" class="white-cell"></th>
+                <th id="13" class="white-cell"></th>
+                <th id="14" class="white-cell"></th>
+                <th id="15" class="white-cell"></th>
+            </tr>
+            <tr>
+                <th id="16" class="white-cell"></th>
+                <th id="17" class="white-cell"></th>
+                <th id="18" class="white-cell"></th>
+                <th id="19" class="white-cell"></th>
+                <th id="20" class="white-cell"></th>
+            </tr>
+            <tr>
+                <th id="21" class="white-cell"></th>
+                <th id="22" class="white-cell"></th>
+                <th id="23" class="white-cell"></th>
+                <th id="24" class="white-cell"></th>
+                <th id="25" class="white-cell"></th>
+            </tr>
+        </table>
+        <br />
+        <input type="checkbox" id="freeSpace">Show Free Space?</input>
+        <br />
+        <button type="button" class="btn btn-primary" onclick="generate()">Generate</button>
+        <script>
+            title();
+            generate();
+        </script>
+</body>
+
+</html>

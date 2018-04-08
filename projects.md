@@ -41,8 +41,12 @@ Completed Projects
 [<i class="fab fa-github"></i> {{ project.github.profile }}](https://github.com/{{ project.github.profile }}) / [{{ project.github.project-name }}]({{ project.github.project-url }})
 {% elsif project.gitlab %}
 [<i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}]({{ project.gitlab.profile-url }}) / [{{ project.gitlab.project-name }}]({{ project.gitlab.project-url }})
-{% elsif project.devpost %}
+{% endif %}
+{% if project.devpost %}
 [<i class="fab fa-safari"></i> Devpost page]({{ project.devpost }})
+{% endif %}
+{% if project.youtube %}
+[<i class="fab fa-youtube"></i> YouTube Video]({{ project.youtube }})
 {% endif %}
 
 {% endif %}

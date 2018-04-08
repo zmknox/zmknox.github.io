@@ -30,7 +30,7 @@
 }
 body{
   background-color: #022335 !important;
-  font-family: -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   color: #abc0ca !important;
 }
 .page-stuff{
@@ -231,7 +231,7 @@ $on-laptop:        800px;
 
 .homepage {
     margin: 0;
-    font-family: -apple-system, San Francisco, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: system-ui, -apple-system, San Francisco, Helvetica Neue, Helvetica, Arial, sans-serif;
     /* background: #aa292f; */
     color: white;
     position: absolute;

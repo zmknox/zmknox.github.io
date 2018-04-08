@@ -26,7 +26,7 @@ layout: none
         {% else %}
             "summary": {{ t.frontpage[page_language].description | smartify | jsonify }},
         {% endif %}
-            "date_published": "{{ post.date }}"
+            "date_published": "{{ post.date | date_to_xmlschema }}"
          {% comment %}"author": ""{% endcomment %}
         }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
