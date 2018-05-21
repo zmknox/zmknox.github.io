@@ -12,3 +12,6 @@ in_nav: false
 
 [Apple September 2017 "Let's Meet at our Place" Event]({{ site.baseurl }}/bingo/apple092017)
 ------------------------
+
+[Apple WWDC 2018]({{ site.baseurl }}/bingo/wwdc2018)
+------------------------
