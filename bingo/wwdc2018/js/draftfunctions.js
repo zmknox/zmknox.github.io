@@ -8,7 +8,7 @@ function title() {
 			freeSpace.checked = result.freeSpace;
 			if(result.imageURL != "") {
 				var imageElement = document.getElementById("image");
-				imageElement.innerHTML = "<img src=\"" + result.imageURL + "\" alt=\"" + result.name + "\" width=\"600\" class=\"img-fluid\"></img>"
+				imageElement.innerHTML = "<img src=\"" + result.imageURL + "\" alt=\"" + result.name + "\" width=\"600\"></img>"
 			}
 		}
 	});
@@ -67,5 +67,17 @@ $(function () {
 			$(this).addClass("blue-cell");
 			$(this).removeClass("white-cell");
 		}
+
+		var passing = $(".blue-cell");
+		var passingA = passing.filter(".p1");
+		var passingB = passing.filter(".p2");
+		var p1 = passingA.length;
+		var p2 = passingB.length;
+
+		// who needs jQuery anyway
+		var element = document.getElementById("total1");
+		element.innerHTML = "<h3>" + p1 + "</h3>";
+		var element = document.getElementById("total2");
+		element.innerHTML = "<h3>" + p2 + "</h3>";
 	});
 });
