@@ -13,7 +13,9 @@
 {% else %}
   <meta content="website" property="og:type">
 {% endif %}
-{% if page.description %}
+{% if page.excerpt %}
+  <meta content="{{ page.excerpt }}" property="og:description">
+{% elsif page.description %}
   <meta content="{{ page.description }}" property="og:description">
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
