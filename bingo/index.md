@@ -13,5 +13,8 @@ in_nav: false
 [Apple September 2017 "Let's Meet at our Place" Event]({{ site.baseurl }}/bingo/apple092017)
 ------------------------
 
-[Apple WWDC 2018]({{ site.baseurl }}/bingo/wwdc2018)
+[Apple WWDC 2018]({{ site.baseurl }}/bingo/wwdc2018) — [Upgrade Draft Scorecard]({{ site.baseurl }}/bingo/wwdc2018/draft.html)
+------------------------
+
+[Apple September 2018 "Gather Round" Event]({{ site.baseurl }}/bingo/apple092018) — [Upgrade Draft Scorecard]({{ site.baseurl }}/bingo/apple092018/draft.html)
 ------------------------

@@ -61,7 +61,7 @@ When we left, they did have one more surprise: AirPods! Every scholar got their 
 
 ### Day 1 -- Keynote Day
 
-The big announcement day! Most people usually line up for hours, though as a scholar, I didn't need to (I also had a seat guarunteed thanks to the kind folks on Apple's Accessibility team). I arrived a few hours early, and was excited to hear Tim Cook say _"Good Morning!"_ in person. Their setup for the keynote this year was really cool. They had a super-ultrawide screen in the center, as well as two other screens off to the side (which you don'y see as much of in the video). As an avid Apple Keynote viewer, this event definitely felt a little different, but I think some of that was the lack of the Gradient Keynote theme...
+The big announcement day! Most people usually line up for hours, though as a scholar, I didn't need to (I also had a seat guarunteed thanks to the kind folks on Apple's Accessibility team). I arrived a few hours early, and was excited to hear Tim Cook say _"Good Morning!"_ in person. Their setup for the keynote this year was really cool. They had a super-ultrawide screen in the center, as well as two other screens off to the side (which you don't see as much of in the video). As an avid Apple Keynote viewer, this event definitely felt a little different, but I think some of that was the lack of the Gradient Keynote theme...
 
 ![Keynote line](/resources/wwdc18/IMG_4102.jpeg){: .img-thumbnail .img-width .mx-auto .d-block }
 ###### Line for the keynote.
