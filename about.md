@@ -21,12 +21,6 @@ If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) 
 
 -----------------------------
 
-## What I'm Watching
-
-### [<i class="far fa-film"></i> Movies](https://letterboxd.com/zmknox) | [<i class="far fa-tv-retro"></i> TV](https://www.tvtime.com/en/user/19723382/profile)
-
------------------------------
-
 # The Résumé Part
 
 ## Skills
