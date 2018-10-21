@@ -16,5 +16,8 @@ in_nav: false
 [Apple WWDC 2018]({{ site.baseurl }}/bingo/wwdc2018) — [Upgrade Draft Scorecard]({{ site.baseurl }}/bingo/wwdc2018/draft.html)
 ------------------------
 
-[Apple September 2018 "Gather Round" Event]({{ site.baseurl }}/bingo/apple092018) — [Upgrade Draft Scorecard]({{ site.baseurl }}/bingo/apple092018/draft.html)
+[Apple September 2018 "Gather Round" Event Upgrade Draft Scorecard]({{ site.baseurl }}/bingo/apple092018/draft.html)
+------------------------
+
+[Apple October 2018 "There's More in the Making" Event Upgrade Draft Scorecard]({{ site.baseurl }}/bingo/apple102018/draft.html)
 ------------------------
