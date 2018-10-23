@@ -3,43 +3,35 @@
 	"heardOnNum":"216",
 	"heardOnURL":"https://relay.fm/upgrade/216",
 	"round1": {
-		"jason":"Jason Pick 1",
-		"myke":"Myke Pick 1"
+		"jason":"New iPads with Face ID",
+		"myke":"New Apple Pencil"
 	},
 	"round2": {
-		"jason": "Jason Pick 2",
-		"myke": "Myke Pick 2"
+		"jason": "Photoshop on iPad mentioned",
+		"myke": "New iPads will have no headphone jack"
 	},
 	"round3": {
-		"jason": "Jason Pick 3",
-		"myke": "Myke Pick 3"
+		"jason": "New smart connector in new location",
+		"myke": "New Mac mini"
 	},
 	"round4": {
-		"jason": "Jason Pick 4",
-		"myke": "Myke Pick 4"
+		"jason": "New sub-$1000 laptop",
+		"myke": "New iPads will have USB-C instead of Lightning"
 	},
 	"round5": {
-		"jason": "Jason Pick 5",
-		"myke": "Myke Pick 5"
+		"jason": "AirPods update (beyond wireless charging case)",
+		"myke": "No USB-A ports on new sub-$1000 laptop"
 	},
 	"round6": {
-		"jason": "Jason Pick 6",
-		"myke": "Myke Pick 6"
+		"jason": "New iMacs",
+		"myke": "Face ID will work both horizontally and vertically on iPad Pro"
 	},
 	"round7": {
-		"jason": "Jason Pick 7",
-		"myke": "Myke Pick 7"
+		"jason": "Invitation art used/mentioned",
+		"myke": "Big app debut from major company"
 	},
 	"round8": {
-		"jason": "Jason Pick 8",
-		"myke": "Myke Pick 8"
-	},
-	"round9": {
-		"jason": "Jason Pick 9",
-		"myke": "Myke Pick 9"
-	},
-	"round10": {
-		"jason": "Jason Pick 10",
-		"myke": "Myke Pick 10"
+		"jason": "4K external display support for iPad Pro",
+		"myke": "iPhone Xʀ promotion on stage"
 	}
 }
