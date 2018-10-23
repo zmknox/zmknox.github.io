@@ -5,3 +5,9 @@ This is my Github Pages repository. It contains a Jekyll site with information a
 as well as any blog posts I may write.
 
 Theme used is customized from [DevJournal](https://github.com/hemangsk/DevJournal) by Hermang Kumar 
+
+# LICENSE
+
+Code licensed under BSD 3-clause license (See LICENSE file).
+
+Content and writings Copyright © 2016-2018 Zachary Knox, All Rights Reserved. Feel free to quote and link back to what I've written, but please credit me when you do.
