@@ -1,12 +1,25 @@
 [
     {
         "name":"Bingo Card Generator",
-        "description":"A simple Node.js/Express app to generate ‘bingo’ cards for major events (like Apple keynotes) filled with predictions using a JSON file.",
+        "description":"Started as a simple Node.js/Express app to generate ‘bingo’ cards for major events (like Apple keynotes) filled with predictions using a JSON file. Has since been simply hosted pages on my website with various bingo cards.",
         "github":{
             "profile":"zmknox",
             "project-name":"bingo-card-generator",
             "project-url":"https://github.com/zmknox/bingo-card-generator"
-            },
+        },
+        "web":{
+            "title":"Bingo Card Generator Index",
+            "link":"/bingo/"
+        },
+        "current":true
+    },
+    {
+        "name":"Interactive Draft Scorecards",
+        "description":"Basing off and extending some of my bingo card generator code, I've created \"Draft\" scorecards for the <a href=\"https://relay.fm/upgrade\">Upgrade podcast</a>.",
+        "web":{
+            "title":"Draft Scorecard Index",
+            "link":"/bingo/drafts/"
+        },
         "current":true
     },
     {
@@ -21,7 +34,7 @@
         "current":true
     },
     {
-        "name":"What's Open for iOS",
+        "name":"What's Open for iPhone",
         "description":"SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open. The goal of this project is to use that API in a native app using native Swift and UIKit.",
         "gitlab":{
             "profile-name":"SRCT",
@@ -29,6 +42,7 @@
             "project-name": "whats-open-ios",
             "project-url":"https://git.gmu.edu/srct/whats-open-ios"
             },
+        "appstore":"https://itunes.apple.com/us/app/whats-open-at-mason/id1331260366",
         "current":true
     },
     {

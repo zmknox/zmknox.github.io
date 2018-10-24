@@ -14,7 +14,11 @@ Current Projects
 {% for project in site.data.projects %}
 {% if project.current == true %}
 
+{% if project.appstore %}
+<h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
+{% else %}
 ### {{ project.name }}
+{% endif %}
 {{ project.description }}
 
 {% if project.github %}
@@ -24,8 +28,12 @@ Current Projects
 {% elsif project.devpost %}
 [<i class="fab fa-safari"></i> Devpost page]({{ project.devpost }})
 {% endif %}
-
+{% if project.web %}
+[<i class="fab fa-safari"></i> {{ project.web.title }}]({{ project.web.link }})
 {% endif %}
+
+
+{% endif %} 
 {% endfor %}
 
 Completed Projects
@@ -34,7 +42,11 @@ Completed Projects
 {% for project in site.data.projects %}
 {% if project.current == false %}
 
+{% if project.appstore %}
+<h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
+{% else %}
 ### {{ project.name }}
+{% endif %}
 {{ project.description }}
 
 {% if project.github %}
@@ -47,6 +59,12 @@ Completed Projects
 {% endif %}
 {% if project.youtube %}
 [<i class="fab fa-youtube"></i> YouTube Video]({{ project.youtube }})
+{% endif %}
+{% if project.web %}
+[<i class="fab fa-safari"></i> {{ project.web.title }}]({{ project.web.link }})
+{% endif %}
+{% if project.appstore %}
+<img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store">
 {% endif %}
 
 {% endif %}

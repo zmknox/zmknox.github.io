@@ -10,15 +10,12 @@ permalink: /contact/
 -----------------
 
 ### Secure IM
-You can send me a secure message on [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox).
-Unfortunately I cannot share information for you to contact me via iMessage or Signal, as much as I'd
-like to. Both of those services require a phone number (or in the case of iMessage, an email address)
-to communicate, and don't allow using simply a username.
+You can send me a secure message on [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox). If you'd like to chat with something else (iMessage comes to mind),
+let me know and I can give you contact info.
 
 ### Email
 
-You can send me an email using this form below. (I realize web forms for email are weird,
-but I also don't want to just publicly post an email address either).
+You can send me an email using this form below, or sending an email to something at this domain. I'll get it.
 
 <form action="https://formspree.io/form@zachknox.com" method="POST">
     <p>Your Name: <br /><input type="text" name="name" placeholder="Toucan Sam"></p><br />
@@ -30,5 +27,3 @@ but I also don't want to just publicly post an email address either).
 
 
 If you would like to contact me securely, you can find my PGP key <a href="/pgp.html">here</a>.
-
-<!---Add A contact form here--->

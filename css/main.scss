@@ -52,6 +52,7 @@ body{
 .page-stuff{
   padding-top: 1em;
   padding-bottom: 5em;
+  font-size: 19px;
 }
 .page-separator > hr {
   color: white !important;
@@ -289,4 +290,13 @@ h6 {
   display: block;
   padding-top: 2pt;
   padding-bottom: 5pt;
+}
+
+.project-heading {
+  align-items: center;
+  display: flex;
+}
+.store-badge {
+  height: 35pt;
+  padding-left: 10pt;
 }
