@@ -37,6 +37,7 @@ function generate() {
 				myke.innerHTML = mykePick;
 				//document.getElementById(roundNumID) = i;
 
+				/*
 				if(result[roundID].jasonWasRight != null) {
 					if (result[roundID].jasonWasRight == true) {
 						$(jason).addClass("blue-cell");
@@ -46,6 +47,7 @@ function generate() {
 						$(jason).removeClass("white-cell");
 					}
 				}
+				
 
 				if (result[roundID].mykeWasRight != null) {
 					if (result[roundID].mykeWasRight == true) {
@@ -56,6 +58,7 @@ function generate() {
 						$(myke).removeClass("white-cell");
 					}
 				}
+				*/
 				
 				checkResults();
 			}
@@ -75,6 +78,64 @@ function checkResults() {
 	element.innerHTML = "<h3>" + p1 + "</h3>";
 	var element = document.getElementById("total2");
 	element.innerHTML = "<h3>" + p2 + "</h3>";
+}
+
+function viewResults() {
+	$.ajax({
+		url: ('draftEntries.json'),
+		success: function (result) {
+			for (var i = 1; i <= 8; i++) {
+				var roundID = "round" + i;
+				var jasonID = i + "-1";
+				var jasonPick = result[roundID].jason;
+				var mykeID = i + "-2"
+				var mykePick = result[roundID].myke;
+				var roundNumID = "roundNum" + i;
+
+				var jason = document.getElementById(jasonID);
+				if ($(jason).hasClass("blue-cell")) {
+					$(jason).addClass("white-cell");
+					$(jason).removeClass("blue-cell");
+				}
+				else if ($(jason).hasClass("red-cell")) {
+					$(jason).addClass("white-cell");
+					$(jason).removeClass("red-cell");
+				}
+
+				var myke = document.getElementById(mykeID);
+				if ($(myke).hasClass("blue-cell")) {
+					$(myke).addClass("white-cell");
+					$(myke).removeClass("blue-cell");
+				}
+				else if ($(myke).hasClass("red-cell")) {
+					$(myke).addClass("white-cell");
+					$(myke).removeClass("red-cell");
+				}
+
+				if (result[roundID].jasonWasRight != null) {
+					if (result[roundID].jasonWasRight == true) {
+						$(jason).addClass("blue-cell");
+						$(jason).removeClass("white-cell");
+					} else {
+						$(jason).addClass("red-cell");
+						$(jason).removeClass("white-cell");
+					}
+				}
+
+				if (result[roundID].mykeWasRight != null) {
+					if (result[roundID].mykeWasRight == true) {
+						$(myke).addClass("blue-cell");
+						$(myke).removeClass("white-cell");
+					} else {
+						$(myke).addClass("red-cell");
+						$(myke).removeClass("white-cell");
+					}
+				}
+
+				checkResults();
+			}
+		}
+	});
 }
 
 $(function () {

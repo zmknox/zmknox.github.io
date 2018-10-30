@@ -17,7 +17,7 @@ Current Projects
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
 {% else %}
-### {{ project.name }}
+<h3 class="project-heading">{{ project.name }}</h3>
 {% endif %}
 {{ project.description }}
 
@@ -45,7 +45,7 @@ Completed Projects
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
 {% else %}
-### {{ project.name }}
+<h3 class="project-heading">{{ project.name }}</h3>
 {% endif %}
 {{ project.description }}
 

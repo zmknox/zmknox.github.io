@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-## Need to get in touch? Here's how
+## Need to get in touch? Here's how:
 ##### There are many ways you can get in touch with me if needed. Here are a few I'd recommend
 
 -----------------

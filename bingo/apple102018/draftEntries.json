@@ -4,34 +4,50 @@
 	"heardOnURL":"https://relay.fm/upgrade/216",
 	"round1": {
 		"jason":"New iPads to have Face ID",
-		"myke":"New Apple Pencil"
+		"myke":"New Apple Pencil",
+		"mykeWasRight":true,
+		"jasonWasRight":true
 	},
 	"round2": {
 		"jason": "Photoshop for iPad mentioned or demoed",
-		"myke": "New iPads have no headphone jack"
+		"myke": "New iPads have no headphone jack",
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	},
 	"round3": {
 		"jason": "New Smart Connector on iPad Pro",
-		"myke": "New Mac mini introduced"
+		"myke": "New Mac mini introduced",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round4": {
 		"jason": "New sub-$1000 laptop introduced",
-		"myke": "New iPads have USB-C port but no Lightning"
+		"myke": "New iPads have USB-C port but no Lightning",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round5": {
 		"jason": "New AirPods generation – including a new feature",
-		"myke": "New laptop doesn’t have USB-A ports"
+		"myke": "New laptop doesn’t have USB-A ports",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round6": {
 		"jason": "New iMacs mentioned on stage",
-		"myke": "Face ID works both horizontally and vertically"
+		"myke": "Face ID works both horizontally and vertically",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round7": {
 		"jason": "Art used in invitations is used in video during presentation",
-		"myke": "Demo of another big app debut from a major company - and not a game"
+		"myke": "Demo of another big app debut from a major company - and not a game",
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	},
 	"round8": {
 		"jason": "4K external display support for iPad",
-		"myke": "Promotion for iPhone Xʀ"
+		"myke": "Promotion for iPhone Xʀ",
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	}
 }
