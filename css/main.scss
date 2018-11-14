@@ -52,7 +52,7 @@ body{
 .page-stuff{
   padding-top: 1em;
   padding-bottom: 5em;
-  font-size: 19px;
+  font-size: 21px;
 }
 .page-separator > hr {
   color: white !important;
@@ -71,8 +71,14 @@ a:hover{
 
 }
 
+.back {
+  font-size: 20px;
+}
 .post {
-  padding-top: 3em !important;
+  padding-top: 1em !important;
+}
+.reading-width {
+  max-width: 950px !important;
 }
 .post-list{
 
@@ -110,10 +116,17 @@ padding-bottom: 0.3em;
 }
 .post-title-main{
   text-align: left;
+  font-weight: bold;
+  font-size: 60pt;
+  color: #abc0ca !important;
+}
+.post-subtitle-main {
+  text-align: left;
+  font-size: 24pt;
   color: #abc0ca !important;
 }
 .post-content{
-  font-size: 19px;
+  font-size: 23px;
   text-align: left;
   padding-bottom: 3em;
 }
