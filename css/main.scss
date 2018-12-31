@@ -114,7 +114,7 @@ padding-bottom: 0.3em;
   font-size: 64pt;
   color: #abc0ca !important;
 }
-@media (max-width <= 575px) {
+@media (max-width: 575px) {
   .post-title-main{
     text-align: left;
     font-weight: bold;
