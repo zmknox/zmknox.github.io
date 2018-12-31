@@ -9,7 +9,7 @@ You may remember my [interactive draft scorecards](/bingo/drafts) for the [Upgra
 
 I've worked with [Myke Hurley](https://twitter.com/imyke) to build a site holding a hall of fame of Upgradies, their annual awards show, winners and runners up: [Upgradies.com](https://upgradies.com/)! I had a good time making it, and hope you all enjoy it!
 
-<!--more-->
+<!-- more -->
 
 Some interesting bits about the site:
 - I created the site using React. I find React pretty easy to work with, and I found the components nature to work well for a site like this with repeated content like Award entries.
