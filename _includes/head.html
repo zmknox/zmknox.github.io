@@ -14,9 +14,9 @@
   <meta content="website" property="og:type">
 {% endif %}
 {% if page.excerpt %}
-  <meta content="{{ page.excerpt }}" property="og:description">
+  <meta content="{{ page.excerpt | strip_html }}" property="og:description">
 {% elsif page.description %}
-  <meta content="{{ page.description }}" property="og:description">
+  <meta content="{{ page.description | strip_html }}" property="og:description">
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
