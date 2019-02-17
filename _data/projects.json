@@ -23,17 +23,6 @@
         "current":true
     },
     {
-        "name":"SRCT Weather",
-        "description":"Weather apps all provide similar information, so it’s a nice playground to try new things. SRCT is building a mobile-responsive website to show the weather for all of the Mason campuses, in a pretty web app.",
-        "gitlab":{
-            "profile-name":"SRCT",
-            "profile-url":"https://git.gmu.edu/srct",
-            "project-name":"weather",
-            "project-url":"https://git.gmu.edu/srct/weather"
-            },
-        "current":true
-    },
-    {
         "name":"What's Open for iPhone",
         "description":"SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open. The goal of this project is to use that API in a native app using native Swift and UIKit.",
         "gitlab":{
@@ -75,6 +64,26 @@
         "name":"Privacy on the Internet (2015)",
         "description":"My second 'explainer' video, this time on internet privacy. When creating this, there was a lot going on in the news regarding Apple being asked to unlock a suspect's iPhone, and I thought it would be a good final project to explain for one of my classes.",
         "youtube":"https://www.youtube.com/watch?v=UpXsGd4HJtQ",
+        "current":false
+    },
+    {
+        "name":"SRCT Weather",
+        "description":"Weather apps all provide similar information, so it’s a nice playground to try new things. SRCT is building a mobile-responsive website to show the weather for all of the Mason campuses, in a pretty web app.",
+        "gitlab":{
+            "profile-name":"SRCT",
+            "profile-url":"https://git.gmu.edu/srct",
+            "project-name":"weather",
+            "project-url":"https://git.gmu.edu/srct/weather"
+            },
+        "current":false
+    },
+    {
+        "name":"Upgradies Hall of Fame",
+        "description":"Contract work with Myke Hurley of Relay FM building a site to display all winnders of their annual Upgradies awards show. Built with Node JS and React.",
+        "web":{
+            "title":"Upgradies.com",
+            "link":"https://upgradies.com/"
+        },
         "current":false
     },
     {

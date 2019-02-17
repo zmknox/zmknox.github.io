@@ -4,33 +4,49 @@ title: Projects
 permalink: /projects/
 ---
 
-#### This is a list of my projects past and present. I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed, which you can find here: [<i class="fab fa-github"></i> SRCT](https://github.com/SRCT)
+#### This is a list of projects I've contributed to or worked on past and present.
+
+This list includes some contract work, but does not include work done for my long-term employers.
 
 -------------------------
 
 Current Projects
 ================
 
+
 {% for project in site.data.projects %}
 {% if project.current == true %}
+<div class="card project-card">
 
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
 {% else %}
 <h3 class="project-heading">{{ project.name }}</h3>
 {% endif %}
-{{ project.description }}
+<p>{{ project.description }}</p>
 
 {% if project.github %}
-[<i class="fab fa-github"></i> {{ project.github.profile }}](https://github.com/{{ project.github.profile }}) / [{{ project.github.project-name }}]({{ project.github.project-url }})
+<p>
+<a href="https://github.com/{{ project.github.profile }}"><i class="fab fa-github"></i> {{ project.github.profile }}</a> / <a href="{{ project.github.project-url }}">{{ project.github.project-name }}</a>
+</p>
 {% elsif project.gitlab %}
-[<i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}]({{ project.gitlab.profile-url }}) / [{{ project.gitlab.project-name }}]({{ project.gitlab.project-url }})
-{% elsif project.devpost %}
-[<i class="fab fa-safari"></i> Devpost page]({{ project.devpost }})
+<p>
+<a href="{{ project.gitlab.profile-url }}"><i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}</a> / <a href="{{ project.gitlab.project-url }}">{{ project.gitlab.project-name }}</a>
+</p>
+{% endif %}
+{% if project.devpost %}
+<p>
+<a href="{{ project.devpost }}"><i class="fab fa-safari"></i> Devpost page</a>
+</p>
 {% endif %}
 {% if project.web %}
-[<i class="fab fa-safari"></i> {{ project.web.title }}]({{ project.web.link }})
+<p>
+<a href="{{ project.web.link }}"><i class="fab fa-safari"></i> {{ project.web.title }}</a>
+</p>
 {% endif %}
+
+</div>
+
 
 
 {% endif %} 
@@ -42,33 +58,44 @@ Completed Projects
 {% for project in site.data.projects %}
 {% if project.current == false %}
 
+<div class="card project-card">
+
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
 {% else %}
 <h3 class="project-heading">{{ project.name }}</h3>
 {% endif %}
-{{ project.description }}
+<p>{{ project.description }}</p>
 
 {% if project.github %}
-[<i class="fab fa-github"></i> {{ project.github.profile }}](https://github.com/{{ project.github.profile }}) / [{{ project.github.project-name }}]({{ project.github.project-url }})
+<p>
+<a href="https://github.com/{{ project.github.profile }}"><i class="fab fa-github"></i> {{ project.github.profile }}</a> / <a href="{{ project.github.project-url }}">{{ project.github.project-name }}</a>
+</p>
 {% elsif project.gitlab %}
-[<i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}]({{ project.gitlab.profile-url }}) / [{{ project.gitlab.project-name }}]({{ project.gitlab.project-url }})
+<p>
+<a href="{{ project.gitlab.profile-url }}"><i class="fab fa-gitlab"></i> {{ project.gitlab.profile-name }}</a> / <a href="{{ project.gitlab.project-url }}">{{ project.gitlab.project-name }}</a>
+</p>
 {% endif %}
 {% if project.devpost %}
-[<i class="fab fa-safari"></i> Devpost page]({{ project.devpost }})
+<p>
+<a href="{{ project.devpost }}"><i class="fab fa-safari"></i> Devpost page</a>
+</p>
 {% endif %}
 {% if project.youtube %}
-[<i class="fab fa-youtube"></i> YouTube Video]({{ project.youtube }})
+<p>
+<a href="{{ project.youtube }}"><i class="fab fa-youtube"></i> YouTube Video</a>
+</p>
 {% endif %}
 {% if project.web %}
-[<i class="fab fa-safari"></i> {{ project.web.title }}]({{ project.web.link }})
+<p>
+<a href="{{ project.web.link }}"><i class="fab fa-safari"></i> {{ project.web.title }}</a>
+</p>
 {% endif %}
-{% if project.appstore %}
-<img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store">
-{% endif %}
+
+</div>
 
 {% endif %}
 {% endfor %}
 ----------------------------
 
-_Future Projects?_ I've got an idea in mind for a surprising productivity app for iOS. Hopefully I'll be able to work on that more soon...
+I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed, which you can find here: [<i class="fab fa-github"></i> SRCT](https://github.com/SRCT).

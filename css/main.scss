@@ -139,7 +139,7 @@ padding-bottom: 0.3em;
   padding-bottom: 3em;
 }
 .post-content-excerpt{
-  font-size: 19px;
+  font-size: 23px;
   text-align: left;
   padding-bottom: 2em;
 }
@@ -321,4 +321,15 @@ h6 {
 .store-badge {
   height: 35pt;
   padding-left: 10pt;
+}
+
+.project-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #011b29 !important;
+  border-radius: 8px !important;
+}
+
+.contact-form {
+  background-color: #011b29 !important;
 }
