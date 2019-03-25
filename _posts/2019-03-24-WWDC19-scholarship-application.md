@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "WWDC19 Scholarship Application: Vision Disability Filters"
