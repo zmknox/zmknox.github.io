@@ -102,5 +102,16 @@
             },
         "youtube":"https://www.youtube.com/watch?v=Kl4ZJdD8dkY",
         "current":false
+    },
+    {
+        "name": "WWDC19 Scholarship Application: Vision Disability Filters Camera",
+        "description": "My submission to Apple’s 2019 WWDC scholarship application. I built camera filters that should the symptoms of different eye diseases.",
+        "github": {
+            "profile": "zmknox",
+            "project-name": "WWDC19-Scholarship-Application",
+            "project-url": "https://github.com/zmknox/WWDC19-Scholarship-Application"
+        },
+        "youtube": "",
+        "current": false
     }
 ]
