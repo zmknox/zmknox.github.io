@@ -11,7 +11,7 @@ permalink: /contact/
 
 ### Direct Message / Instant Message
 
-The quickest way to get my attention is to send me a dierct message somewhere. That might be
+The quickest way to get my attention is to send me a direct message somewhere. That might be
 some [social media](https://twitter.com/zmknox), or something more secure like [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox). I pretty much have all the chat apps though,
 so if you prefer one over another, let me know and I'll give you contact info there.
 
