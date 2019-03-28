@@ -18,7 +18,7 @@
 
 }
 .navbar-default .navbar-nav > li > a:focus{
-    color:#03a4fb !important;
+    color:#0692dd !important;
 }
 .navbar-default .navbar-brand{
   color:#abc0ca !important;
@@ -31,16 +31,16 @@
 body{
   background-color: #022335 !important;
   font-family: system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  color: #abc0ca !important;
+  color: #d8d8d8 !important;
 }
 .page-stuff{
   a {
-    color: #03a4fb !important;
+    color: #0692dd !important;
     text-decoration: none;
       &:hover{
-        color:#03a4fb !important;
+        color:#0692dd !important;
         text-decoration: none !important;
-        border-bottom: 1px dotted #03a4fb;
+        border-bottom: 1px dotted #0692dd;
         /* padding-bottom:0.5em; */
       }
     }
