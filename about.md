@@ -28,6 +28,7 @@ I also have experience with video editing. Most of my experience is with Apple's
 I feel fairly competent at being able to produce decent quality video content with it.
 
 **Accomplishments**:
+-   Apple WWDC (Worldwide Developers Conference) 2018 Scholarship Winner
 -   Eagle Scout (as of December 2014)
 -   Cisco Certified ENT (ICND1) (as of June 2015)
 
