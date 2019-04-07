@@ -40,7 +40,7 @@ If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) 
 
 ### [You can keep up with what I'm working on over on Github: <i class="fab fa-github"></i> zmknox](https://github.com/zmknox)
 
-#### You can find inromation on projects I've worked on over on my [projects page]({{ base }}/projects).
+#### You can find information on projects I've worked on over on my [projects page]({{ base }}/projects).
 
 ---------------------------
 
