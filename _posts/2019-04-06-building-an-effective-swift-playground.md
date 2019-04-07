@@ -24,7 +24,7 @@ This first tip seems trivial, but I think it's important. Can you run a playgrou
 
 Look at a screenshot of Playgrounds for iPad. What do you see?
 
-![Swift Playground with text on left and live view on right](/resources/playgrounds-sidebyside.png){: .mx-auto .d-block }
+![Swift Playground with text on left and live view on right](/resources/playgrounds-sidebyside.png){: .img-responsive .mx-auto .d-block }
 
 Half of the screen is taken up by this big text and code section! You can shift the live view into full screen, sure, but that's taking away half of the functionality of a playground.
 
