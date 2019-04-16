@@ -9,7 +9,15 @@ WWDC is coming soon, and that means I've built a schoarship application Playgrou
 
 As last year, I've released my code, essays, and created a video demo if you want to see what I did, or get inspiration for next year!
 
+#### Update [April 15]: Heading Back to San Jose!
+
+I'm super excited to have won a scholarship for my second (and final) time! See you there!
+
 <!-- more -->
+
+<div class="embed-responsive">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I guess I&#39;m heading back to San Jose!!!!! Super excited to be heading back to WWDC for a second year! <a href="https://twitter.com/hashtag/WWDC19?src=hash&amp;ref_src=twsrc%5Etfw">#WWDC19</a> <a href="https://twitter.com/hashtag/WWDCscholars?src=hash&amp;ref_src=twsrc%5Etfw">#WWDCscholars</a> <a href="https://t.co/Z5Eue3Wf8n">pic.twitter.com/Z5Eue3Wf8n</a></p>&mdash; Zach (@zmknox) <a href="https://twitter.com/zmknox/status/1117928749469720576?ref_src=twsrc%5Etfw">April 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/mutncT3Q3F0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
