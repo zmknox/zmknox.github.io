@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hi there. I'm Zach.
 
-I'm a software developer and student. On this website you'll find information about me,
+I'm a software developer. On this website you'll find information about me,
 my projects, and any blog posts I may write (mostly about my projects or experiences).
 All content on this site is mine unless otherwise specified, and my opinions do not reflect
 or represent the views of my exployer or school.
