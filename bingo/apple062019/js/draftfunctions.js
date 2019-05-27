@@ -138,6 +138,27 @@ function viewResults() {
 	});
 }
 
+// https://stackoverflow.com/questions/21741841/
+function getMobileOperatingSystem() {
+	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+	// Windows Phone must come first because its UA also contains "Android"
+	if (/windows phone/i.test(userAgent)) {
+		return "Tap";
+	}
+
+	if (/android/i.test(userAgent)) {
+		return "Tap";
+	}
+
+	// iOS detection from: http://stackoverflow.com/a/9039885/177710
+	if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+		return "Tap";
+	}
+
+	return "Click";
+}
+
 $(function () {
 	$('th').click(function () {
 		if ($(this).hasClass("blue-cell")) {
