@@ -347,11 +347,17 @@ h6 {
 
 .project-card {
   padding: 20px;
-  margin-bottom: 20px;
   background-color: #000d14 !important;
   border-radius: 8px !important;
+  display: inline-block;
 }
 
 .contact-form {
   background-color: #000d14 !important;
+}
+
+@media (min-width: 1px) {
+  .project-card-columns {
+    column-count: 2;
+  }
 }

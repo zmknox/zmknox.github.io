@@ -11,18 +11,16 @@ my projects, and any blog posts I may write (mostly about my projects or experie
 All content on this site is mine unless otherwise specified, and my opinions do not reflect
 or represent the views of my exployer or school.
 
-**Programming Experience:** I have the most experience with Swift (for iOS development),
-Java (used a lot in school), Node JS, and Python (3, please).  I have familliarity with C,
-but I've also only ever written school assignments with it. I can also build a website (like
-this one) with HTML/CSS, but I wouldn't really classify that as programming.
+**Programming Experience:** I have the most experience with Swift (for iOS development), JavaScript
+(developing APIs and backend tools), Java (used a lot in school), and Python (3, please).  I'm also familliar with C, Kotlin, and probably some things I've forgotten about. I can also build a website (like this one) with HTML/CSS, but I wouldn't really classify that as programming.
 
-**Framework Experience:** UIKit, Node JS/NPM, ExpressJS, Meteor, Flask, Android, Django, Bootstrap, Material Design Lite
+**Framework Experience:** UIKit (Swift, iOS Development), Node.js (backends and APIs), ExpressJS, React (JS), Flask (Python), Android (Kotlin/Java), Django (Python), Bootstrap (HTML/CSS/JS), Meteor (JS), Material Design Lite (HTML/CSS)
 
-**System Experience:** macOS (OS X), Linux/UNIX, Windows (including some Windows Server knowledge), Cisco IOS
+**System Experience:** macOS (OS X), Linux/UNIX (preferring a Debian/Ubuntu base), Windows (including some Windows Server knowledge), Cisco IOS
 
 **Tools Experience:** git (version control), Visual Studio Code, vim, Xcode, Slack, various office suites
 
-My favorite text editor is Visual Studio Code. Xcode is pretty good too. IntelliJ's debugger is fantastic.
+My preferred text editor is Visual Studio Code. Xcode is pretty good too. IntelliJ's debugger is fantastic. vim is fine in a pinch.
 
 I also have experience with video editing. Most of my experience is with Apple's Final Cut Pro X.
 I feel fairly competent at being able to produce decent quality video content with it.
