@@ -11,14 +11,14 @@ my projects, and any blog posts I may write (mostly about my projects or experie
 All content on this site is mine unless otherwise specified, and my opinions do not reflect
 or represent the views of my exployer or school.
 
-**Programming Experience:** I have the most experience with Swift (for iOS development), JavaScript
-(developing APIs and backend tools), Java (used a lot in school), and Python (3, please).  I'm also familliar with C, Kotlin, and probably some things I've forgotten about. I can also build a website (like this one) with HTML/CSS, but I wouldn't really classify that as programming.
+**Programming Experience:** I have the most experience with JavaScript
+(developing APIs and backend tools), Swift (for iOS development), Java (used a lot in school), and Python (3, please).  I'm also familliar with C, Kotlin, and probably some things I've forgotten about. I can also build a website (like this one) with HTML/CSS, but I wouldn't really classify that as programming.
 
-**Framework Experience:** UIKit (Swift, iOS Development), Node.js (backends and APIs), ExpressJS, React (JS), Flask (Python), Android (Kotlin/Java), Django (Python), Bootstrap (HTML/CSS/JS), Meteor (JS), Material Design Lite (HTML/CSS)
+**Framework Experience:** Node.js (backends and APIs), UIKit (Swift, iOS Development), ExpressJS, React (JS), Flask (Python), Android (Kotlin/Java), Django (Python), Bootstrap (HTML/CSS/JS), Meteor (JS), Material Design Lite (HTML/CSS)
 
 **System Experience:** macOS (OS X), Linux/UNIX (preferring a Debian/Ubuntu base), Windows (including some Windows Server knowledge), Cisco IOS
 
-**Tools Experience:** git (version control), Visual Studio Code, vim, Xcode, Slack, various office suites
+**Tools Experience:** git (version control), Visual Studio Code, vim, Xcode, Slack
 
 My preferred text editor is Visual Studio Code. Xcode is pretty good too. IntelliJ's debugger is fantastic. vim is fine in a pinch.
 

@@ -79,7 +79,7 @@
     },
     {
         "name":"Upgradies Hall of Fame",
-        "description":"Contract work with Myke Hurley of Relay FM building a site to display all winners of their annual Upgradies awards show. Built with Node JS and React.",
+        "description":"Contract work with Myke Hurley of Relay FM building a site to display all winners of their annual Upgradies awards show. Built with Node.JS and React.",
         "web":{
             "title":"Upgradies.com",
             "link":"https://upgradies.com/"
