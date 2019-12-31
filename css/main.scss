@@ -356,8 +356,15 @@ h6 {
   background-color: #000d14 !important;
 }
 
-@media (min-width: 1px) {
+@media (min-width: 576px) {
   .project-card-columns {
     column-count: 2;
   }
 }
+
+@media (max-width: 575px) {
+  .project-card-columns {
+    column-count: 1;
+  }
+}
+
