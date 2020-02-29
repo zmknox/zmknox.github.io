@@ -2,6 +2,7 @@
 layout: post
 title: "WWDC18 Scholarship Application"
 date: 2018-04-02 12:00 -0400
+updated: 2018-04-20 12:00 -0400
 extlink: https://github.com/zmknox/WWDC18-Scholarship-Application
 ---
 

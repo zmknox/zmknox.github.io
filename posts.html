@@ -10,7 +10,7 @@ permalink: /posts/
     {% for post in site.posts offset: 0 limit: 4 %}
       <div id="post-item">
         <div class="post-homepage">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated | date: "%b %-d, %Y" }}</em>{% endif %}</span>
             <h2>
                 <a class="post-link" href="{% if post.extlink %}{{ post.extlink }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{% if post.extlink %}<i class="fa fa-link"></i>  {% endif %}{{ post.title }}</a>
                 {% if post.extlink %}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-arrow-circle-right"></i></a>{% endif %}

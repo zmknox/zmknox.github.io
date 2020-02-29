@@ -12,7 +12,7 @@ All content on this site is mine unless otherwise specified, and my opinions do 
 or represent the views of my exployer or school.
 
 **Programming Experience:** I have the most experience with JavaScript
-(developing APIs and backend tools), Swift (for iOS development), Java (used a lot in school), and Python (3, please).  I'm also familliar with C, Kotlin, and probably some things I've forgotten about. I can also build a website (like this one) with HTML/CSS, but I wouldn't really classify that as programming.
+(developing APIs and backend tools), Swift (for iOS development), and Java (used a lot in school).  I'm also familliar with C, Kotlin, Python (3, please), and probably some things I've forgotten about. I can also build a website (like this one) with HTML/CSS, but I wouldn't really classify that as traditional programming, as opposed to markup and formatting.
 
 **Framework Experience:** Node.js (backends and APIs), UIKit (Swift, iOS Development), ExpressJS, React (JS), Flask (Python), Android (Kotlin/Java), Django (Python), Bootstrap (HTML/CSS/JS), Meteor (JS), Material Design Lite (HTML/CSS)
 
