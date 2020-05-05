@@ -3,7 +3,7 @@ layout: post
 title: "Building an Effective Swift Playground"
 subtitle: "Making the most out of the many quirks and features of playgrounds"
 date: 2019-04-06 16:00 -0400
-updated: 2020-02-29 16:00 -0500
+updated: 2020-05-05 19:00 -0500
 ---
 
 [Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/) [(and Mac!)](https://apps.apple.com/us/app/swift-playgrounds/id1496833156) is a really cool tool. It allows us to build experiences using real iOS APIs directly on iOS, and more importantly allows us to combine interactive experiences, code, and prose into a single composition. It's primarily used to teach kids to write code, but I could see it easily become a nice way to familliarize more experienced developers with a new API or framework in bite sized chunks.
@@ -89,6 +89,10 @@ Apple provides [a truly great template](https://developer.apple.com/download/mor
 This template also includes a `LiveViewTestApp` target, allowing you to iterate on your live view rapidly in app form, without having to constantly copy your playground book to your iPad or into Swift Playgrounds for Mac.
 
 But my favorite part about this template is that it will **compile your storyboards and asset catalogs for you**! You can work with them almost exactly as you would when building a normal app, and it all just works. The only thing to take note of is that you _must_ clean your build folder (Product menu > Clean Build Folder) whenever you modify those resource files.
+
+#### Note: You may need to use an older Xcode release
+
+Apple’s Playground Book template isn’t updated as frequently as Swift and Xcode are, and the bundled framework binaries are (currently) locked to a specific Swift version. Until Apple resolves this, you may need to use this template with an older version of Xcode, which you can [download on Apple’s developer website](https://developer.apple.com/download/more/). As of this writing, you will need [Xcode 11.1](https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip
 
 <br />
 ## Use Cutscenes for Showing Without Interactivity
