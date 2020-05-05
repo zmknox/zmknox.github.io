@@ -92,7 +92,7 @@ But my favorite part about this template is that it will **compile your storyboa
 
 #### Note: You may need to use an older Xcode release
 
-Apple’s Playground Book template isn’t updated as frequently as Swift and Xcode are, and the bundled framework binaries are (currently) locked to a specific Swift version. Until Apple resolves this, you may need to use this template with an older version of Xcode, which you can [download on Apple’s developer website](https://developer.apple.com/download/more/). As of this writing, you will need [Xcode 11.1](https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip
+Apple’s Playground Book template isn’t updated as frequently as Swift and Xcode are, and the bundled framework binaries are (currently) locked to a specific Swift version. Until Apple resolves this, you may need to use this template with an older version of Xcode, which you can [download on Apple’s developer website](https://developer.apple.com/download/more/). As of this writing, you will need [Xcode 11.1](https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip).
 
 <br />
 ## Use Cutscenes for Showing Without Interactivity
