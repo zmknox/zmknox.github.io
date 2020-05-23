@@ -21,6 +21,9 @@ layout: none
             "title": {{ post.title | smartify | jsonify }},
             "content_html": {{ post.content | jsonify }},
             "url": "{{ site.url }}{{ post.url }}",
+        {% if page.extlink %}
+            "external_url": "{{ post.extlink }}",
+        {% endif %}
         {% if post.excerpt %}
             "summary": {{ post.excerpt | smartify | jsonify }},
         {% else %}

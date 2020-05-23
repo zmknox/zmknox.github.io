@@ -23,19 +23,19 @@ functionality. The only information collected about you is that a web request wa
 IP address to this website, which is logged by CloudFlare in order to aggregate traffic
 statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
 
-#### Vision Disability Filters (iOS)
-##### _Last Updated May 25, 2019_
+#### AnotherLens / Vision Disability Filters (iOS)
+##### _Last Updated May 23, 2020_
 
 There is no tracking code included in this app. The only information received about your usage of the app to
 the developer comes from iOS’s built-in, and opt-in, app analytics, which can be disabled in the Privacy
 settings on your device (“Share with App Developers”).
 
+Information collected from downloading this app from the App Store or purchasing any in-app purchases is covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
+
 <br />
 
 ## For All apps and sites:
 ##### _Last Updated May 25, 2019_
-
-
 
 #### California Online Privacy Protection Act Compliance
 We comply with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.
