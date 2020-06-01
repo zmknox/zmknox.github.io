@@ -1,0 +1,25 @@
+{
+	"name":"The Apple by Upgrade Episode 400 Draft",
+	"heardOnNum":"300",
+	"heardOnURL":"https://relay.fm/upgrade/300",
+	"round1": {
+		"jason":"Apple recieves an Oscar nomination",
+		"myke":"Apple services bundle unveiled"
+	},
+	"round2": {
+		"jason": "\"MacBook Air\" name still exists on a product",
+		"myke": "Apple ✕ Jony Ive collaboration"
+	},
+	"round3": {
+		"jason": "iOS app development possible on the iPad",
+		"myke": "Apple hardware product focused on AR unveiled"
+	},
+	"round4": {
+		"jason": "Apple targeted by specific encryption-related legislation in the US",
+		"myke": "Consumer Macs transitioned to ARM-based processors"
+	},
+	"round5": {
+		"jason": "Four different products exist with the name \"AirPods\"",
+		"myke": "iPhone launch schedule is staggered (eg: Spring and Fall)"
+	}
+}
