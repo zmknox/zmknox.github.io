@@ -23,7 +23,7 @@ function generate() {
 			var footer = document.getElementById("footer-url");
 			footer.innerHTML = "Upgrade " + result.heardOnNum;
 			footer.setAttribute("href", result.heardOnURL);
-			for(var i = 1; i <= 11; i++) {
+			for(var i = 1; i <= 12; i++) {
 				var roundID = "round" + i;
 				var jasonID = i + "-1";
 				var jasonPick = result[roundID].jason;

@@ -3,51 +3,51 @@
 	"heardOnNum":"302",
 	"heardOnURL":"https://relay.fm/upgrade/302",
 	"round1": {
-		"jason": "Coming Soon",
-		"myke": "Coming Soon"
+		"jason": "ARM transition announced",
+		"myke": "Changes to the home screen layout on iPadOS"
 	},
 	"round2": {
-		"jason": "",
-		"myke": ""
+		"jason": "New iMac",
+		"myke": "Change default apps on iPadOS & iOS"
 	},
 	"round3": {
-		"jason": "",
-		"myke": ""
+		"jason": "Better external display support on iPad",
+		"myke": "Big AR improvements on iOS"
 	},
 	"round4": {
-		"jason": "",
-		"myke": ""
+		"jason": "Mac Catalyst improvements",
+		"myke": "New Apple Watch faces"
 	},
 	"round5": {
-		"jason": "",
-		"myke": ""
+		"jason": "Improvements to always-on watch faces",
+		"myke": "Enhancements to Messages on iOS"
 	},
 	"round6": {
-		"jason": "",
-		"myke": ""
+		"jason": "We see the inside of the Apple Park ring",
+		"myke": "Updates to SwiftUI"
 	},
 	"round7": {
-		"jason": "",
-		"myke": ""
+		"jason": "New Memoji options",
+		"myke": "Focus on mental health features"
 	},
 	"round8": {
-		"jason": "",
-		"myke": ""
+		"jason": "Improvements to Siri",
+		"myke": "Focus on performance and stability for iOS"
 	},
 	"round9": {
-		"jason": "",
-		"myke": ""
+		"jason": "No gameplay demos",
+		"myke": "Game presentations with guests form game studios"
 	},
 	"round10": {
-		"jason": "",
-		"myke": ""
+		"jason": "One-off ARM transition hardware not offered",
+		"myke": "New Apple display"
 	},
 	"round11": {
-		"jason": "",
-		"myke": ""
+		"jason": "macOS San Clemente",
+		"myke": "macOS Avalon"
 	},
 	"round12": {
-		"jason": "",
-		"myke": ""
+		"jason": "No",
+		"myke": "Yes"
 	}
 }
