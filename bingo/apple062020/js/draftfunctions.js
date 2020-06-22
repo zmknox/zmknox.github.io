@@ -84,7 +84,7 @@ function viewResults() {
 	$.ajax({
 		url: ('draftEntries.json'),
 		success: function (result) {
-			for (var i = 1; i <= 8; i++) {
+			for (var i = 1; i <= 12; i++) {
 				var roundID = "round" + i;
 				var jasonID = i + "-1";
 				var jasonPick = result[roundID].jason;

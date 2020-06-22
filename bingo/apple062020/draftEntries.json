@@ -4,50 +4,74 @@
 	"heardOnURL":"https://relay.fm/upgrade/302",
 	"round1": {
 		"jason": "ARM transition announced",
-		"myke": "Changes to the home screen layout on iPadOS"
+		"myke": "Changes to the home screen layout on iPadOS",
+		"mykeWasRight": true,
+		"jasonWasRight": true
 	},
 	"round2": {
 		"jason": "New iMac",
-		"myke": "Change default apps on iPadOS & iOS"
+		"myke": "Change default apps on iPadOS & iOS",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round3": {
 		"jason": "Better external display support on iPad",
-		"myke": "Big AR improvements on iOS"
+		"myke": "Big AR improvements on iOS",
+		"mykeWasRight": false,
+		"jasonWasRight": false
 	},
 	"round4": {
 		"jason": "Mac Catalyst improvements",
-		"myke": "New Apple Watch faces"
+		"myke": "New Apple Watch faces",
+		"mykeWasRight": true,
+		"jasonWasRight": true
 	},
 	"round5": {
 		"jason": "Improvements to always-on watch faces",
-		"myke": "Enhancements to Messages on iOS"
+		"myke": "Enhancements to Messages on iOS",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round6": {
 		"jason": "We see the inside of the Apple Park ring",
-		"myke": "Updates to SwiftUI"
+		"myke": "Updates to SwiftUI",
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	},
 	"round7": {
 		"jason": "New Memoji options",
-		"myke": "Focus on mental health features"
+		"myke": "Focus on mental health features",
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	},
 	"round8": {
 		"jason": "Improvements to Siri",
-		"myke": "Focus on performance and stability for iOS"
+		"myke": "Focus on performance and stability for iOS",
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	},
 	"round9": {
 		"jason": "No gameplay demos",
-		"myke": "Game presentations with guests from game studios"
+		"myke": "Game presentations with guests from game studios",
+		"mykeWasRight": false,
+		"jasonWasRight": false
 	},
 	"round10": {
 		"jason": "One-off ARM transition hardware not offered",
-		"myke": "New Apple display"
+		"myke": "New Apple display",
+		"mykeWasRight": false,
+		"jasonWasRight": false
 	},
 	"round11": {
 		"jason": "macOS San Clemente",
-		"myke": "macOS Avalon"
+		"myke": "macOS Avalon",
+		"mykeWasRight": false,
+		"jasonWasRight": false
 	},
 	"round12": {
 		"jason": "No",
-		"myke": "Yes"
+		"myke": "Yes",
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	}
 }
