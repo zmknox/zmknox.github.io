@@ -4,32 +4,25 @@ title: About
 permalink: /about/
 ---
 
-# Hi there. I'm Zach.
+# 👋 Hi there. I'm Zach.
 
-I'm a software developer. On this website you'll find information about me,
-my projects, and any blog posts I may write (mostly about my projects or experiences).
-All content on this site is mine unless otherwise specified, and my opinions do not reflect
-or represent the views of my exployer or school.
+I'm a software developer. I build backend tools in [Node.js](https://nodejs.org/en/) for work, and iOS apps in [Swift](https://swift.org/) for me. I also write a web app or two here and there using various tools (this site uses [Jekyll](https://jekyllrb.com/), for example). I like to try new frameworks and tools, so I'd like to think that I know at least a little bit about a lot of things. Check out my [Projects page](https://zachknox.com/projects) to see everything I (publicly) work on.
 
-**Programming Experience:** I have the most experience with JavaScript
-(developing APIs and backend tools), Swift (for iOS development), and Java (used a lot in school).  I'm also familliar with C, Kotlin, Python (3, please), and probably some things I've forgotten about. I can also build a website (like this one) with HTML/CSS, but I wouldn't really classify that as traditional programming, as opposed to markup and formatting.
+In both [2018](https://zachknox.com/2018/04/02/WWDC-scholarship-application.html) and [2019](https://zachknox.com/2019/03/25/WWDC19-scholarship-application.html), I won scholarships to attend Apple's Worldwide Developers Conference (WWDC). It was an incredible experience, and [I wrote about my 2018 trip on this site](https://zachknox.com/wwdc/2018/08/03/thoughts-on-wwdc18.html).
 
-**Framework Experience:** Node.js (backends and APIs), UIKit (Swift, iOS Development), ExpressJS, React (JS), Flask (Python), Android (Kotlin/Java), Django (Python), Bootstrap (HTML/CSS/JS), Meteor (JS), Material Design Lite (HTML/CSS)
+I [went to school](https://gmu.edu/) for Computer Science, if that's important to you.
 
-**System Experience:** macOS (OS X), Linux/UNIX (preferring a Debian/Ubuntu base), Windows (including some Windows Server knowledge), Cisco IOS
+Myke Hurley once called me ["important in Upgrade lore"](https://overcast.fm/+Fcm-R0sbo/54:08).
 
-**Tools Experience:** git (version control), Visual Studio Code, vim, Xcode, Slack
+My preferred text editor is currently [Visual Studio Code](https://code.visualstudio.com/). Xcode is pretty good too. [IntelliJ](https://www.jetbrains.com/idea/)'s debugger is fantastic. vim is fine in a pinch.
 
-My preferred text editor is Visual Studio Code. Xcode is pretty good too. IntelliJ's debugger is fantastic. vim is fine in a pinch.
+In 2015, I learned a lot about routers and switches and passed the Cisco ICND1 exam, becoming a Cisco Certified Enter Network Technician. I think that certification has expired by now, but the knowledge and experience of that was valuable.
 
-I also have experience with video editing. Most of my experience is with Apple's Final Cut Pro X.
-I feel fairly competent at being able to produce decent quality video content with it.
+From doing various personal projects, I have some experience with video and audio editing, mostly with [Final Cut Pro X](https:/www.apple.com/final-cut-pro/) and [Logic](https://www.apple.com/logic-pro/). You can see some of them [on YouTube](http://youtube.com/c/ZachKnoxM/).
 
-**Accomplishments**:
--   Apple WWDC (Worldwide Developers Conference) 2019 Scholarship Winner
--   Apple WWDC (Worldwide Developers Conference) 2018 Scholarship Winner
--   Eagle Scout (as of December 2014)
--   Cisco Certified ENT (ICND1) (as of June 2015)
+Whenever I watch a movie, I like to [write a little review on Letterboxd](https://letterboxd.com/zmknox/). It helps me think more about what I'm watching.
+
+Finally, I am also an Eagle Scout.
 
 ---------------------------
 
@@ -43,5 +36,5 @@ If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) 
 
 ---------------------------
 
-##### I realize this about page may not have everything you're looking for (such as a full résumé). If you would like a full résumé or other information, feel free to [contact me]({{ base }}/contact).
+##### If you want more information, or a résumé, feel free to [contact me](https://zachknox.com/contact/).
 
