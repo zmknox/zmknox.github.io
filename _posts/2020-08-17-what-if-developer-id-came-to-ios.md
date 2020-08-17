@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What if Developer ID came to iOS?"
+title: "What If Developer ID Came To iOS?"
 subtitle: "This time, the solution is actually sweet"
 date: 2020-08-17 19:00 -0400
 ---
