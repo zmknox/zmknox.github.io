@@ -26,7 +26,7 @@ Today, Apple [offers multiple ways to distribute apps](https://help.apple.com/xc
 
 From looking at these options, their message is clear: If you're broadly distributing an app, you need to use the App Store.
 
-The Mac, notably, has an additional option. Developers can use "Developer ID" to sign and notorize[^2] their apps to distribute however they want. Apple then allows users the choice of if they want to allow these apps (defaulting to yes)[^3].
+The Mac, notably, has an additional option. Developers can use "Developer ID" to sign and notarize[^2] their apps to distribute however they want. Apple then allows users the choice of if they want to allow these apps (defaulting to yes)[^3].
 
 ![Security preferences in macOS Catalina, showing options to allow apps only from the App Store, or also from Identified Developers](/resources/developer-id/macos-developer-id-preferences.png){: .img-fluid .mx-auto .d-block }
 
@@ -39,7 +39,7 @@ Let's imagine I'm tasked with adding support for Developer ID to iOS. What decis
 
 Here's what I'd do:
 
-#### 1. Developer ID and Notorization Required
+#### 1. Developer ID and Notarization Required
 
 To broadly distribute an app outside the App Store, developers must still sign it and have it notarized by Apple. This is an automated vetting process which gives Apple the ability check for malicious apps, disabling them if necessary.
 
@@ -118,7 +118,7 @@ The rising pressure against the App Store might cause them to implement a soluti
 --------------------
 
 [^1]: Specifically, 100 per device type, which you can revoke when you renew your membership to reclaim slots. Interestingly, it counts iPods separately from iPhones, so if you need a new test device, consider an iPod touch?
-[^2]: Notorization isn't strictly necessary, but it is now required for new builds of Developer ID-signed apps as of macOS Catalina.
+[^2]: Notarization isn't strictly necessary, but it is now required for new builds of Developer ID-signed apps as of macOS Catalina.
 [^3]: Developers can also choose not to sign their app at all. This requires users use the "open" command on their app before first launch, and is generally discouraged.
 [^4]: Currently, install links will show a simple alert controller, which is useful for enterprise app directory apps, but could lead to popup loops by a malicious app.
 [^5]: User-generated content (tweets in a Twitter app, for example) would be fine.
