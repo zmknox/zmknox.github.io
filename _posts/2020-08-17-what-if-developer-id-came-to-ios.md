@@ -58,7 +58,7 @@ Before a user can install one of these apps, they must opt-in via Settings. This
 ![Concept images showing the flow to enable installation of apps by Identified Developers in App Store settings](/resources/developer-id/developer-id-settings-concept.png){: .img-fluid .mx-auto .d-block }
 ###### Concepts for Developer ID Settings
 
-As an extra percaution, the user must enter their passcode before changing this setting, ensuring that they are the ones who want to make this change.
+As an extra precaution, the user must enter their passcode before changing this setting, ensuring that they are the ones who want to make this change.
 
 #### 4. Install via Safari
 
@@ -67,14 +67,14 @@ Developer ID-signed Apps can be installed via a special kind of link in Safari. 
 ![Installing my app AnotherLens via the web](/resources/developer-id/ad-hoc-install.png){: .iphone-image .mx-auto .d-block }
 ###### How installing Ad-Hoc apps works today. I tried it!
 
-If we're opening this up more broadly, however, we should expand on this functionality. Turn that simple pop up into a modal sheet including some more detailled text and possibly even some developer information to show who is distributing it.
+If we're opening this up more broadly, however, we should expand on this functionality. Turn that simple pop up into a modal sheet including some more detailed text and possibly even some developer information to show who is distributing it.
 
 ![Concept image showing my proposed new modal for installing an app from Safari](/resources/developer-id/developer-id-install-concept.png){: .iphone-image .mx-auto .d-block }
 ###### Concept for app installation with Safari
 
 I would also force any call to open an install link to first bring Safari to the foreground. This makes sure that if you press "Cancel", you're in a known trusted app[^4]. Apps providing third-party stores or options to update would still be able to link to install manifests, but you would need to go through Safari first.
 
-#### 5. No App Store Nicities
+#### 5. No App Store Niceties
 
 Developers must provide their own payment systems, their own validation checks, and their own update check mechanisms. They would not be able to use Apple's In-App Purchase system, the App Store's automatic updates, or StoreKit's receipt validation.
 

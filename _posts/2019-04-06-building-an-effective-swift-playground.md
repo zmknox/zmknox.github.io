@@ -6,13 +6,13 @@ date: 2019-04-06 16:00 -0400
 updated: 2020-05-05 19:00 -0500
 ---
 
-[Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/) [(and Mac!)](https://apps.apple.com/us/app/swift-playgrounds/id1496833156) is a really cool tool. It allows us to build experiences using real iOS APIs directly on iOS, and more importantly allows us to combine interactive experiences, code, and prose into a single composition. It's primarily used to teach kids to write code, but I could see it easily become a nice way to familliarize more experienced developers with a new API or framework in bite sized chunks.
+[Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/) [(and Mac!)](https://apps.apple.com/us/app/swift-playgrounds/id1496833156) is a really cool tool. It allows us to build experiences using real iOS APIs directly on iOS, and more importantly allows us to combine interactive experiences, code, and prose into a single composition. It's primarily used to teach kids to write code, but I could see it easily become a nice way to familiarize more experienced developers with a new API or framework in bite sized chunks.
 
-But there are a lot of pieces to playgrounds, and a lot you need to keep in mind. I've built multiple playgrounds as [WWDC scholarshop applications](https://zachknox.com/2019/03/25/WWDC19-scholarship-application.html), and have watched or played with [many more](https://github.com/wwdc/2019). With this, I think I've gained some insight into how you can make your playground a really great experience. Here are some of my tips to building an effective playground.
+But there are a lot of pieces to playgrounds, and a lot you need to keep in mind. I've built multiple playgrounds as [WWDC scholarship applications](https://zachknox.com/2019/03/25/WWDC19-scholarship-application.html), and have watched or played with [many more](https://github.com/wwdc/2019). With this, I think I've gained some insight into how you can make your playground a really great experience. Here are some of my tips to building an effective playground.
 
 <!-- more -->
 
-_Before I begin, note that this post was updated in February 2020 with Swift Playgrouns 3.2 in mind. I originally wrote it in April of 2019 for Swift Playgrounds 2.2._
+_Before I begin, note that this post was updated in February 2020 with Swift Playgrounds 3.2 in mind. I originally wrote it in April of 2019 for Swift Playgrounds 2.2._
 
 ---------------------------
 
@@ -48,7 +48,7 @@ You don't need to put all of your code in your playground's pages, and you proba
 
 ![Swift Playgrounds app for Mac with a box around the modules section of the sidebar](/resources/playgrounds-modules.png){: .img-fluid .mx-auto .d-block }
 
-You can put pretty much any Swift file innto a module and access it from your pages, so long as classes, variables, and functions are all marked as `public`. You can build out all sorts of complex code, then provide a simple API to call inside your pages. This can be great when teaching a code concept, as it allows your users to understand the concept without having any extra baggage surrounding it.
+You can put pretty much any Swift file into a module and access it from your pages, so long as classes, variables, and functions are all marked as `public`. You can build out all sorts of complex code, then provide a simple API to call inside your pages. This can be great when teaching a code concept, as it allows your users to understand the concept without having any extra baggage surrounding it.
 
 The modules you see in the Swift Playgrounds app are considered 'user-editable modules' (sometimes known as 'UserModules'). This means that sny code contained within them can be modified by the user of your playground. This can be useful if you are prototyping an API for yourself, or trying to build an experience around teaching/showcasing more complex development techniques This can be cumbersome, however, if you want to hide implementation details from a user. Luckily, these aren't the only modules you can use in a playground!
 

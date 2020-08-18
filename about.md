@@ -10,7 +10,7 @@ I'm a software developer. I build backend tools in [Node.js](https://nodejs.org/
 
 In both [2018](https://zachknox.com/2018/04/02/WWDC-scholarship-application.html) and [2019](https://zachknox.com/2019/03/25/WWDC19-scholarship-application.html), I won scholarships to attend Apple's Worldwide Developers Conference (WWDC). It was an incredible experience, and [I wrote about my 2018 trip on this site](https://zachknox.com/wwdc/2018/08/03/thoughts-on-wwdc18.html).
 
-I [went to school](https://gmu.edu/) for Computer Science, if that's important to you.
+I [went to school](https://gmu.edu/) for Computer Science.
 
 Myke Hurley once called me ["important in Upgrade lore"](https://overcast.fm/+Fcm-R0sbo/54:08).
 
