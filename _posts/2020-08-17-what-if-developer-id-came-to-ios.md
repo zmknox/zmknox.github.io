@@ -90,7 +90,7 @@ Apple's XProtect anti-malware system, used on the Mac, will be put into place on
 
 <br />
 
-## What are the Benefits?
+## What Are the Benefits?
 
 With Developer ID support, software distribution would become far closer to how it is on the Mac, where Apple only enforces its review guidelines within its App Store. This will allow for lots of new opportunities:
 
@@ -102,14 +102,14 @@ With Developer ID support, software distribution would become far closer to how 
 Additionally, this will provide at least some level of competitive pressure on the App Store to innovate. Developers could still choose to use the App Store for all of its convenience, built-in support for features like In-App Purchase, and trust from users, but it would no longer be the _only_ choice, which may cause Apple to update their rules and rates to compete.
 
 <br />
-## What are the Consequences?
+## What Are the Consequences?
 
 The biggest consequence: malware will probably exist. Will it be common? I don't know. But it will probably exist, and that's something Apple has done an admirable job at keeping out of the App Store up to now. I believe that most of the warnings and opt-in requirements in my concept will mitigate a lot of user negligence, but it definitely won't stop it all.
 
 From Apple's perspective, the biggest consequence is losing control. Since the launch of the App Store, Apple has had final say on what can and what can't be mass distributed to iPhone users, and this changes that. That's a huge change that they would have to come to terms with.
 
 <br />
-## Would this actually happen?
+## Would This Actually Happen?
 
 The rising pressure against the App Store might cause them to implement a solution like this, but the Apple of right now seems unwilling to budge on their App Store policies. We'll just have to wait and see what the future holds...
 
