@@ -6,7 +6,7 @@
             "title": "Landing Page",
             "link": "https://anotherlens.app/"
         },
-        "testflight": "",
+        "testflight": "https://testflight.apple.com/join/pNPGggwZ",
         "current": true
     },
     {
@@ -31,6 +31,12 @@
             "link":"/bingo/drafts/"
         },
         "current":true
+    },
+    {
+        "name": "Stadium Full Screen Browser",
+        "description": "A full screen browser for iOS with support for custom user agents and game controllers",
+        "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
+        "current": true
     },
     {
         "name":"What's Open for iPhone",
