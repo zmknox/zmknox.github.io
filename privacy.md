@@ -5,7 +5,7 @@ permalink: /privacy/
 in_nav: false
 ---
 
-# Privacy Policy
+# Privacy Policy for Zach Knox's Projects
 
 I will always try and keep your privacy in mind in everything I build. Here is some information
 on what data, if any, my projects collect.
