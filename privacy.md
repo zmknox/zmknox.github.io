@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: no_nav
 title: Privacy Policy
 permalink: /privacy/
 in_nav: false
