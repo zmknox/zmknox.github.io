@@ -26,7 +26,7 @@ IP address to this website, which is logged by CloudFlare in order to aggregate 
 statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
 
 #### Stadium Full Screen Browser
-###### _Last Updated September 28, 2020
+##### _Last Updated September 28, 2020_
 
 There is no tracking code included in this app. The only information received about your usage of the app to
 the developer comes from iOS’s built-in, and opt-in, app analytics, which can be disabled in the Privacy
