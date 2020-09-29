@@ -5,6 +5,8 @@ permalink: /privacy/
 in_nav: false
 ---
 
+# Privacy Policy
+
 I will always try and keep your privacy in mind in everything I build. Here is some information
 on what data, if any, my projects collect.
 
@@ -22,6 +24,15 @@ JavaScript libraries (Bootstrap, FontAwesome, jQuery) in order to improve the si
 functionality. The only information collected about you is that a web request was received by your
 IP address to this website, which is logged by CloudFlare in order to aggregate traffic
 statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
+
+#### Stadium Full Screen Browser
+###### _Last Updated September 28, 2020
+
+There is no tracking code included in this app. The only information received about your usage of the app to
+the developer comes from iOS’s built-in, and opt-in, app analytics, which can be disabled in the Privacy
+settings on your device (“Share with App Developers”).
+
+Information collected from downloading this app from the App Store or purchasing any in-app purchases is covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
 #### AnotherLens / Vision Disability Filters (iOS)
 ##### _Last Updated May 23, 2020_
