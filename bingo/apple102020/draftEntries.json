@@ -6,18 +6,18 @@
 		"jason": "The biggest iPhone is bigger than any iPhone 11",
 		"myke": "Apple introduces four iPhones",
 		"mykeWasRight": true,
-		"jasonWasRight": false
+		"jasonWasRight": true
 	},
 	"round2": {
 		"jason": "The iPhone gets a LiDAR sensor",
 		"myke": "At least one iPhone is 5G compatible",
-		"mykeWasRight": false,
+		"mykeWasRight": true,
 		"jasonWasRight": true
 	},
 	"round3": {
 		"jason": "At least one model not available until November",
 		"myke": "The smallest iPhone is smaller than any iPhone 11",
-		"mykeWasRight": false,
+		"mykeWasRight": true,
 		"jasonWasRight": true
 	},
 	"round4": {
@@ -35,37 +35,37 @@
 	"round6": {
 		"jason": "New HomePod is under $200",
 		"myke": "Greg \"Joz\" Joswiak presents",
-		"mykeWasRight": false,
+		"mykeWasRight": true,
 		"jasonWasRight": true
 	},
 	"round7": {
 		"jason": "Mac not mentioned",
 		"myke": "Another Apple Silicon/A14 boast segment down in the chip lab",
 		"mykeWasRight": true,
-		"jasonWasRight": false
+		"jasonWasRight": true
 	},
 	"round8": {
 		"jason": "The Emmy Awards are mentioned",
 		"myke": "Trailers for Apple TV+ Content",
-		"mykeWasRight": true,
+		"mykeWasRight": false,
 		"jasonWasRight": false
 	},
 	"round9": {
 		"jason": "We see details of a not-yet-seen feature in iOS",
 		"myke": "Craig Federighi appears",
-		"mykeWasRight": true,
+		"mykeWasRight": false,
 		"jasonWasRight": true
 	},
 	"round10": {
 		"jason": "New version of HomePod unveiled",
 		"myke": "New Apple TV box",
 		"mykeWasRight": false,
-		"jasonWasRight": false
+		"jasonWasRight": true
 	},
 	"round11": {
 		"jason": "Over",
 		"myke": "Under",
-		"mykeWasRight": false,
-		"jasonWasRight": true
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	}
 }
