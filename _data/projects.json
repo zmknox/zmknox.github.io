@@ -34,7 +34,7 @@
     },
     {
         "name": "Stadium Full Screen Browser",
-        "description": "A full screen browser for iOS with support for custom user agents and game controllers",
+        "description": "A full screen browser for iOS with support for custom user agents and ~~game controllers~~",
         "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
         "current": true
     },
