@@ -6,7 +6,7 @@ date: 2020-11-06 18:00 -0500
 extlink: https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615
 ---
 
-The past month has been quite a ride. My app blew up on [on Reddit](https://www.reddit.com/r/Stadia/comments/j1ar15/use_stadia_on_ios_with_controller_support_easily/), was reported on by [big tech blogs](https://www.theverge.com/2020/9/29/21493098/stadia-ios-browser-hack-reddit-stadium-app-store-apple-ipad-iphone-ipados), and then was [removed by Apple](https://www.vice.com/en/article/m7aqwx/apple-will-remove-fan-app-that-allowed-stadia-streaming-on-ios).
+The past month has been quite a ride. My app blew up on [Reddit](https://www.reddit.com/r/Stadia/comments/j1ar15/use_stadia_on_ios_with_controller_support_easily/), was reported on by [big tech blogs](https://www.theverge.com/2020/9/29/21493098/stadia-ios-browser-hack-reddit-stadium-app-store-apple-ipad-iphone-ipados), and then was [removed by Apple](https://www.vice.com/en/article/m7aqwx/apple-will-remove-fan-app-that-allowed-stadia-streaming-on-ios).
 
 I'm now happy to report that Stadium is officially back in the App Store! Introducing [Stadium 1.2](https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615).
 
