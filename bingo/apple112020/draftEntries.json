@@ -17,14 +17,14 @@
 	"round3": {
 		"jason": "Return to the chip design lab set",
 		"myke": "Demo of iOS apps on the Mac",
-		"mykeWasRight": true,
+		"mykeWasRight": false,
 		"jasonWasRight": true
 	},
 	"round4": {
 		"jason": "An Apple Silicon Mac runs on the A14X chip",
 		"myke": "Return of a MacBook-style laptop",
-		"mykeWasRight": true,
-		"jasonWasRight": true
+		"mykeWasRight": false,
+		"jasonWasRight": false
 	},
 	"round5": {
 		"jason": "macOS Big Sur release date announced",
@@ -41,8 +41,8 @@
 	"round7": {
 		"jason": "Apple unveils over-the-ear headphones",
 		"myke": "Apple tag product announced",
-		"mykeWasRight": true,
-		"jasonWasRight": true
+		"mykeWasRight": false,
+		"jasonWasRight": false
 	},
 	"round8": {
 		"jason": "Greg “Joz” Joswiak presents",
@@ -53,7 +53,7 @@
 	"round9": {
 		"jason": "Under",
 		"myke": "Over",
-		"mykeWasRight": true,
-		"jasonWasRight": false
+		"mykeWasRight": false,
+		"jasonWasRight": true
 	}
 }
