@@ -34,8 +34,12 @@
     },
     {
         "name": "Stadium Full Screen Browser",
-        "description": "A full screen browser for iOS with support for custom user agents and ~~game controllers~~",
+        "description": "A full screen browser for iOS with support for custom user agent strings. It used to support game controllers, but was removed from the App Store for \"using public APIs in a manner not prescribed by Apple\".",
         "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
+        "web": {
+            "title": "VICE story about Stadium being removed",
+            "link": "https://www.vice.com/en/article/m7aqwx/apple-will-remove-fan-app-that-allowed-stadia-streaming-on-ios"
+        },
         "current": true
     },
     {
