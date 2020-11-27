@@ -16,13 +16,13 @@ I [went to school](https://gmu.edu/) for Computer Science. I took all the usual 
 
 In both [2018](https://zachknox.com/2018/04/02/WWDC-scholarship-application.html) and [2019](https://zachknox.com/2019/03/25/WWDC19-scholarship-application.html), I won scholarships to attend Apple's Worldwide Developers Conference (WWDC). It was an incredible experience, and [I wrote about my 2018 trip on this site](https://zachknox.com/wwdc/2018/08/03/thoughts-on-wwdc18.html).
 
-Myke Hurley once called me ["important in Upgrade lore"](https://overcast.fm/+Fcm-R0sbo/54:08). I've made a [couple](/bingo/drafts.html) cool [projects](https://upgradies.com/) related to Upgrade to warrant this.
+Myke Hurley once called me ["important in Upgrade lore"](https://overcast.fm/+Fcm-R0sbo/54:08). I've made a [couple](/bingo/drafts.html) of cool [projects](https://upgradies.com/) related to Upgrade to warrant this.
 
 In 2015, I learned a lot about routers and switches and passed the Cisco ICND1 exam, becoming a Cisco Certified Enter Network Technician. I think that certification has expired by now, but the knowledge and experience of that was valuable.
 
 My preferred text editor is currently [Visual Studio Code](https://code.visualstudio.com/). Xcode is pretty good too. [IntelliJ](https://www.jetbrains.com/idea/)'s debugger is fantastic. vim is fine in a pinch. I used to list out a whole bunch of programming languages I've been exposed to here, but I don't think that's super useful. I can get going in most programming languages pretty quickly, and learn the quirks as I go. I'm certainly most proficient with JavaScript (with Node.js) and Swift (for iOS), though.
 
-From doing various personal projects, I have some experience with video and audio editing, mostly with [Final Cut Pro X](https:/www.apple.com/final-cut-pro/) and [Logic](https://www.apple.com/logic-pro/). You can see some of them [on YouTube](http://youtube.com/c/ZachKnoxM/).
+From doing various personal projects, I have some experience with video and audio editing, mostly with [Final Cut Pro](https:/www.apple.com/final-cut-pro/) and [Logic](https://www.apple.com/logic-pro/). You can see some of them [on YouTube](http://youtube.com/c/ZachKnoxM/).
 
 I like to [write little reviews on Letterboxd](https://letterboxd.com/zmknox/) after I watch movies. It helps me think more about what I'm watching.
 
