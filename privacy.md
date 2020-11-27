@@ -19,12 +19,7 @@ on what data, if any, my projects collect.
 #### zachknox.com 
 ##### _Last Updated November 27, 20120_
 
-reCAPTCHA is included as part of the [contact form](/contact/) on this website. Otherwise, there is no tracking code
-on this website. This website does include some third party JavaScript libraries
-(Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and
-functionality. The only information collected about you is that a web request was received by your
-IP address to this website, which is logged by CloudFlare in order to aggregate traffic
-statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
+reCAPTCHA is included as part of the [contact form](/contact/) on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Use](https://policies.google.com/terms). Otherwise, there is no tracking code on this website. This website does include some third party JavaScript libraries (Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by CloudFlare in order to aggregate traffic statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
 
 #### Stadium Full Screen Browser
 ##### _Last Updated September 28, 2020_
