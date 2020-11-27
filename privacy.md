@@ -17,9 +17,9 @@ on what data, if any, my projects collect.
 
 
 #### zachknox.com 
-##### _Last Updated November 27, 2019_
+##### _Last Updated November 27, 20120_
 
-reCAPTCHA is included as part of the contact form on this website. Otherwise, there is no tracking code
+reCAPTCHA is included as part of the [contact form](/contact/) on this website. Otherwise, there is no tracking code
 on this website. This website does include some third party JavaScript libraries
 (Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and
 functionality. The only information collected about you is that a web request was received by your
