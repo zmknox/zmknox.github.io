@@ -8,13 +8,13 @@ layout: none
 {% endif %}
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": {{ site.name | smartify | jsonify }},
+    "title": "{{ site.name | smartify }} Casual Posts",
     {% if site.description %}"description": {{ site.description | smartify | jsonify }},{% endif %}
     "home_page_url": "{{ base }}/",
     "feed_url": "{{ base }}/feed.json",
     {% comment %}"favicon": "",{% endcomment %}
     "expired": false,
-    "items": [{% for post in site.posts %}{% if post.categories[0] != "casual" %}
+    "items": [{% for post in site.posts %}{% if post.categories[0] == "casual" %}
         {
             "id": "{{ post.id }}",
             "title": {{ post.title | smartify | jsonify }},

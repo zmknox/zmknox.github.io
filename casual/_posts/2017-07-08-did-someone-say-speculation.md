@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Did Soneone Say Speculation?"
-date: 2017-07-08 15:20:00 -400
-categories: iPhone rumors
+date: 2017-07-08 15:20:00 -0400
 extlink: https://daringfireball.net/2017/07/speculation_on_new_iphone_pricing
 ---
 

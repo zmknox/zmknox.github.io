@@ -5,8 +5,14 @@ layout: homepage
 
 <div class="homepage">
     <h1 class="home-h1">Zach Knox</h1>
-    {% assign post = site.posts.first %}
-    <div class='home-links'>Latest Post: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <i class="fa fa-arrow-circle-right"></i></a></div>
+    {% assign latest = site.posts.first %}
+    {% for post in site.posts %}
+      {% if post.categories[0] != "casual" %}
+        {% assign latest = post %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    <div class='home-links'>Latest Post: <a href="{{ latest.url | prepend: site.baseurl }}">{{ latest.title }} <i class="fa fa-arrow-circle-right"></i></a></div>
 
     <br />
     <br />

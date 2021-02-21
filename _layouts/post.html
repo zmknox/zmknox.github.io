@@ -4,7 +4,11 @@ layout: default
 
   <br />
   <div class="container">
+    {% if page.categories[0] == "casual" %}
+    <p><a class="back" href="{{ site.baseurl }}/casual/"><i class="far fa-angle-left"></i> Casual</a></p>
+    {% else %}
     <p><a class="back" href="{{ site.baseurl }}/posts/"><i class="far fa-angle-left"></i> Posts</a></p>
+    {% endif %}
   </div>
 <div class="post">  
     <div class="container reading-width">

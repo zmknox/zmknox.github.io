@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Archive
-permalink: /archive/
+title: Casual Archive
+permalink: /casual/archive/
 in_nav: false
 ---
 
 <div class="home">
   <div class="post-list">
     {% for post in site.posts %}
-      {% if post.categories[0] != "casual" %}
+      {% if post.categories[0] == "casual" %}
         <div class="archive-post-box">
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated | date: "%b %-d, %Y" }}</em>{% endif %}</span>
 
@@ -20,6 +20,6 @@ in_nav: false
     {% endfor %}
 </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> <a href="{{ "/feed.json" | prepend: site.baseurl }}">or JSON</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/casual/feed.xml" | prepend: site.baseurl }}">via RSS</a> <a href="{{ "/casual/feed.json" | prepend: site.baseurl }}">or JSON</a></p>
 
 </div>
