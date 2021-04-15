@@ -1,0 +1,71 @@
+{
+	"name":"The Upgrade April 2021 Event Draft",
+	"heardOnNum":"348",
+	"heardOnURL":"https://relay.fm/upgrade/348",
+	"round1": {
+		"jason": "Draft TK",
+		"myke": "Draft TK",
+		"mykeWasRight": true,
+		"jasonWasRight": true
+	},
+	"round2": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": true,
+		"jasonWasRight": true
+	},
+	"round3": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": true
+	},
+	"round4": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": false
+	},
+	"round5": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": true,
+		"jasonWasRight": true
+	},
+	"round6": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": true,
+		"jasonWasRight": true
+	},
+	"round7": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": false
+	},
+	"round8": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": false
+	},
+	"round9": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": true
+	},
+	"round10": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": true
+	},
+	"round11": {
+		"jason": "",
+		"myke": "",
+		"mykeWasRight": false,
+		"jasonWasRight": true
+	}
+}
