@@ -12,7 +12,7 @@
 		"jason": "Variant of the A14 chip is in a iPad Pro",
 		"myke": "USB 4 / Thunderbolt on an iPad Pro",
 		"mykeWasRight": true,
-		"jasonWasRight": true
+		"jasonWasRight": false
 	},
 	"round3": {
 		"jason": "New Magic Keyboard introduced",
@@ -48,24 +48,24 @@
 		"jason": "A podcast-related announcement is made",
 		"myke": "Discussion of App Tracking Transparency",
 		"mykeWasRight": false,
-		"jasonWasRight": false
+		"jasonWasRight": true
 	},
 	"round9": {
 		"jason": "New Apple display introduced",
 		"myke": "AirTags introduced",
-		"mykeWasRight": false,
-		"jasonWasRight": true
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	},
 	"round10": {
 		"jason": "Apple Fitness+ mentioned",
 		"myke": "New Apple TV introduced",
-		"mykeWasRight": false,
+		"mykeWasRight": true,
 		"jasonWasRight": true
 	},
 	"round11": {
 		"jason": "Over",
 		"myke": "Under",
-		"mykeWasRight": false,
-		"jasonWasRight": true
+		"mykeWasRight": true,
+		"jasonWasRight": false
 	}
 }
