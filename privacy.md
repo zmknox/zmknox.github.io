@@ -17,9 +17,9 @@ on what data, if any, my projects collect.
 
 
 #### zachknox.com 
-##### _Last Updated November 27, 20120_
+##### _Last Updated April 24, 2021_
 
-reCAPTCHA is included as part of the [contact form](/contact/) on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Use](https://policies.google.com/terms). Otherwise, there is no tracking code on this website. This website does include some third party JavaScript libraries (Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by CloudFlare in order to aggregate traffic statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
+reCAPTCHA is included as part of the contact form on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms). There is otherwise no tracking code on this website. This website does include some third party JavaScript libraries (Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by CloudFlare in order to aggregate traffic statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
 
 #### Stadium Full Screen Browser
 ##### _Last Updated September 28, 2020_
@@ -39,10 +39,23 @@ settings on your device (“Share with App Developers”).
 
 Information collected from downloading this app from the App Store or purchasing any in-app purchases is covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
+#### Funnel for Gmail (iOS)
+##### _Last Updated April 24, 2021_
+
+This app connects with your Google account to manage your Gmail account's labels and filters. Your use of Google's services is subject to Google's [Terms of Service](https://policies.google.com/terms?hl=en) and [Privacy Policy](https://policies.google.com/privacy?hl=en). Funnel for Gmail uses the [Google Sign-In SDK for iOS](https://developers.google.com/identity/sign-in/ios), which stores its sign-in secrets securely on your device. You can sign out of your account at any time by selecting "Sign out" in the settings menu of the app.
+
+Funnel for Gmail only keeps data on your device or saved into your Google account, and **never** shares it with a server we control or any outside parties.
+
+[Google discloses](https://developers.google.com/identity/sign-in/ios/app-privacy) that the Google Sign-In SDK for iOS may collect a user identifier and an IP address to enable quick and secure sign-in. Otherwise, there is no tracking code included in Funnel for Gmail. The only information received about your usage of the app to the developer comes from iOS’s built-in, and opt-in, app analytics, which can be disabled in the Privacy settings on your device (“Share with App Developers”).
+
+Information collected from downloading this app from the App Store or purchasing any in-app purchases is covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
+
 <br />
 
 ## For All apps and sites:
-##### _Last Updated May 25, 2019_
+##### _Last Updated April 24, 2021_
+
+"We", "I", "me", "my", "us", "Zachary Knox", and "Zach Knox" all refer to Zachary Knox for purposes of this Privacy Policy.
 
 #### California Online Privacy Protection Act Compliance
 We comply with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.
@@ -58,3 +71,6 @@ Information may be processed, stored, and used outside of the country in which y
 
 #### Your Consent
 By using our sites or apps, you consent to our privacy policy.
+
+#### Questions or Concerns
+If you have any questions, comments, or concerns about anything in this privacy policy, or find a privacy-related issue in any of the listed sites or apps, please contact us via email at privacy@zachknox.com.
