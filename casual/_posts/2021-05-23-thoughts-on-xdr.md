@@ -61,7 +61,7 @@ Parts of this film do look really good in HDR, though.
 
 This video was designed to showcase an OLED display, but I think it does a pretty good job at showing the benefits of this display too. You can see some bloom, especially in the opening shot, but a lot of it feels completely natural, as the objects are big and bright.
 
-![LG OLED test footage on Lquid Retina XDR](/resources/ipad-xdr/lg-oled.jpeg){: .img-fluid .mx-auto .d-block }
+![LG OLED test footage on Lquid Retina XDR](/resources/ipad-xdr/lg-oled-demo.jpeg){: .img-fluid .mx-auto .d-block }
 
 ### Earth At Night In Color (Apple TV+, Dolby Vision)
 
@@ -81,13 +81,13 @@ When watching a Late Night clip, I noticed that the local dimming definitely had
 
 The Settings app provides a good example of how the backlight reacts to standard UI in dark mode. There is some bloom in the corners and at the top for the text on a true black background, and a bit of bloom around each of the table view groups, but it isn't a big issue.
 
-![Settings app on Liquid Retina XDR](/resources/ipad-xdr/settings.jpeg){: .img-fluid .mx-auto .d-block } 
+![Settings app on Liquid Retina XDR](/resources/ipad-xdr/settings-app.jpeg){: .img-fluid .mx-auto .d-block } 
 
 ### YouTube scrubber
 
 The bottom scrubber bar of the YouTube app is a bit of an extreme example for blooming. The backlight exceeds the bar for quite a ways. In practice, this feels more like a design choice of the YouTUbe app than a real issue, but it's definitely noticable.
 
-![YouTube scrubber on Liquid Retina XDR](/resources/ipad-xdr/youtube.jpeg){: .img-fluid .mx-auto .d-block }
+![YouTube scrubber on Liquid Retina XDR](/resources/ipad-xdr/youtube-scrubber.jpeg){: .img-fluid .mx-auto .d-block }
 
 ### [Wanna see a whiter white?](https://kidi.ng/wanna-see-a-whiter-white/)
 
