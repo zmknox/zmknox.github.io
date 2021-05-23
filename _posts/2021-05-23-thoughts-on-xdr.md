@@ -7,6 +7,8 @@ date: 2021-05-23 11:00:00 -0400
 
 I recently upgraded my iPad from the 2018 11" iPad Pro to the new 2021 iPad Pro 12.9"[^1]. I was interested in the speeds of the M1 chip, but what really got me to upgrade (and to go up in display size) was the new Liquid Retina XDR display. This 12.9" display, with a resolution of 2732x2048@2x, has over 10,000 mini-LEDs to serve as a backlight laid out into 2,596 local dimming zones. That sounds fantastic! But what does it look like in practice?
 
+<!-- more -->
+
 ## Contrast
 
 The best case scenerio for a display is for the blacks to be truly black and whites to be very bright. an OLED display excels at the former, though sometimes fails to get bright enough (especially uniformly)[^2], and an LED-backlit LCD can generally excel at the latter. The mini-LED backlight on this iPad Pro does almost everything it can to do both.
