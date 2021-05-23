@@ -33,7 +33,7 @@ Because this display only has 2,596 zones to light 5,595,136 pixels, you're inev
 - Larger, bright objects in a scene are not a big problem. Your eyes will naturally see a bit of a halo effect around brighter objects anyway[^4], so you can't notice the light fall off.
 - Light generally falls off smoothly, not abruptly. This means that you may sometimes see more of a blooming halo around something small than you may expect. I'm not sure if this is an algorithmic decision or a materials (diffuser, etc) decision, but I do kind of wish it was a bit more aggressive.
 
-Here are some examples[^5] of the good and the bad. Note that the images I show are not necesserily accurate to what you would see in real like, but were taken to give you a visual sense of the what I'm trying to explain. The images were taken on an iPhone 12 Pro with Smart HDR enabled, and were converted from HEIF to JPEG for display on the web.
+Here are some examples[^5] of the good and the bad. Note that the images I show are not entirely accurate to what you would see in real life, but were taken to give you a visual sense of the what I'm trying to explain. The images were taken on an iPhone 12 Pro with Smart HDR enabled, and were converted from HEIF to JPEG for display on the web.
 
 ### Monsters, Inc. (Disney+, Dolby Vision)
 
