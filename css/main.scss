@@ -24,9 +24,8 @@
   color:#abc0ca !important;
   font-size: 24pt;
 }
-.footer-content{
-  text-align: center;
-  padding: 0.5em;
+.footer-mobile {
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom)) !important;
 }
 body{
   background-color: #011a27 !important;
@@ -297,6 +296,15 @@ $on-laptop:        800px;
 .home-links:visited {
     color: white;
 }
+
+.home-icon-links {
+  padding: 2pt;
+}
+
+.home-icon-links:hover {
+  border-bottom: none !important;
+}
+
 .home-footer {
     color: white;
 }
