@@ -384,3 +384,54 @@ h6 {
 .about-pronouns {
   margin-bottom: 1em;
 }
+
+.tv-card {
+  // padding: 7px;
+  // margin: 5px;
+  background-color: #000d14 !important;
+  
+  border-radius: 15px !important;
+  display: inline-block !important;
+}
+@media (max-width: 575.98px) {
+  .tv-card {
+    max-width: 80%;
+    align-items: center;
+  }
+  .tv-col {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+  .tv-footer {
+    text-align: center;
+  }
+}
+.tv-poster {
+  padding: 8px;
+  border-radius: 19px !important;
+}
+.tv-col {
+  padding: 8px;
+}
+.tv-card-text {
+  font-size: 14pt;
+}
+.tv-icon {
+  padding-right: 3px;
+}
+.tv-link {
+  font-size: 13pt;
+}
+.tmdb-link {
+  margin-bottom: 20px;
+}
+.tmdb-link:hover{
+  border-bottom: none !important;
+}
+.tv-footer {
+  font-size: 13pt;
+}
+
+.test-border {
+  border: 3px solid #ffa500 !important;
+}
