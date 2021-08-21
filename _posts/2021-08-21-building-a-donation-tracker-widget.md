@@ -7,7 +7,7 @@ extlink: https://github.com/zmknox/relay-stjude-scriptable-widget
 
 Every year, coinciding with [Childhood Cancer Awareness month](https://www.stjude.org/get-involved/other-ways/childhood-cancer-awareness-month.html), the [Relay FM](https://relay.fm) podcast network does a "[Podcastathon](https://youtu.be/UEuktMKaEq0)" to raise funds for [St. Jude Children's Research Hospital](https://stjude.org/). (You can donate now at [stjude.org/relay](https://stjude.org/relay)!)
 
-With many donation milestones and incentives along the way to their goal, many community members are stepping up to make donation trackers. My friend Matt VanOrmer made a [special command for his FeedbackBot](/resources/donation-widget/feedbackbot.jpg) in the Relay FM Members Discord and [an iOS widget in Python using Pyto](https://www.peerreviewed.io/blog/2021/8/20/a-home-screen-widget-for-relay-fms-annual-st-jude-fundraiser) and . I decided to take on the challenge of making my own version of Matt's widget using JavaScript with [Scriptable](https://scriptable.app/). Scriptable allows us to build real iOS user interfaces, including widgets, by writing JavaScript directly on device, and seems like the perfect tool for this job.
+With many donation milestones and incentives along the way to their goal, many community members are stepping up to make donation trackers. My friend Matt VanOrmer made a [special command for his FeedbackBot](/resources/donation-widget/feedbackbot.jpg) in the Relay FM Members Discord and [an iOS widget in Python using Pyto](https://www.peerreviewed.io/blog/2021/8/20/a-home-screen-widget-for-relay-fms-annual-st-jude-fundraiser). I decided to take on the challenge of making my own version of Matt's widget using JavaScript with [Scriptable](https://scriptable.app/). Scriptable allows us to build real iOS user interfaces, including widgets, by writing JavaScript directly on device, and seems like the perfect tool for this job.
 
 Let's get started.
 
@@ -123,6 +123,7 @@ Scriptable lets us build widgets as a list of elements, declared one after anoth
 const primaryTextColor = new Color("#efefef");
 
 const widget = new ListWidget();
+widget.setPadding(8, 15, 8, 10);
 
 // widget background
 const gradient = new LinearGradient();
@@ -274,7 +275,7 @@ The rest of this loop should look pretty familiar to what we were making before:
     
         // milestone progress bar
         const milestoneProgressBar = widget.addImage(createProgressBar(milestoneTotal, soFar, 10, false));    
-        milestoneProgressBar.imageSize=new Size(width, 10);
+        milestoneProgressBar.imageSize = new Size(width, 10);
         
         milestonesDisplayed += 1;
     }
@@ -289,7 +290,7 @@ Looking good! I think that's much nicer than our older large widget.
 
 ## Try It Yourself!
 
-You can download this script to use on your own device from [my GitHub repository](https://github.com/zmknox/relay-stjude-scriptable-widget). I hope you enjoy it. Let me know if you have any suggestions for further improvements.
+You can download this script to use on your own device from [my GitHub repository](https://github.com/zmknox/relay-stjude-scriptable-widget). You'll need [Scriptable](https://apps.apple.com/us/app/scriptable/id1405459188?uo=4) to run it. I hope you enjoy it. Let me know if you have any suggestions for further improvements.
 
 ## Credit Where It's Due
 
