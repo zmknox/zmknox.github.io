@@ -24,15 +24,6 @@
         "current":true
     },
     {
-        "name":"Interactive Draft Scorecards",
-        "description":"Basing off and extending some of my bingo card generator code, I've created \"Draft\" scorecards for the <a href=\"https://relay.fm/upgrade\">Upgrade podcast</a>.",
-        "web":{
-            "title":"Draft Scorecard Index",
-            "link":"/bingo/drafts/"
-        },
-        "current":true
-    },
-    {
         "name": "Stadium Full Screen Browser",
         "description": "A full screen browser for iOS with support for custom user agent strings. It used to support game controllers, but was removed from the App Store for \"using public APIs in a manner not prescribed by Apple\".",
         "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
@@ -41,6 +32,20 @@
             "link": "https://www.vice.com/en/article/m7aqwx/apple-will-remove-fan-app-that-allowed-stadia-streaming-on-ios"
         },
         "current": true
+    },
+    {
+        "name":"upgrade.cards",
+        "description":"Completely rewritten with React, I've created \"Draft\" scorecards for the <a href=\"https://relay.fm/upgrade\">Upgrade podcast</a>.",
+        "github":{
+            "profile":"zmknox",
+            "project-name":"draft-cards",
+            "project-url":"https://github.com/zmknox/draft-cards"
+        },
+        "web":{
+            "title":"upgrade.cards",
+            "link":"https://upgrade.cards/"
+        },
+        "current":true
     },
     {
         "name":"What's Open for iPhone",
