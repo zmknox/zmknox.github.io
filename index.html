@@ -4,7 +4,7 @@ layout: homepage
 <center>
 
 <div class="homepage">
-    <h1 class="home-h1">Zach Knox</h1>
+    <h1 class="home-h1">{{ site.name }}</h1>
     {% assign latest = site.posts.first %}
     {% for post in site.posts %}
       {% if post.categories[0] != "casual" %}

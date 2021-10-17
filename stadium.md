@@ -17,7 +17,7 @@ Features:
 - Authentication support. Go to a webpage without your preset user agent if needed
 - ~~Game Controller support. Use a paired Bluetooth game controller on any supported webpage~~
 
-Stadium is created by me, [Zach Knox](https://twitter.com/zmknox). I hope you enjoy it.
+Stadium is created by me, [{{ site.name }}](https://twitter.com/zmknox). I hope you enjoy it.
 
 ## Support
 

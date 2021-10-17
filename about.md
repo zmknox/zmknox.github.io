@@ -4,19 +4,19 @@ title: About
 permalink: /about/
 ---
 
-# 👋 Hi there. I'm Zach.
+# 👋 Hi there. I'm {{ site.firstName }}.
 
-<h4 class="about-pronouns"><em>(he/him)</em></h4>
+<h4 class="about-pronouns"><em>({{ site.pronouns }})</em></h4>
 
-I'm a software developer. I build backend tools in [Node.js](https://nodejs.org/en/) for work, and iOS apps in [Swift](https://swift.org/) for me. I also write a web app or two here and there using various tools (this site uses [Jekyll](https://jekyllrb.com/), for example). I like to try new frameworks and tools, so I'd like to think that I know at least a little bit about a lot of things. Check out my [Projects page](https://zachknox.com/projects) to see everything I (publicly) work on.
+I'm a software developer. I build backend tools in [Node.js](https://nodejs.org/en/) for work, and iOS apps in [Swift](https://swift.org/) for me. I also write a web app or two here and there using various tools (this site uses [Jekyll](https://jekyllrb.com/), for example). I like to try new frameworks and tools, so I'd like to think that I know at least a little bit about a lot of things. Check out my [Projects page]({{ "/projects" | prepend: site.baseurl }}) to see everything I (publicly) work on.
 
 _Here are some interesting things about me:_
 
 I [went to school](https://gmu.edu/) for Computer Science. I took all the usual suspects of courses: Algorithms, Data Structures, Architectures; but I also learned a lot (both about writing code and working with others) while building projects with [Mason SRCT](https://srct.gmu.edu) outside of class.
 
-In both [2018](https://zachknox.com/2018/04/02/WWDC-scholarship-application.html) and [2019](https://zachknox.com/2019/03/25/WWDC19-scholarship-application.html), I won scholarships to attend Apple's Worldwide Developers Conference (WWDC). It was an incredible experience, and [I wrote about my 2018 trip on this site](https://zachknox.com/wwdc/2018/08/03/thoughts-on-wwdc18.html).
+In both [2018]({{ "/2018/04/02/WWDC-scholarship-application.html" | prepend: site.baseurl }}) and [2019]({{ "/2019/03/24/WWDC19-scholarship-application.html" | prepend: site.baseurl }}), I won scholarships to attend Apple's Worldwide Developers Conference (WWDC). It was an incredible experience, and [I wrote about my 2018 trip on this site]({{ "/wwdc/2018/08/03/thoughts-on-wwdc18.html" | prepend: site.baseurl }}).
 
-Myke Hurley once called me ["important in Upgrade lore"](https://overcast.fm/+Fcm-R0sbo/54:08). I've made a [couple](/bingo/drafts.html) of cool [projects](https://upgradies.com/) related to Upgrade to warrant this.
+Myke Hurley once called me ["important in Upgrade lore"](https://overcast.fm/+Fcm-R0sbo/54:08). I've made a [couple](https://upgrade.cards/) of cool [projects](https://upgradies.com/) related to Upgrade to warrant this.
 
 In 2015, I learned a lot about routers and switches and passed the Cisco ICND1 exam, becoming a Cisco Certified Enter Network Technician. I think that certification has expired by now, but the knowledge and experience of that was valuable.
 

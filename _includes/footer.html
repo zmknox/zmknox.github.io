@@ -1,6 +1,6 @@
 <!--nav class="navbar navbar-default navbar-bottom">
   <div class="container footer-content">
-    Copyright &#169; 2016-{{ site.time | date: '%y' }} Zach Knox | <a href="{{ base }}/feed.json">JSON Feed</a> | <a href="{{ base }}/feed.xml">RSS Feed</a>
+    Copyright &#169; 2016-{{ site.time | date: '%y' }} {{ site.name }} | <a href="{{ base }}/feed.json">JSON Feed</a> | <a href="{{ base }}/feed.xml">RSS Feed</a>
   </div>
 </nav>
 
@@ -10,14 +10,14 @@
 <footer class="footer">
   <!-- note: this is a special css class (see styles.css) -->
   <div class="d-none d-sm-block text-center valign-center">
-    <span class="text-muted">Copyright &#169; 2016-{{ site.time | date: '%Y' }} Zach Knox
+    <span class="text-muted">Copyright &#169; 2016-{{ site.time | date: '%Y' }} {{ site.name }}
       | <a href="{{ base }}/feed.json">JSON Feed</a> | <a href="{{ base }}/feed.xml">RSS Feed | <a href="{{ base }}/privacy/">Privacy</a></a>
     </span>
   </div>
 
   <div class="container text-center d-block d-sm-none footer-mobile">
     <div class="col-sm-4 text-muted">
-       Copyright &#169; 2016-{{ site.time | date: '%Y' }} Zach Knox
+       Copyright &#169; 2016-{{ site.time | date: '%Y' }} {{ site.name }}
     </div>
     <div class="col-sm-4 text-muted">
       <a href="{{ base }}/feed.json">JSON Feed</a>

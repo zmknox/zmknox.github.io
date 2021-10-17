@@ -55,7 +55,7 @@
         "current":true
     },
     {
-        "name":"Zach Knox",
+        "name":"{{ site.title }}",
         "description":"This website is run on Github Pages and Jekyll. It has info about me and my projects.",
         "github":{
             "profile":"zmknox",
