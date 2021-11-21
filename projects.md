@@ -21,6 +21,8 @@ This list includes some contract work, but does not include work done for my lon
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
 {% elsif project.testflight %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/testflight-badge.png" alt="Get the beta on TestFlight"></a></h3>
+{% elsif project.name == "{{ site.title }}" %}
+<h3 class="project-heading">{{ site.title }}</h3>
 {% else %}
 <h3 class="project-heading">{{ project.name }}</h3>
 {% endif %}

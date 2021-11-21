@@ -40,5 +40,5 @@ If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) 
 
 ---------------------------
 
-##### If you want more information, or a résumé, feel free to [contact me](https://zachknox.com/contact/).
+##### If you want more information, or a résumé, feel free to [contact me]({{ "/contact/" | prepend: site.baseurl }}).
 

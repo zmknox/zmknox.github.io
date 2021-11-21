@@ -16,7 +16,7 @@ on what data, if any, my projects collect.
 
 
 
-#### zachknox.com 
+#### {{ site.baseurl }}
 ##### _Last Updated April 24, 2021_
 
 reCAPTCHA is included as part of the contact form on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms). There is otherwise no tracking code on this website. This website does include some third party JavaScript libraries (Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by CloudFlare in order to aggregate traffic statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
@@ -55,7 +55,7 @@ Information collected from downloading this app from the App Store or purchasing
 ## For All apps and sites:
 ##### _Last Updated April 24, 2021_
 
-"We", "I", "me", "my", "us", "Zachary Knox", and "Zach Knox" all refer to Zachary Knox for purposes of this Privacy Policy.
+"We", "I", "me", "my", "us", "Zachary Knox", and "{{ site.firstName }} Knox" all refer to Zachary Knox for purposes of this Privacy Policy.
 
 #### California Online Privacy Protection Act Compliance
 We comply with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.

@@ -10,4 +10,4 @@ Theme used is (very hevilly) customized from [DevJournal](https://github.com/hem
 
 Code licensed under BSD 3-clause license (See LICENSE file).
 
-Content and writings Copyright © 2016-2020 Zachary Knox, All Rights Reserved. Feel free to quote and link back to what I've written, but please credit me when you do.
+Content and writings Copyright © 2016-2021 Zachary Knox, All Rights Reserved. Feel free to quote and link back to what I've written, but please credit me when you do.
