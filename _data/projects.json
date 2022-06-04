@@ -10,20 +10,6 @@
         "current": true
     },
     {
-        "name":"Bingo Card Generator",
-        "description":"Started as a simple Node.js/Express app to generate ‘bingo’ cards for major events (like Apple keynotes) filled with predictions using a JSON file. Has since been simply hosted pages on my website with various bingo cards.",
-        "github":{
-            "profile":"zmknox",
-            "project-name":"bingo-card-generator",
-            "project-url":"https://github.com/zmknox/bingo-card-generator"
-        },
-        "web":{
-            "title":"Bingo Card Generator Index",
-            "link":"/bingo/"
-        },
-        "current":true
-    },
-    {
         "name": "Stadium Full Screen Browser",
         "description": "A full screen browser for iOS with support for custom user agent strings. It used to support game controllers, but was removed from the App Store for \"using public APIs in a manner not prescribed by Apple\".",
         "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
@@ -69,7 +55,17 @@
             },
         "current":true
     },
-        {
+    {
+        "name": "Bingo Card Generator",
+        "description": "Started as a simple Node.js/Express app to generate ‘bingo’ cards for major events (like Apple keynotes) filled with predictions using a JSON file. Has since been simply hosted pages on my website with various bingo cards.",
+        "github": {
+            "profile": "zmknox",
+            "project-name": "bingo-card-generator",
+            "project-url": "https://github.com/zmknox/bingo-card-generator"
+        },
+        "current": false
+    },
+    {
         "name":"Breakout",
         "description":"This was a project made for my introductory computer science class’s year end project. It has a couple bugs but it fully playable. I hope you enjoy it.",
         "github":{
@@ -120,12 +116,6 @@
             "title":"Upgradies.com",
             "link":"https://upgradies.com/"
         },
-        "current":false
-    },
-    {
-        "name":"The Ukranian Conflict Explained (2015)",
-        "description":"As part of an English class (of all things), I was tasked to create a documentary with Colin Phillips on the conflict regarding Ukraine and Russia. It was my first foray into 'explainer' style videos, and I think it turned out well!",
-        "youtube":"https://www.youtube.com/watch?v=b4JDt5UP_3Q",
         "current":false
     },
     {

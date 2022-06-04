@@ -6,18 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Zach Knox
+title: zmknox
 
 #write html inside the double quotes to display in jumbotron
 name: "Zach Knox"
 firstName: "Zach"
 pronouns: "he/him"
 description: "Software developer writing node and swift"
-url: https://zachknox.com
+url: https://zmknox.com
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zachknox.com" # the base hostname & protocol for your site
+url: "https://zmknox.com" # the base hostname & protocol for your site
 twitter_username: zmknox
 github_username:  zmknox
 

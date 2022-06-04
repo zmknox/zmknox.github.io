@@ -4,7 +4,7 @@ layout: homepage
 <center>
 
 <div class="homepage">
-    <h1 class="home-h1">{{ site.name }}</h1>
+    <h1 class="home-h1">{{ site.title }}</h1>
     {% assign latest = site.posts.first %}
     {% for post in site.posts %}
       {% if post.categories[0] != "casual" %}
@@ -26,14 +26,6 @@ layout: homepage
       {% endunless %}
     {% endfor %}
     <br />
-
-    <!-- <div class="container">
-      <a class="home-links home-icon-links" href="https://discord.gg/ZpCykq48Rc"><i class="fab fa-discord"></i></a>&#9;
-      <a class="home-links home-icon-links" href="https://twitter.com/zmknox"><i class="fab fa-twitter"></i></a>&#9;
-      <a class="home-links home-icon-links" href="https://letterboxd.com/zmknox"><i class="fas fa-film"></i></a>&#9;
-    </div>
-    
-    <br /> -->
 </div>
 
 </center>
