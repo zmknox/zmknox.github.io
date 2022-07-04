@@ -5,7 +5,6 @@ permalink: /posts/
 ---
 
 <div class="home">
-
   <div class="post-list">
     {% assign counter = 0 %}
     {% for post in site.posts offset: 0 %}
@@ -38,5 +37,8 @@ permalink: /posts/
       {% endif %}
     {% endfor %}
 </div>
+
   <a href="/archive/">⬅ All Posts</a>
+  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a> <a href="{{ "
+      /feed.json" | prepend: site.baseurl }}">or JSON</a></p>
 </div>

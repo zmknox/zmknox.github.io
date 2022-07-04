@@ -10,8 +10,7 @@ permalink: /contact/
    }
  </script>
 
-## Need to get in touch? Here's how:
-##### There are many ways you can get in touch with me if needed. Here are a few I'd recommend
+### Need to get in touch? Here are a few ways to do so:
 
 <br />
 
@@ -23,14 +22,14 @@ so if you prefer one over another, let me know and I'll give you contact info th
 
 ### Email
 
-You can send me an email using this form below, or sending an email to something at this domain. I'll get it.
+You can send me an email using this form below:
 
 <form id="contact-form" action="https://formspree.io/f/mdopzrrg" method="POST">
-    <div class="form-group row mb-3">
-        <div class=" col-sm-6">
+    <div class="form-group row">
+        <div class=" col-sm-6 mb-3">
             <input class="form-control form-control-lg contact-form" type="text" name="name" placeholder="Name">
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-3">
             <input class="form-control form-control-lg contact-form" type="email" name="_replyto" placeholder="Email Address">
         </div>
     </div>
