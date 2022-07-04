@@ -16,10 +16,10 @@ on what data, if any, my projects collect.
 
 
 
-#### {{ site.baseurl }}
-##### _Last Updated April 24, 2021_
+#### {{ site.title }} (this website)
+##### _Last Updated July 4, 2022_
 
-reCAPTCHA is included as part of the contact form on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms). There is otherwise no tracking code on this website. This website does include some third party JavaScript libraries (Bootstrap, FontAwesome, jQuery) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by CloudFlare in order to aggregate traffic statistics. [You can find CloudFlare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
+reCAPTCHA is included as part of the contact form on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms). There is otherwise no tracking code on this website. This website does include some third party JavaScript libraries (FontAwesome) and CSS stylesheets (Bootstrap) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by Cloudflare in order to aggregate traffic statistics. [You can find Cloudflare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
 
 #### Stadium Full Screen Browser
 ##### _Last Updated September 28, 2020_
