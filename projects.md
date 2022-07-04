@@ -8,7 +8,7 @@ permalink: /projects/
 
 This list includes some contract work, but does not include work done for my long-term employers.
 
--------------------------
+<br />
 
 <center><h2>Current Projects</h2></center>
 

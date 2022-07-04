@@ -34,20 +34,8 @@
         "current":true
     },
     {
-        "name":"What's Open for iPhone",
-        "description":"SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open. The goal of this project is to use that API in a native app using native Swift and UIKit.",
-        "gitlab":{
-            "profile-name":"SRCT",
-            "profile-url":"https://git.gmu.edu/srct",
-            "project-name": "whats-open-ios",
-            "project-url":"https://git.gmu.edu/srct/whats-open-ios"
-            },
-        "appstore":"https://itunes.apple.com/us/app/whats-open-at-mason/id1331260366",
-        "current":true
-    },
-    {
         "name":"{{ site.title }}",
-        "description":"This website is run on Github Pages and Jekyll. It has info about me and my projects.",
+        "description":"This website is run on Cloudflare Pages and Jekyll. It has info about me and my projects.",
         "github":{
             "profile":"zmknox",
             "project-name":"zmknox.github.io",
@@ -117,6 +105,18 @@
             "link":"https://upgradies.com/"
         },
         "current":false
+    },
+    {
+        "name": "What's Open for iPhone",
+        "description": "SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open. The goal of this project is to use that API in a native app using native Swift and UIKit.",
+        "gitlab": {
+            "profile-name": "SRCT",
+            "profile-url": "https://git.gmu.edu/srct",
+            "project-name": "whats-open-ios",
+            "project-url": "https://git.gmu.edu/srct/whats-open-ios"
+        },
+        "appstore": "https://itunes.apple.com/us/app/whats-open-at-mason/id1331260366",
+        "current": false
     },
     {
         "name":"WWDC18 Scholarship Application: The Need for Accessibility",
