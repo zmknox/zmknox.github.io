@@ -26,11 +26,11 @@ A headless virtual machine is essentially one that you control entirely over SSH
 
 First, go into your VirtualBox preferences (not th virtual machine's preferences) and create a new Host-Only network, if you don't already have one (Note: I used the default settings here, so mine is named vboxnet0 and is on in the IP address range of 192.168.56.x).
 
-![VirtualBox Network Preferences](http://i.imgur.com/grpC4wZ.png)
+![VirtualBox Network Preferences](/resources/headless-vm/grpC4wZ.png)
 
 After the Host-Only network is created, you need to add a second network adapter to your Ubuntu virtual machine in its settings page, making sure to select the one you just created.
 
-![Ubuntu VM Network Settings](http://i.imgur.com/E5ydkU2.png)
+![Ubuntu VM Network Settings](/resources/headless-vm/E5ydkU2.png)
 
 Now that the virtual machine has two network adapters, one for internet (useful for updates, package installs, or connecting to anything outside of your local computer) and the other for local connection (for SSH), we need to let the virtual machine know about it and make sure it has a static IP Address (so we can always easily SSH into the machine). To do this, we need to edit the file `/etc/network/interfaces`, so open that up in nano or your own favorite text editor, and add the needed info for the Host-Only network below the primary entry. Here are the settings I added, though yours could vary if you have different circumstances or a different subnet chosen in VirtualBox:
 
@@ -68,10 +68,10 @@ Next, I think that it's really nice to have a local hostname to my computer, and
 
 
 
-Finally, I would highly reccomend setting up SSH keys instead of having to type your password every time you want to connect to your virtual machine. You can learn more about how to do that from DigitalOcean [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2).
+Finally, I would highly recommend setting up SSH keys instead of having to type your password every time you want to connect to your virtual machine. You can learn more about how to do that from DigitalOcean [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2).
 
 -----------------
 
 And now? **You're Done!** You now have yourself a headless Ubuntu virtual machine that you can use for easier development on your Mac. If you have any questions, be sure to [contact me](../contact).
 
-![Terminal showing macOS (and my custom theme) and Ubuntu over SSH](http://i.imgur.com/k9sK9h3.gif)
+![Terminal showing macOS (and my custom theme) and Ubuntu over SSH](/resources/headless-vm/k9sK9h3.gif)
