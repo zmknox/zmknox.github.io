@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# 👋 Hi there. I'm {{ site.firstName }}.
-
-<h4 class="about-pronouns"><em>({{ site.pronouns }})</em></h4>
+# 👋 Hi there!
 
 I'm a software developer. I build backend tools in [Node.js](https://nodejs.org/en/) for work, and iOS apps in [Swift](https://swift.org/) for me. I also write a web app or two here and there using various tools (this site uses [Jekyll](https://jekyllrb.com/), for example). I like to try new frameworks and tools, so I'd like to think that I know at least a little bit about a lot of things. Check out my [Projects page]({{ "/projects" | prepend: site.baseurl }}) to see everything I (publicly) work on.
 
