@@ -17,7 +17,7 @@ permalink: /contact/
 ### Direct Message
 
 The quickest way to get my attention is to send me a direct message somewhere. That might be
-on [social media](https://twitter.com/zmknox), [Discord](https://discord.gg/TaG9bnm), or something more secure like [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox). I have pretty much all the chat apps though,
+on [social media](https://snailedit.social/@zmk), [Discord](https://discord.gg/TaG9bnm), or something more secure like [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox). I have pretty much all the chat apps though,
 so if you prefer one over another, let me know and I'll give you contact info there.
 
 ### Email
@@ -52,3 +52,5 @@ You can send me an email using this form below:
       </div>
     </div>
 </form>
+
+Please don't send me pitches for blog posts. I am the only person who will write any posts on this site.
