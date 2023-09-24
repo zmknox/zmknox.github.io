@@ -5,7 +5,7 @@ permalink: /privacy/
 in_nav: false
 ---
 
-# Privacy Policy for {{ site.name }}'s Projects
+# Privacy Policy for zmknox's Projects
 
 I will always try and keep your privacy in mind in everything I build. Here is some information
 on what data, if any, my projects collect.
@@ -20,6 +20,18 @@ on what data, if any, my projects collect.
 ##### _Last Updated July 4, 2022_
 
 reCAPTCHA is included as part of the contact form on this website. Use of reCAPTCHA is subject to Google's [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms). There is otherwise no tracking code on this website. This website does include some third party JavaScript libraries (FontAwesome) and CSS stylesheets (Bootstrap) in order to improve the site’s appearance and functionality. The only information collected about you, outside of the Contact page, is that a web request was received by your IP address to this website, which is logged by Cloudflare in order to aggregate traffic statistics. [You can find Cloudflare’s privacy policy here](https://www.cloudflare.com/privacypolicy/).
+
+#### Pearly for url.lol
+##### _Last Updated September 23, 2023_
+
+This app connects with your omg.lol account to manage your account's PURLs. Your use of omg.lol's services is subject to omg.lol's [Terms of Service](https://home.omg.lol/info/legal#terms-of-service), [Privacy Policy](https://home.omg.lol/info/legal#privacy-policy), and [Acceptable Use Policy](https://home.omg.lol/info/legal#acceptable-use-policy). An Oauth access token for your omg.lol account is securely stored in the Keychain on your device. You can sign out of your account at any time by selecting "Sign out" in the settings menu of the app.
+
+Pearly only keeps data on your device or saved into your omg.lol account, and **never** shares it with a server we control or any outside parties. Pesrly may connect to a server we control to obtain secrets required to set up an Oauth connection, but this request collects no data other than what is required to make a web request.
+
+There is no tracking code included in Pearly. The only information received about your usage of the app to the developer comes from iOS’s built-in, and opt-in, app analytics, which can be disabled in the Privacy settings on your device (“Share with App Developers”).
+
+Information collected from downloading this app from the App Store or purchasing any in-app purchases is covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
+
 
 #### Stadium Full Screen Browser
 ##### _Last Updated September 28, 2020_
