@@ -16,7 +16,7 @@ in_nav: false
             <div class="card-body">
                 <h5 class="card-title">{{ show.name }}</h5>
                 <p class="card-text tv-card-text">{{ show.notes }}</p>
-                <a href="{{ show.provider.link }}" class="tv-link"><i class="fas fa-tv tv-icon"></i> Watch on {% if show.provider.flatrate %}{{ show.provider.flatrate[0].provider_name }}{% elsif show.provider.ads %}{{ show.provider.ads[0].provider_name }}{% elsif show.provider.buy %}{{ show.provider.buy[0].provider_name }}{% endif %}</a>
+                <a href="{{ show.provider.link }}" class="tv-link"><i class="fas fa-tv tv-icon"></i> {% if show.provider.flatrate %}Watch on {{ show.provider.flatrate[0].provider_name }}{% elsif show.provider.ads %}Watch on {{ show.provider.ads[0].provider_name }} (with ads){% elsif show.provider.buy %} Buy on {{ show.provider.buy[0].provider_name }}{% endif %}</a>
             </div>
         </div>
     </div>
