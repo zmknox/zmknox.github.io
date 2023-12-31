@@ -12,9 +12,11 @@ layout: homepage
         {% break %}
       {% endif %}
     {% endfor %}
-    <div class='home-links'>Latest Post: <a href="{{ latest.url | prepend: site.baseurl }}">{{ latest.title }} <i class="fa fa-arrow-circle-right"></i></a></div>
-
-    <br />
+    <div class="latest-post-link">
+      <div class='home-links'>Latest Post: <a href="{{ latest.url | prepend: site.baseurl }}">{{ latest.title }} <i
+            class="fa fa-arrow-circle-right"></i></a></div>
+    </div>
+    
     <br />
     {% for my_page in site.pages %}
       {% unless my_page.in_nav == false %}
