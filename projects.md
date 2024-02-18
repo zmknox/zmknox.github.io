@@ -4,18 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
-#### This is a list of projects I've contributed to or worked on past and present.
-
-This list includes some contract work, but does not include work done for my long-term employers.
+This is a list of projects I've contributed to or worked on past and present. This list includes some contract work, but does not include work done for my long-term employers.
 
 <br />
 
 <center><h2>Current Projects</h2></center>
 
-<div class="project-card-columns">
+<div class="current-project-card-columns">
 {% for project in site.data.projects %}
 {% if project.current == true %}
-<div class="card project-card my-4">
+<div class="card project-card my-2">
 
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
@@ -53,12 +51,12 @@ This list includes some contract work, but does not include work done for my lon
 {% endfor %}
 </div>
 
-<center><h2 class="mt-5 mb-3">Completed Projects</h2></center>
+<center><h2 class="mt-5 mb-3">Completed / Inactive Projects</h2></center>
 
 <div class="project-card-columns">
 {% for project in site.data.projects %}
 {% if project.current == false %}
-<div class="card project-card my-4">
+<div class="card project-card my-2">
 
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>

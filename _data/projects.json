@@ -7,41 +7,7 @@
             "link": "https://anotherlens.app/"
         },
         "testflight": "https://testflight.apple.com/join/pNPGggwZ",
-        "current": true
-    },
-    {
-        "name": "Stadium Full Screen Browser",
-        "description": "A full screen browser for iOS with support for custom user agent strings. It used to support game controllers, but was removed from the App Store for \"using public APIs in a manner not prescribed by Apple\".",
-        "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
-        "web": {
-            "title": "VICE story about Stadium being removed",
-            "link": "https://www.vice.com/en/article/m7aqwx/apple-will-remove-fan-app-that-allowed-stadia-streaming-on-ios"
-        },
-        "current": true
-    },
-    {
-        "name":"upgrade.cards",
-        "description":"Completely rewritten with React, I've created \"Draft\" scorecards for the <a href=\"https://relay.fm/upgrade\">Upgrade podcast</a>.",
-        "github":{
-            "profile":"zmknox",
-            "project-name":"draft-cards",
-            "project-url":"https://github.com/zmknox/draft-cards"
-        },
-        "web":{
-            "title":"upgrade.cards",
-            "link":"https://upgrade.cards/"
-        },
-        "current":true
-    },
-    {
-        "name":"{{ site.title }}",
-        "description":"This website is run on Cloudflare Pages and Jekyll. It has info about me and my projects.",
-        "github":{
-            "profile":"zmknox",
-            "project-name":"zmknox.github.io",
-            "project-url":"https://github.com/zmknox/zmknox.github.io/"
-            },
-        "current":true
+        "current": false
     },
     {
         "name": "Bingo Card Generator",
@@ -68,6 +34,16 @@
         "description":"I worked with a few others to create an app to play a putt-putt golf game using an iPhone and a Sphero.",
         "devpost":"https://devpost.com/software/sphero-putt-putt-practice",
         "current":false
+    },
+    {
+        "name": "Pearly for url.lol",
+        "description": "An iOS app to view, manage, and quickly create PURLs on url.lol.",
+        "web": {
+            "title": "Landing Page",
+            "link": "https://pearly.omg.lol/"
+        },
+        "testflight": "https://pearly.url.lol/testflight",
+        "current": true
     },
     {
         "name":"Privacy on the Internet (2015)",
@@ -98,7 +74,31 @@
         "current":false
     },
     {
-        "name":"Upgradies Hall of Fame",
+        "name": "Stadium Full Screen Browser",
+        "description": "A full screen browser for iOS with support for custom user agent strings. It used to support game controllers, but was removed from the App Store for \"using public APIs in a manner not prescribed by Apple\".",
+        "appstore": "https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615",
+        "web": {
+            "title": "VICE story about Stadium being removed",
+            "link": "https://www.vice.com/en/article/m7aqwx/apple-will-remove-fan-app-that-allowed-stadia-streaming-on-ios"
+        },
+        "current": false
+    },
+    {
+        "name": "upgrade.cards",
+        "description": "Completely rewritten with React, I've created \"Draft\" scorecards for the <a href=\"https://relay.fm/upgrade\">Upgrade podcast</a>.",
+        "github": {
+            "profile": "zmknox",
+            "project-name": "draft-cards",
+            "project-url": "https://github.com/zmknox/draft-cards"
+        },
+        "web": {
+            "title": "upgrade.cards",
+            "link": "https://upgrade.cards/"
+        },
+        "current": true
+    },
+    {
+        "name":"upgradies.com",
         "description":"Contract work with Myke Hurley of Relay FM building a site to display all winners of their annual Upgradies awards show. Built with Node.JS and React.",
         "web":{
             "title":"Upgradies.com",
@@ -139,5 +139,15 @@
         },
         "youtube": "https://www.youtube.com/watch?v=mutncT3Q3F0",
         "current": false
+    },
+    {
+        "name":"{{ site.title }}",
+        "description":"This website is run on Cloudflare Pages and Jekyll. It has info about me and my projects.",
+        "github":{
+            "profile":"zmknox",
+            "project-name":"zmknox.github.io",
+            "project-url":"https://github.com/zmknox/zmknox.github.io/"
+            },
+        "current":true
     }
 ]
