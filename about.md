@@ -8,9 +8,10 @@ permalink: /about/
 
 I'm a software developer. I build backend tools in [Node.js](https://nodejs.org/en/) for work, and iOS apps in [Swift](https://swift.org/) for me. I also write a web app or two here and there using various tools (this site uses [Jekyll](https://jekyllrb.com/), for example). I like to try new frameworks and tools, so I'd like to think that I know at least a little bit about a lot of things. Check out my [Projects page]({{ "/projects" | prepend: site.baseurl }}) to see everything I (publicly) work on.
 
-_Here are some interesting things about me:_
 
-I [went to school](https://gmu.edu/) for Computer Science. I took all the usual suspects of courses: Algorithms, Data Structures, Architectures; but I also learned a lot (both about writing code and working with others) while building projects with [Mason SRCT](https://srct.gmu.edu) outside of class.
+#### _**Here are some interesting things about me:**_
+
+I went to school for Computer Science. I took all the usual suspects of courses: Algorithms, Data Structures, Architectures; but I also learned a lot (both about writing code and working with others) while building projects with [Mason SRCT](https://srct.gmu.edu) outside of class.
 
 In both [2018]({{ "/2018/04/02/WWDC-scholarship-application.html" | prepend: site.baseurl }}) and [2019]({{ "/2019/03/24/WWDC19-scholarship-application.html" | prepend: site.baseurl }}), I won scholarships to attend Apple's Worldwide Developers Conference (WWDC). It was an incredible experience, and [I wrote about my 2018 trip on this site]({{ "/wwdc/2018/08/03/thoughts-on-wwdc18.html" | prepend: site.baseurl }}).
 
@@ -24,17 +25,11 @@ From doing various personal projects, I have some experience with video and audi
 
 I like to [write little reviews on Letterboxd](https://letterboxd.com/zmknox/) after I watch movies. It helps me think more about what I'm watching.
 
-Finally, I am an Eagle Scout.
+-----------------
 
----------------------------
+If you want to verify who I really am, I'm on Keybase [@zmknox](https://keybase.io/zmknox).
 
-If you want to verify who I really am, I'm on [Keybase.io](https://keybase.io/) @zmknox.
-
-[![keybase.io profile for zmknox](https://keybase.onlineth.com/zmknox.png?theme=dark){: .img-fluid .d-block }](https://keybase.io/zmknox)
-
-### [You can keep up with what I'm working on over on Github: <i class="fab fa-github"></i> zmknox](https://github.com/zmknox)
-
-#### You can find information on projects I've worked on over on my [projects page]({{ base }}/projects).
+[You can keep up with what I'm working on over on Github: <i class="fab fa-github"></i> zmknox](https://github.com/zmknox)
 
 ---------------------------
 

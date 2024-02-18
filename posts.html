@@ -14,8 +14,8 @@ permalink: /posts/
         {% if post.categories[0] != "casual" %}
         <div id="post-item">
           <div class="post-homepage">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated |
-                date: "%b %-d, %Y" }}</em>{% endif %}</span>
+            <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated |
+                date: "%B %-d, %Y" }}</em>{% endif %}</span>
             <h2>
               <a class="post-link"
                 href="{% if post.extlink %}{{ post.extlink }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{% if

@@ -362,13 +362,26 @@ h6 {
 
 .project-card {
   padding: 20px;
+  color: #d8d8d8 !important;
   background-color: #000d14 !important;
   border-radius: 8px !important;
   display: inline-block !important;
 }
 
+.form-control {
+  color: white !important;
+}
+
+::placeholder {
+  color: #909898 !important;
+}
+
 .contact-form {
   background-color: #000d14 !important;
+}
+
+#submit-button {
+  margin-bottom: 20pt;
 }
 
 @media (min-width: 576px) {
@@ -381,6 +394,10 @@ h6 {
   .project-card-columns {
     column-count: 1;
   }
+}
+
+.current-project-card-columns {
+  column-count: 1;
 }
 
 .iphone-image {

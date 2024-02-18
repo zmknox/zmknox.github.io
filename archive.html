@@ -10,7 +10,7 @@ in_nav: false
     {% for post in site.posts %}
       {% if post.categories[0] != "casual" %}
         <div class="archive-post-box">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated | date: "%b %-d, %Y" }}</em>{% endif %}</span>
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated | date: "%B %-d, %Y" }}</em>{% endif %}</span>
 
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

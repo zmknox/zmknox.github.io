@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+  <link rel="stylesheet" href="{{ " /css/post.css" | prepend: site.baseurl }}">
   <br />
   <div class="container">
     {% if page.categories[0] == "casual" %}
@@ -14,7 +14,7 @@ layout: default
     <div class="container reading-width">
       <{% if page.extlink %}h2{% else %}h1{% endif %} class="post-title-main" itemprop="name headline">{% if page.extlink %}<i class="fa fa-link smaller-link"></i> {% endif %}{{ page.title }}</{% if page.link %}h2{% else %}h1{% endif %}>
       {% if page.subtitle %}<h4 class="post-subtitle-main"><em>{{ page.subtitle }}</em></h4>{% endif %}
-      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.updated %} • <em>Updated: {{ page.updated | date: "%b %-d, %Y" }}</em>{% endif %}{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.extlink %} • <a href="{{ page.extlink }}">Visit Link <i class="fas fa-external-link-alt"></i></a>{% endif %}</p>
+      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.updated %} • <em>Updated: {{ page.updated | date: "%B %-d, %Y" }}</em>{% endif %}{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.extlink %} • <a href="{{ page.extlink }}">Visit Link <i class="fas fa-external-link-alt"></i></a>{% endif %}</p>
     </div>
     <br />
   <div class="post-content container reading-width" itemprop="articleBody">

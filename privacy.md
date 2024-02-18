@@ -65,9 +65,9 @@ Information collected from downloading this app from the App Store or purchasing
 <br />
 
 ## For All apps and sites:
-##### _Last Updated April 24, 2021_
+##### _Last Updated February 17, 2024_
 
-"We", "I", "me", "my", "us", "Zachary Knox", and "{{ site.firstName }} Knox" all refer to Zachary Knox for purposes of this Privacy Policy.
+"We", "I", "me", "my", "us", and "{{ site.name }}" all refer to zmknox for purposes of this Privacy Policy.
 
 #### California Online Privacy Protection Act Compliance
 We comply with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.
@@ -85,4 +85,4 @@ Information may be processed, stored, and used outside of the country in which y
 By using our sites or apps, you consent to our privacy policy.
 
 #### Questions or Concerns
-If you have any questions, comments, or concerns about anything in this privacy policy, or find a privacy-related issue in any of the listed sites or apps, please contact us via email at privacy@zachknox.com.
+If you have any questions, comments, or concerns about anything in this privacy policy, or find a privacy-related issue in any of the listed sites or apps, please contact us via email at privacy@zmknox.com.
