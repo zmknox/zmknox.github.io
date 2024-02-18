@@ -59,7 +59,7 @@ But that’s not all! The virtual keyboard, as well as the QuickType bar that ho
 
 ## Alternative Inputs
 
-So that’s what you have out of the box, but Apple provides many alternative ways to interact with the system as well. Not all of these are specifically targeted towards aiding those with vision disabilities, but they all felt worth investigating and seeing how the benefits and drawbacks of each alternative compared.
+So that’s what you have out of the box, but Apple provides many alternative ways to interact with the system as well. Not all of these are specifically targeted towards aiding those with vision disabilities, but they all felt worth investigating to compare the benefits and drawbacks of each.
 
 ### Keyboard and Trackpad
 
@@ -164,7 +164,7 @@ Beyond these basics, visionOS also provides many options to adapt its interface 
 
 ### Text Size
 
-Just like iPhone and iPad, you can set your system-wide text size as big as you want, or even smaller than default if you prefer. This allows me to make sure everything is readable without needing to get as close to windows, which is particularly important in a headset where the focal plane is far enough out that getting too close to virtual objects makes them blurry[^6].
+Just like on iPhone and iPad, you can set your system-wide text size as big as you want, or even smaller than default if you prefer. This allows me to make sure everything is readable without needing to get as close to windows, which is particularly important in a headset where the focal plane is far enough out that getting too close to virtual objects makes them blurry[^6].
 
 ![Comparison of two screenshots of the Music app. In both, the Album page for Born This Way by Lady Gaga is seen. The top screenshot shows it with a 100% text size, while the bottom shows it with 150% text size.](/resources/vision-accessibility/text-size.png){: .img-fluid .mx-auto .d-block }
 ###### 100% vs 150% text size.
@@ -202,7 +202,7 @@ Much like on tvOS, it can sometimes be a bit hard to tell where your focus is. T
 ![Comparison of two screenshots of the Display and Text Size accessibility settings on visionOS. One has Increase Focus State disabled, while the other has it enabled. Focus is on the "Eyes and Hands" option in the left sidebar. The version with the setting enabled has a white outline around the option, while the version without only highlights the background.](/resources/vision-accessibility/increase-focus-state.jpg){: .img-fluid .mx-auto .d-block }
 ###### I'm looking at the "Eyes and Hands" option in the left sidebar
 
-This option does have the side effect of making some parts of the interface a fair bit uglier. The virtual keyboard, for example, does not work well with the focus state highlight at all.
+This option does have the side effect of making some parts of the interface a fair bit uglier. The virtual keyboard, for example, does not play nice with the focus state highlight at all.
 
 ![Screenshot of the virtual keyboard with focus on the backspace key. The white selection outline gets cut off on the corners of the button.](/resources/vision-accessibility/bad-outline.png){: .img-fluid .mx-auto .d-block }
 ###### See the bad outline on the backspace key
