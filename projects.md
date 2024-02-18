@@ -10,7 +10,7 @@ This is a list of projects I've contributed to or worked on past and present. Th
 
 <center><h2>Current Projects</h2></center>
 
-<div class="current-project-card-columns">
+<div class="project-card-columns">
 {% for project in site.data.projects %}
 {% if project.current == true %}
 <div class="card project-card my-2">
