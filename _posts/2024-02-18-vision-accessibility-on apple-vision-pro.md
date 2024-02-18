@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Vision Accessibility on Apple&nbsp;Vision&nbsp;Pro
-date: 2024-02-18 12:00:00 -0500
+date: 2024-02-18 15:00:00 -0500
 ---
 
-I have low vision. A kind you can't really correct for with glasses or contacts. I also bought Apple&nbsp;Vision&nbsp;Pro. Why would I do this? Well because I'm a nerd who wants to see the future, but also because I was fascinated to see how Apple would handle accessibility for this new product. Apple's track record on accessibility in the past decade has been stellar, in my opinion, with their teams adding [powerful](https://www.apple.com/newsroom/2023/05/apple-previews-live-speech-personal-voice-and-more-new-accessibility-features/) [options](https://www.apple.com/newsroom/2022/05/apple-previews-innovative-accessibility-features/) [every year](https://www.apple.com/newsroom/2021/05/apple-previews-powerful-software-updates-designed-for-people-with-disabilities/) and ensuring every new platform has accessibility support built in from the start.
+I have low vision. A kind you can't really correct for with glasses or contacts. I also bought Apple&nbsp;Vision&nbsp;Pro. _Why would I do this?_ Well because I'm a nerd who wants to see the future, but also because I was fascinated to see how Apple would handle accessibility for this new product. Apple's track record on accessibility in the past decade has been stellar[^1], in my opinion, with their teams adding [powerful](https://www.apple.com/newsroom/2023/05/apple-previews-live-speech-personal-voice-and-more-new-accessibility-features/) [options](https://www.apple.com/newsroom/2022/05/apple-previews-innovative-accessibility-features/) [every year](https://www.apple.com/newsroom/2021/05/apple-previews-powerful-software-updates-designed-for-people-with-disabilities/) and ensuring every new platform has accessibility support built in from the start.
 
 After watching [Apple’s WWDC23 session on visionOS accessibility](https://developer.apple.com/wwdc23/10034), I knew accessibility on visionOS was an important point for them. But even after consuming as much information on the platform as I could, I knew I had to try it for myself to know the answer to the important question: how well does it work _for me_?
 
@@ -33,17 +33,17 @@ Some things work great. I can very easily select an app from the Home View or sc
 
 That said, it’s far from unusable. I can still generally get around most things OK, but it's clear that some interactions are harder for me than they are for others.
 
-I also generally wear tinted contact lenses to help control the amount of light going into my eyes[^1]. When purchasing Apple&nbsp;Vision&nbsp;Pro, you’re presented with a series of questions about your vision and whether you wear glasses or contacts. One of these asks about whether you use contacts with a tint. If you say yes, it tells you that you can’t use these with Apple&nbsp;Vision&nbsp;Pro. But I’ve found that’s not entirely true.
+I also generally wear tinted contact lenses to help control the amount of light going into my eyes[^2]. When purchasing Apple&nbsp;Vision&nbsp;Pro, you’re presented with a series of questions about your vision and whether you wear glasses or contacts. One of these asks about whether you use contacts with a tint. If you say yes, it tells you that you can’t use these with Apple&nbsp;Vision&nbsp;Pro. But I’ve found that’s not entirely true.
 
 ![A screenshot from the Apple Store app on iOS. "Do your contacts have any cosmetic features? Cosmetic features can include tints and patterns that change or enhance the appearance of your eyes, and they are not compatible with Apple Vision Pro." Buttons are available for Yes and No.](/resources/vision-accessibility/purchasing.png){: .iphone-image .mx-auto .d-block }
 
-I’ve tried using my Apple&nbsp;Vision&nbsp;Pro both with and without my contacts, and can get the eye tracking to work fine with either… with a catch. Using my calibration from one configuration doesn’t work properly with the other (I could launch some apps from the Home View, but not much else.). So if I last used it with my contacts, I need to re-run eye setup to use it without them. Luckily, there’s a shortcut for this. Quadruple-clicking the Top Button will start eye setup, making it easy to get into without having to dive into Settings. I do with they’d allow me to save two eye setups (a feature they already provide for users who may use Apple&nbsp;Vision&nbsp;Pro both with and without ZEISS Optical Inserts), but re-running setup isn’t a huge pain.
+I’ve tried using my Apple&nbsp;Vision&nbsp;Pro both with and without my contacts, and can get the eye tracking to work fine with either… with a catch. Using my calibration from one configuration doesn’t work properly with the other (I could launch some apps from the Home View, but not much else). So if I last used it with my contacts, I need to re-run eye setup to use it without them. Luckily, there’s a shortcut for this. Quadruple-clicking the Top Button will start eye setup, making it easy to get into without having to dive into Settings. I do with they’d allow me to save two eye setups (a feature they already provide for users who may use Apple&nbsp;Vision&nbsp;Pro both with and without ZEISS Optical Inserts), but re-running setup isn’t a huge pain.
 
 Interestingly, Optic ID works with either configuration without need for re-registration, which was a relief for me, as it means things protected by the secure enclave (including my Persona) don’t need to be reset.
 
 ### Hands
 
-Eye tracking is good and all[^2], but you generally only use your eyes as a pointer, with your hands acting as the “mouse button”. And I’m glad to say I’ve had effectively no issues there, save for having to remember not to accidentally have my finger and thumb touching and to have my hands in view of the cameras.
+Eye tracking is good and all[^3], but you generally only use your eyes as a pointer, with your hands acting as the “mouse button”. And I’m glad to say I’ve had effectively no issues there, save for having to remember not to accidentally have my finger and thumb touching and to have my hands in view of the cameras.
 
 It’s also worth noting that, for almost all visionOS UI, you can also directly touch any UI element if it’s close enough to you. This often isn’t practical, as most windows will be further from arm’s reach away, but it can be handy for a webpage or iPad app with odd tap targets. Most users will probably use this most often with the virtual keyboard, but it’s always worth keeping in back of mind in case something can’t be reached with the typical look-and-tap approach.
 
@@ -93,7 +93,7 @@ None of these options are as “magical” or quick as using eye tracking, but t
 
 ### VoiceOver
 
-A screen reader in a device designed around vision? You bet. VoiceOver reads content and information about UI elements aloud, relying on many different hand gestures to perform different actions without needing to see the displays[^3]. You can tap your right index finger to move to the next element, your right middle finger to go back to the previous element, and your left index finger to select the highlighted element. You can also hold fingers on one hand while tapping with the other to switch apps or use the Rotor (a concept borrowed from iOS allowing you to quickly change the way VoiceOver steps through elements). Additionally, you can enable an "exploration mode", allowing you to move your head to find different visible UI elements. VoiceOver also uses spatial audio to help you locate where the element or app that is speaking is in your physical space.
+A screen reader in a device designed around vision? You bet. VoiceOver reads content and information about UI elements aloud, relying on many different hand gestures to perform different actions without needing to see the displays[^4]. You can tap your right index finger to move to the next element, your right middle finger to go back to the previous element, and your left index finger to select the highlighted element. You can also hold fingers on one hand while tapping with the other to switch apps or use the Rotor (a concept borrowed from iOS allowing you to quickly change the way VoiceOver steps through elements). Additionally, you can enable an "exploration mode", allowing you to move your head to find different visible UI elements. VoiceOver also uses spatial audio to help you locate where the element or app that is speaking is in your physical space.
 
 <div class="ratio ratio-16x9">
   <iframe src="https://www.youtube-nocookie.com/embed/UQiL3Tm6qOA" title="A video showing VoiceOver navigating through the Settings app on visionOS. The user navigates the sidebar to the Accessibility settings, navigates to the Display and Text Size view, toggles on and off Increase Contrast, then goes into Color Filters to toggle them on and off. The user then uses exploration mode to find another option in the sidebar, selecting Eyes and Hands." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; muted; picture-in-picture" allowfullscreen></iframe>
@@ -109,7 +109,7 @@ One potentially incredible feature of VoiceOver that I couldn't seem to get work
 
 ### Voice Control
 
-Much like on iPhone, iPad, and Mac, Voice Control allows you to select effectively any UI element with your voice. And it works great on Apple&nbsp;Vision&nbsp;Pro too. You can call out “tap Search” or “close window” and it will promptly do so. You can also tell it to “show names” of selectable elements so you know what you can tell it to tap, “show grid” to tap a specific region with accuracy, or “show numbers” to see everything selectable even if they don’t have good accessibility identifiers. This is an incredibly well-built system that, while built for those with mobility issues, can also be useful if eye tracking isn’t working as well, as you can simply tell it to tap the button you intend to select[^4].
+Much like on iPhone, iPad, and Mac, Voice Control allows you to select effectively any UI element with your voice. And it works great on Apple&nbsp;Vision&nbsp;Pro too. You can call out “tap Search” or “close window” and it will promptly do so. You can also tell it to “show names” of selectable elements so you know what you can tell it to tap, “show grid” to tap a specific region with accuracy, or “show numbers” to see everything selectable even if they don’t have good accessibility identifiers. This is an incredibly well-built system that, while built for those with mobility issues, can also be useful if eye tracking isn’t working as well, as you can simply tell it to tap the button you intend to select[^5].
 
 ![A screenshot of Apple Music after having said "Show Names". Popups appear on many UI elements calling out how you can refer to them by name.](/resources/vision-accessibility/show-names.png){: .img-fluid .mx-auto .d-block }
 
@@ -127,7 +127,7 @@ This is a fun one. You can assign various actions to different sounds you make. 
 
 ### Accessibility Shortcut
 
-Many of these input options—as well as many of the coming output options—have situational use for me. Useful to get at a particularly tricky to tap button or switch, for example. This is where the Accessibility Shortcut comes in handy. Much like on iPhone with a triple tap of the side button or a Mac with a triple press of the Touch ID/power button, triple pressing on the Digital Crown can either toggle a single accessibility setting or, if multiple are selected, present a list of settings to toggle on or off.
+Many of these input options—as well as many output options I discuss later on—have situational use for me. Useful to get at a particularly tricky to tap button or switch, for example. This is where the Accessibility Shortcut comes in handy. Much like on iPhone with a triple tap of the side button or a Mac with a triple press of the Touch ID/power button, triple pressing on the Digital Crown can either toggle a single accessibility setting or, if multiple are selected, present a list of settings to toggle on or off.
 
 ![Screenshot of the accessibility shortcut menu on visionOS. A window floats in front of the Settings app. It has a close button in the top left corner, and has a list of options to select. Available options in the list include Increase Contrast, Pointer Control, VoiceOver, and Zoom.](/resources/vision-accessibility/accessibility-shortcut.png){: .img-fluid .mx-auto .d-block }
 
@@ -158,16 +158,18 @@ I suppose I can understand why, if they are only going to pick one style for com
 ![A screenshot of Overcast, a compatible iPad app, running on visionOS with its dark mode enabled in the app settings. White text appears on a pure black background.](/resources/vision-accessibility/overcast.png){: .img-fluid .mx-auto .d-block }
 ###### Overcast in dark mode. So much nicer.
 
+## Output Accommodations
+
 Beyond these basics, visionOS also provides many options to adapt its interface to be easier to view, no doubt stemming from its lineage to iOS and iPadOS which have had stellar support in this area for years.
 
 ### Text Size
 
-Just like iPhone and iPad, you can set your system-wide text size as big as you want, or even smaller than default if you prefer. This allows me to make sure everything is readable without needing to get as close to windows, which is particularly important in a headset where the focal plane is far enough out that getting too close to virtual objects makes them blurry[^5].
+Just like iPhone and iPad, you can set your system-wide text size as big as you want, or even smaller than default if you prefer. This allows me to make sure everything is readable without needing to get as close to windows, which is particularly important in a headset where the focal plane is far enough out that getting too close to virtual objects makes them blurry[^6].
 
 ![Comparison of two screenshots of the Music app. In both, the Album page for Born This Way by Lady Gaga is seen. The top screenshot shows it with a 100% text size, while the bottom shows it with 150% text size.](/resources/vision-accessibility/text-size.png){: .img-fluid .mx-auto .d-block }
 ###### 100% vs 150% text size.
 
-visionOS text size stops are at different scales than iOS’ sizes. The stops on iOS from 100% to 150% goes 100-110-120-135-150%, while visionOS has 100-105-115-125-130-150%. The largest accessibility text size on Apple&nbsp;Vision&nbsp;Pro is only 200%, while iPhone scales all the way to 310%. I personally use a higher text size option in Apple&nbsp;Vision&nbsp;Pro then I do my iPhone (Either 130% or 150% on Apple&nbsp;Vision&nbsp;Pro vs 120% on iPhone). Given that text sizes don’t scale as high _and_ I use a higher size than I do on iPhone, I would definitely be wary of recommending this product to anyone who uses one of the larger accessibility text sizes on iPhone or iPad.
+visionOS text size stops are at different scales than iOS’ sizes. The steps on iOS from 100% to 150% are 100-110-120-135-150%, while visionOS has steps at 100-105-115-125-130-150%. The largest accessibility text size on Apple&nbsp;Vision&nbsp;Pro is only 200%, while iPhone scales all the way to 310%. I personally use a higher text size option in Apple&nbsp;Vision&nbsp;Pro then I do my iPhone (Either 130% or 150% on Apple&nbsp;Vision&nbsp;Pro vs 120% on iPhone). Given both of these, I would definitely be wary of recommending this product to anyone who uses one of the larger accessibility text sizes on iPhone or iPad.
 
 In many apps, especially those written with modern APIs like SwiftUI, text size scaling isn’t much of a concern at all. But text being cut off of mismatched in size can definitely be an issue in some apps. This is nothing new, as you can see many of these same issues on iOS with high enough text sizes, but is worth keeping in mind if you're planning on using a larger text size. I notice these issues in Apple&nbsp;Vision&nbsp;Pro a lot more when using compatible iPad apps.
 
@@ -207,41 +209,48 @@ This option does have the side effect of making some parts of the interface a fa
 
 ### Zoom
 
-Another classic Mac and iPhone accessibility setting reimagined. Zoom gives you a virtual head-locked magnifying glass[^6] to view digital content through. You can scale the zoom level using the Digital Crown, or move the window around in your view. This can be useful to view or interact with very small UI elements, particularly in compatible iPad apps.
+Another classic Mac and iPhone accessibility setting reimagined. Zoom gives you a virtual head-locked magnifying glass[^7] to view digital content through. You can scale the zoom level using the Digital Crown, or move the window around in your view. This can be useful to view or interact with very small UI elements, particularly in compatible iPad apps.
 
 ![Screenshot of the Zoom settings with zoom enabled, with the zoom window focused on a toggle switch](/resources/vision-accessibility/zoom.png){: .img-fluid .mx-auto .d-block }
 
-I don’t find myself using zoom on Apple&nbsp;Vision&nbsp;Pro as much as I do on my iPhone or iPad, as there are more opportunities to make the windows themselves larger instead.
+I don’t find myself using zoom on Apple&nbsp;Vision&nbsp;Pro nearly as much as I do on my iPhone or iPad, as there are more opportunities to make the windows themselves larger instead.
 
 One interesting quirk of Zoom is that it _only_ zooms digital content, _not_ passthrough. So you can’t use it as a physical magnifying glass. This feels really strange at first, since the digital windows are otherwise anchored incredibly well in your real world space.
 
 ### View Mirroring
 
-This is much less relevant for most use of this device, but is still an important output. Apple&nbsp;Vision&nbsp;Pro can mirror a view of what the wearer is seeing to any compatible AirPlay receiver, iPhone, or iPad. This allows you to show others what you're experiencing. And, while not designed as an accessibility feature, mirroring your view could be helpful if you, as the wearer, can't understand what digital content is in front of you and need assistance.
+This is much less relevant for most use of this device, but is still an important output. Apple&nbsp;Vision&nbsp;Pro can mirror a view of what the wearer is seeing to any compatible AirPlay receiver, iPhone, or iPad. This allows you to show others what you're experiencing. And, while not designed as an accessibility feature, mirroring your view could be helpful if you, as the wearer, need assistance in dealing with the digital content in front of you.
 
 ![A screenshot of the View Mirroring menu within Control Center on visionOS. A window with "Mirror My View" heading has a list of options including an Apple TV named "Living Room", a TV, an iPhone named "zmk Fifteen Pro", and a Mac named "zmk MacBook Pro 16". Text at the bottom of the window reads "Select a device to mirror content to from your Apple Vision Pro".](/resources/vision-accessibility/view-mirroring.png){: .img-fluid .mx-auto .d-block }
 
+### Display Accommodations
+
+Beyond all these options, many of the same settings from iOS remain on visionOS. You can add a color filter to both digital content and passthrough. You can invert colors on all digital content. And you can ask the system to reduce motion. All in all, a very complete accessibility package.
+
+![A screenshot of the Settings app on visionOS with Classic Invert enabled. The colors of all UI within the app window are inverted, resulting in dark text on a light translucent background. The passthrough video surrounding the window is not inverted.](/resources/vision-accessibility/classic-invert.png){: .img-fluid .mx-auto .d-block }
+###### Classic Invert enabled
+
 # Does It Work For Me?
 
-I wrote much of this piece while in Joshua Tree using the fabulous [Runestone](https://apps.apple.com/us/app/runestone-text-editor/id1548193893) text editor, using a connected Magic Keyboard and referring to my notes previously made on my iPhone in Apple Notes. I had the Apple Music miniplayer to my right, Discord to my left[^7], and a [Widgetsmith](https://apps.apple.com/us/app/widgetsmith/id1523682319) clock floating up in the sky behind Notes. I was skeptical that I could actually use this device for productive tasks, but after this experience I know I _absolutely_ could. I don’t know if I want to do my 40-hour-a-week software development job while wearing such a heavy thing all day, but it’s fantastic for tasks like writing a blog post.
+I wrote much of this piece while in Joshua Tree using the fabulous [Runestone](https://apps.apple.com/us/app/runestone-text-editor/id1548193893) text editor, using a connected Magic Keyboard and referring to my notes previously made on my iPhone in Apple Notes. I had the Apple Music miniplayer to my right, Discord to my left[^8], and a [Widgetsmith](https://apps.apple.com/us/app/widgetsmith/id1523682319) clock floating up in the sky behind Notes. I was skeptical that I could actually use this device for productive tasks, but after this experience I know I _absolutely_ could. I don’t know if I want to do my 40-hour-a-week software development job while wearing such a heavy thing all day, but it’s fantastic for tasks like writing a blog post.
 
 ![Screenshot of windows in visionOS in the Joshua Tree environment. Notes appears on the left with bullets relating to this article. A clock widget shows above it reading 6:56pm. To the right of Notes is a text editor window with a rough draft of this piece. Below is is a hint of passthrough showing a Magic Keyboard. In the top right, the Apple Music miniplayer can be partially seen with the album art for Neil Cicierega's Mouth Moods displayed.](/resources/vision-accessibility/behind-the-curtain.png){: .img-fluid .mx-auto .d-block }
 
 Is it perfect? Certainly not. I hit a lot more rough spots than many other users would. But it didn't catastrophically break down for me either. And compared to the competition, Apple&nbsp;Vision&nbsp;Pro is _vastly_ more accessible. On Meta Quest, you can change the text size of system apps, but that’s about it. Many games and apps on that platform simply don’t accommodate those who may need larger text or views, and that system doesn’t provide any accommodations to zoom or scale third-party content. Apple&nbsp;Vision&nbsp;Pro not only provides accessibility settings that can affect the content of third-party apps, but also offers additional options to allow users to interact with apps that are still tricky to use despite those accommodations. I’m incredibly impressed with the amount of accessibility functionality they shipped on _day one_. 
 
-So I didn’t return it. I’m very excited to see how this brand new platform[^8] will evolve over the coming months and years.
+So I didn’t return it. I’m very excited to see how this brand new platform[^9] will evolve over the coming months and years.
 
 ----------------
 
 Before publishing, I came across [this short Mastodon thread from Peter Saathoff-Harshfield](https://mastodon.social/@pesh/111950125924980596) describing their own experiences with trying the accessibility features with Apple&nbsp;Vision&nbsp;Pro during an in-store demo which, as they have very different vision disabilities than me, were different from mine. I recommend you check it out if you want another perspective on visionOS accessibility. 
 
 ----------------
-
-[^1]: My contacts also have a not-super-strong prescription, but I don’t use any optical inserts, as I already go without my contacts many days, mainly when at home, anyway.
-[^2]: You can actually control Apple&nbsp;Vision&nbsp;Pro with _only_ your eyes if needed using Dwell Control (an accessibility feature I’m not covering here as it, by design, assumes you have good vision)
-[^3]: VoiceOver really falls into both the input and output sections, as it radically changes both. I chose to put it with the "inputs" as that is where VoiceOver felt most different to its counterpart on iOS for me.
-[^4]: I also find Voice Control useful when I’m under the covers of a warm blanket and don’t want to take my arm out to tap something on my iPad. Simply tell Siri to turn voice control on and then tell your device what to tap!
-[^5]: I find Apple&nbsp;Vision&nbsp;Pro to be better in this regard than Meta Quest 3, allowing you to get a bit closer without issues. But it’s definitely still noticeable. I find that visionOS elements start to get a bit blurry closer than about an arm’s length away from me, though don’t get unusably blurry until you’re a fair bit closer.
-[^6]: You can also zoom your entire view of digital content, but I find this fairly disorienting. Making the window the default was the right call.
-[^7]: The Discord iPad app on Apple&nbsp;Vision&nbsp;Pro is Not Great. It doesn’t do much at all for highlighting where you’re looking to select, and has issues with the media picker. But I’m still glad it exists so I can keep up with things while wearing the device.
-[^8]: I _of course_ followed [Apple’s Developer guidelines](https://developer.apple.com/visionos/submit/) on how to refer to Apple&nbsp;Vision&nbsp;Pro in this piece 🙃
+[^1]: If you're curious about the history of Apple's early accessibility efforts, I highly recommend listening to Shelly Brisbin's [36 Seconds That Changed Everything](http://www.36seconds.org/) documentary about that very topic.
+[^2]: My contacts also have a not-super-strong prescription, but I don’t use any optical inserts, as I already go without my contacts many days, mainly when at home, anyway.
+[^3]: You can actually control Apple&nbsp;Vision&nbsp;Pro with _only_ your eyes if needed using Dwell Control (an accessibility feature I’m not covering here as it, by design, assumes you have good vision)
+[^4]: VoiceOver really falls into both the input and output sections, as it radically changes both. I chose to put it with the "inputs" as that is where VoiceOver felt most different to its counterpart on iOS for me.
+[^5]: I also find Voice Control useful when I’m under the covers of a warm blanket and don’t want to take my arm out to tap something on my iPad. Simply tell Siri to turn voice control on and then tell your device what to tap!
+[^6]: I find Apple&nbsp;Vision&nbsp;Pro to be better in this regard than Meta Quest 3, allowing you to get a bit closer without issues. But it’s definitely still noticeable. I find that visionOS elements start to get a bit blurry closer than about an arm’s length away from me, though don’t get unusably blurry until you’re a fair bit closer.
+[^7]: You can also zoom your entire view of digital content, but I find this fairly disorienting. Making the window the default was the right call.
+[^8]: The Discord iPad app on Apple&nbsp;Vision&nbsp;Pro is Not Great. It doesn’t do much at all for highlighting where you’re looking to select, and has issues with the media picker. But I’m still glad it exists so I can keep up with things while wearing the device.
+[^9]: I _of course_ followed [Apple’s Developer guidelines](https://developer.apple.com/visionos/submit/) on how to refer to Apple&nbsp;Vision&nbsp;Pro in this piece 🙃
