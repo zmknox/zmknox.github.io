@@ -45,7 +45,7 @@ Interestingly, Optic ID works with either configuration without need for re-regi
 
 Eye tracking is good and all[^3], but you generally only use your eyes as a pointer, with your hands acting as the “mouse button”. And I’m glad to say I’ve had effectively no issues there, save for having to remember not to accidentally have my finger and thumb touching and to have my hands in view of the cameras.
 
-It’s also worth noting that, for almost all visionOS UI, you can also directly touch any UI element if it’s close enough to you. This often isn’t practical, as most windows will be further from arm’s reach away, but it can be handy for a webpage or iPad app with odd tap targets. Most users will probably use this most often with the virtual keyboard, but it’s always worth keeping in back of mind in case something can’t be reached with the typical look-and-tap approach.
+It’s also worth noting that, for almost all visionOS UI, you can also directly touch any UI element if it’s close enough to you. This often isn’t practical, as most windows will be further than arm’s reach away, but it can be handy for a webpage or iPad app with odd tap targets. Most users will probably use this most often with the virtual keyboard, but it’s always worth keeping in back of mind in case something can’t be reached with the typical look-and-tap approach.
 
 ### Siri and Dictation
 
@@ -53,7 +53,7 @@ Siri has nearly all of the same abilities it has on iPhone and iPad, but it is e
 
 ![A screenshot of Siri in visionOS. A popup displays above a Siri orb with text "A clown held the door for me today. That was a nice jester." A button shows below the text "Tell me another"](/resources/vision-accessibility/siri.png){: .img-fluid .mx-auto .d-block }
 
-Additionally, dictation is built deep into the OS. Nearly every search field has a microphone which, if you stare at it long enough, will let you speak your query into it. This is a pretty neat idea, but it seemed to sometimes stop listening if I look away soon after it starts listening to me—resulting in the dictation session to be cancelled. That may just be some 1.0 bugginess, though.
+Additionally, dictation is built deep into the OS. Nearly every search field has a microphone which, if you stare at it long enough, will let you speak your query into it. This is a pretty neat idea, but it seemed to sometimes stop listening if I looked away soon after it started listening to me—resulting in the dictation session being cancelled. That may just be some 1.0 bugginess, though.
 
 But that’s not all! The virtual keyboard, as well as the QuickType bar that hovers above physically connected keyboards, also has a dictation button, and that one acts as a toggle. Tap it once to start dictation, and again to stop. This works great, and exactly how you would expect it to.
 
@@ -101,7 +101,7 @@ A screen reader in a device designed around vision? You bet. VoiceOver reads con
 
 ###### Make sure your sound is on for this video.
 
-While I think it’s _extremely_ impressive that they were able to ship VoiceOver on such a different product with zero physical input devices, I feel it may be a bit fiddly, at least for a newcomer. When I tried it, I found myself getting a bit lost I was often using the wrong gesture and going somewhere I didn't intend. This was particularly notable when multiple apps were open. Trying to figure out what I was controlling and why focus was moving around between apps felt pretty confusing at times. It certainly feels very powerful, however, and I imagine somebody, given enough time to learn how to best utilize it (and maybe a few software updates on Apple's end to smooth out some of the rough edges) could make great use of VoiceOver in their workflows.
+While I think it’s _extremely_ impressive that they were able to ship VoiceOver on such a different product with zero physical input devices, I feel it may be a bit fiddly, at least for a newcomer. When I tried it, I found myself getting a bit lost. I was often using the wrong gesture and going somewhere I didn't intend. This was particularly notable when multiple apps were open. Trying to figure out what I was controlling and why focus was moving around between apps felt pretty confusing at times. It certainly feels very powerful, however, and I imagine somebody, given enough time to learn how to best utilize it (and maybe a few software updates on Apple's end to smooth out some of the rough edges) could make great use of VoiceOver in their workflows.
 
 I don’t personally use VoiceOver much at all on any platform, as my vision isn’t poor enough to require it, but I try to stay proficient at navigating the system with it. It completely changes the way you interact with your device, whether that be a Mac, iPhone, or Apple&nbsp;Vision&nbsp;Pro, and using VoiceOver helps me to think about app design in a more inclusive way.
 
@@ -131,11 +131,11 @@ Many of these input options—as well as many output options I discuss later on�
 
 ![Screenshot of the accessibility shortcut menu on visionOS. A window floats in front of the Settings app. It has a close button in the top left corner, and has a list of options to select. Available options in the list include Increase Contrast, Pointer Control, VoiceOver, and Zoom.](/resources/vision-accessibility/accessibility-shortcut.png){: .img-fluid .mx-auto .d-block }
 
-visionOS allows you to maneuver this list by turning the Digital Crown, making it usable even your current input method is failing for you.
+visionOS allows you to maneuver this list by turning the Digital Crown, making it usable even when your current input method is failing for you.
 
 # Output
 
-Input is only half of the story. Just as important is making sure I can actually make out everything that is being displayed around mw.
+Input is only half of the story. Just as important is making sure I can actually make out everything that is being displayed around me.
 
 ### Windows
 
@@ -153,7 +153,7 @@ By contrast, native visionOS apps have an all new visual style. They generally h
 
 On my other devices, I almost always use a “dark mode” when available, putting light text on a dark background. But on visionOS, regardless of app type you’re using though, there is no concept of light or dark mode. This means that you’ll forever be using iOS apps with a bright white background & dark text and visionOS apps with a darker translucent background & light text. Going between these feels quite jarring to me.
 
-I suppose I can understand why, if they are only going to pick one style for compatible apps, Apple would chose light mode as the only visual style. Even as a dark mode user, I still think of light mode as the “canonical” visual style on iOS. But in use it just feels out ot place to me. This was made even clearer to me when I turned on the manual overrides available in apps like Overcast, Ivory, and Discord to use their dark modes anyway. This made those apps _immediately_ feel better to use alongside native apps for me. I really hope Apple reconsiders this design decision in the future.
+I suppose I can understand why, if they are only going to pick one style for compatible apps, Apple would chose light mode as the only visual style. Even as a dark mode user, I still think of light mode as the “canonical” visual style on iOS. But in use it just feels out ofqqq place to me. This was made even clearer to me when I turned on the manual overrides available in apps like Overcast, Ivory, and Discord to use their dark modes anyway. This made those apps _immediately_ feel better to use alongside native apps for me. I really hope Apple reconsiders this design decision in the future.
 
 ![A screenshot of Overcast, a compatible iPad app, running on visionOS with its dark mode enabled in the app settings. White text appears on a pure black background.](/resources/vision-accessibility/overcast.png){: .img-fluid .mx-auto .d-block }
 ###### Overcast in dark mode. So much nicer.
@@ -171,13 +171,13 @@ Just like on iPhone and iPad, you can set your system-wide text size as big as y
 
 visionOS text size stops are at different scales than iOS’ sizes. The steps on iOS from 100% to 150% are 100-110-120-135-150%, while visionOS has steps at 100-105-115-125-130-150%. The largest accessibility text size on Apple&nbsp;Vision&nbsp;Pro is only 200%, while iPhone scales all the way to 310%. I also personally use a higher absolute text size option in Apple&nbsp;Vision&nbsp;Pro then I do my iPhone (Either 130% or 150% on Apple&nbsp;Vision&nbsp;Pro vs 120% on iPhone). Given both of these, I would definitely be wary of recommending this product to anyone who uses one of the larger accessibility text sizes on iPhone or iPad.
 
-In many apps, especially those written with modern APIs like SwiftUI, text size scaling isn’t much of a concern at all. But text being cut off of mismatched in size can definitely be an issue in some apps. This is nothing new, as you can see many of these same issues on iOS with high enough text sizes, but is worth keeping in mind if you're planning on using a larger text size. I notice these issues in Apple&nbsp;Vision&nbsp;Pro a lot more when using compatible iPad apps.
+In many apps, especially those written with modern APIs like SwiftUI, text size scaling isn’t much of a concern at all. But text being cut off or mismatched in size can definitely be an issue in some apps. This is nothing new, as you can see many of these same issues on iOS with high enough text sizes, but is worth keeping in mind if you're planning on using a larger text size. I notice these issues in Apple&nbsp;Vision&nbsp;Pro a lot more when using compatible iPad apps.
 
-You can also set text size per app, but, unlike iOS, you can only do this deep within the accessibility section of Settings, not with the Text Size control in Control Center. I would love to see this flow be as easy as the iPhone in the future (FB13629357).
+You can also set text size per app, but, unlike iOS, you can only do this deep within the accessibility section of Settings, not with the Text Size control in Control Center. I would love to see this flow be as easy as on iPhone in the future (FB13629357).
 
 ### Window Zoom
 
-On iPhone and iPad, you can change the UI scale all elements of your device’s display using “Display Zoom”. Window Zoom is the same concept, but, due to the nature of the device, only scales digital windows—_not_ your physical space. You can select between four sizes, from small to extra large. I use the extra large size which, while it may mean I can fit fewer windows in my view, makes them much more visible to me. 
+On iPhone and iPad, you can change the UI scale of all elements of your device’s display using “Display Zoom”. Window Zoom is the same concept, but, due to the nature of the device, only scales digital windows—_not_ your physical space. You can select between four sizes, from small to extra large. I use the extra large size which, while it may mean I can fit fewer windows in my view, makes them much more visible to me. 
 
 <video loop autoplay muted controls playsinline preload="auto" class="img-fluid" src="/resources/vision-accessibility/window-zoom.mp4" title="Looping video of 4 images showing the Window Zoom settings in each window scale"></video>
 
