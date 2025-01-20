@@ -301,6 +301,15 @@ $on-laptop:        800px;
     color: white;
 }
 
+.home-message {
+  color: #dedede;
+  display: inline;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 .home-icon-links {
   padding: 2pt;
 }
@@ -322,6 +331,9 @@ $on-laptop:        800px;
 }
 .footer-text {
   color: #747474;
+}
+.trans-rights-footer {
+  font-style: italic !important;
 }
 .valign-center {
   height: 60px;
