@@ -2,7 +2,7 @@
 layout: post
 title: "Stadium Browser 1.2"
 subtitle: Back in business
-date: 2020-11-06 18:00 -0500
+date: 2020-11-06T12:00:00-05:00
 extlink: https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615
 ---
 
@@ -10,7 +10,7 @@ The past month has been quite a ride. My app blew up on [Reddit](https://www.red
 
 I'm now happy to report that Stadium is officially back in the App Store! Introducing [Stadium 1.2](https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615).
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ## What's Different?
 

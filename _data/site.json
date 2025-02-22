@@ -1,0 +1,28 @@
+{
+  "title": "zmknox",
+  "description": "The website of a person who likes computers.",
+  "baseurl": "",
+  "name": "zmknox",
+  "firstName": "zmknox",
+  "pronouns": "",
+  "github_username": "zmknox",
+  "url": "https://zmknox.com",
+  "main_nav": [
+    {
+      "title": "About",
+      "permalink": "/about"
+    },
+    {
+      "title": "Contact",
+      "permalink": "/contact"
+    },
+    {
+      "title": "Posts",
+      "permalink": "/posts"
+    },
+    {
+      "title": "Projects",
+      "permalink": "/projects"
+    }
+  ]
+}

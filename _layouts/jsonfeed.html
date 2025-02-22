@@ -14,17 +14,17 @@ layout: none
     "feed_url": "{{ base }}/feed.json",
     {% comment %}"favicon": "",{% endcomment %}
     "expired": false,
-    "items": [{% for post in site.posts %}{% if post.categories[0] != "casual" %}
+    "items": [{% for post in collections.posts reversed: true %}{% if post.categories[0] != "casual" %}
         {
             "id": "{{ post.id }}",
-            "title": {{ post.title | smartify | jsonify }},
+            "title": {{ post.data.title | smartify | jsonify }},
             "content_html": {{ post.content | jsonify }},
             "url": "{{ site.url }}{{ post.url }}",
-        {% if page.extlink %}
-            "external_url": "{{ post.extlink }}",
+        {% if post.data.extlink %}
+            "external_url": "{{ post.data.extlink }}",
         {% endif %}
-        {% if post.excerpt %}
-            "summary": {{ post.excerpt | smartify | jsonify }},
+        {% if post.data.excerpt %}
+            "summary": {{ post.data.excerpt | smartify | jsonify }},
         {% else %}
             "summary": {{ t.frontpage[page_language].description | smartify | jsonify }},
         {% endif %}

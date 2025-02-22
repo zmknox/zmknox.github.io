@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Apple's 'Let's Meet at Our Place' Event Keynote Bingo"
-date:   2017-08-31 18:12:00 -0400
+title: "Apple's 'Let's Meet at Our Place' Event Keynote Bingo"
+date: 2017-08-31T12:00:00-05:00
 categories: WWDC
 extlink: /bingo/apple092017/
 ---

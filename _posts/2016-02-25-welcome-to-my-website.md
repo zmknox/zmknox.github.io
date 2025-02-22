@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to my new website!"
-date:   2016-02-25 17:55:00 -0500
+title: "Welcome to my new website!"
+date: 2016-02-25T12:00:00-05:00
 categories: meta
 ---
 Welcome to my new website!

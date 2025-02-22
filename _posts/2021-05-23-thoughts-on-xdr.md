@@ -2,12 +2,12 @@
 layout: post
 title: Thoughts on XDR
 subtitle: Findings from the 2021 12.9" iPad Pro
-date: 2021-05-23 11:00:00 -0400
+date: 2021-05-23T12:00:00-05:00
 ---
 
 I recently upgraded my iPad from the 2018 11" iPad Pro to the new 2021 iPad Pro 12.9"[^1]. I was interested in the speeds of the M1 chip, but what really got me to upgrade (and to go up in display size) was the new Liquid Retina XDR display. This 12.9" display, with a resolution of 2732x2048@2x, has over 10,000 mini-LEDs to serve as a backlight laid out into 2,596 local dimming zones. That sounds fantastic! But what does it look like in practice?
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ## Contrast
 

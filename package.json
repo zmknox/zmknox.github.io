@@ -1,0 +1,31 @@
+{
+  "name": "zmknox",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Personal website for zmknox",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmknox/zmknox.github.io.git"
+  },
+  "author": "zmknox",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/zmknox/zmknox.github.io/issues"
+  },
+  "homepage": "https://github.com/zmknox/zmknox.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.3"
+  },
+  "devDependencies": {
+    "luxon": "^3.5.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-footnote": "^4.0.0"
+  }
+}

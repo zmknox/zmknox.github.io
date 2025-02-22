@@ -6,7 +6,6 @@
             "title": "Landing Page",
             "link": "https://anotherlens.app/"
         },
-        "testflight": "https://testflight.apple.com/join/pNPGggwZ",
         "current": false
     },
     {
@@ -59,7 +58,6 @@
             "project-name": "SRCT-Stickers",
             "project-url": "http://github.com/zmknox/SRCT-Stickers/"
         },
-        "appstore": "https://apps.apple.com/us/app/srct-stickers/id1330708068?mt=8",
         "current": false
     },
     {
@@ -109,13 +107,12 @@
     {
         "name": "What's Open for iPhone",
         "description": "SRCT provides an API for determining which resturants (and other locations) around the Mason campus are open. The goal of this project is to use that API in a native app using native Swift and UIKit.",
-        "gitlab": {
-            "profile-name": "SRCT",
-            "profile-url": "https://git.gmu.edu/srct",
+        "github": {
+            "profile": "srct",
+            "profile-url": "https://github.com/srct",
             "project-name": "whats-open-ios",
-            "project-url": "https://git.gmu.edu/srct/whats-open-ios"
+            "project-url": "https://github.com/srct/whats-open-ios"
         },
-        "appstore": "https://itunes.apple.com/us/app/whats-open-at-mason/id1331260366",
         "current": false
     },
     {
@@ -142,7 +139,7 @@
     },
     {
         "name":"{{ site.title }}",
-        "description":"This website is run on Cloudflare Pages and Jekyll. It has info about me and my projects.",
+        "description":"This website is run on Cloudflare Pages and Eleventy. It has info about me and my projects.",
         "github":{
             "profile":"zmknox",
             "project-name":"zmknox.github.io",

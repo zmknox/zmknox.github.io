@@ -7,13 +7,13 @@ in_nav: false
 
 <div class="home">
   <div class="post-list">
-    {% for post in site.posts %}
-      {% if post.categories[0] != "casual" %}
+    {% for post in collections.posts reversed: true %}
+      {% if categories[0] != "casual" %}
         <div class="archive-post-box">
-          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.updated %} • <em>Updated: {{ post.updated | date: "%B %-d, %Y" }}</em>{% endif %}</span>
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.data.updated %} • <em>Updated: {{ post.data.updated | date: "%B %-d, %Y" }}</em>{% endif %}</span>
 
           <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.data.title }}</a>
           </h2>
         </div>
       {% endif %}

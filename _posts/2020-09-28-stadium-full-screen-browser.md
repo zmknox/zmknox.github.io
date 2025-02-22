@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stadium Full Screen Browser"
-date: 2020-09-28 17:00 -0400
+date: 2020-09-28T12:00:00-05:00
 extlink: https://apps.apple.com/us/app/stadium-full-screen-browser/id1533596615
 ---
 

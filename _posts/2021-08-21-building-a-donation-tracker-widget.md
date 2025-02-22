@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a Donation Tracker Widget with Scriptable
-date: 2021-08-21 14:00:00 -0400
+date: 2021-08-21T12:00:00-05:00
 extlink: https://github.com/zmknox/relay-stjude-scriptable-widget
 ---
 
@@ -11,7 +11,7 @@ With many donation milestones and incentives along the way to their goal, many c
 
 Let's get started.
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ## Getting the data
 

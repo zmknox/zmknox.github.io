@@ -2,15 +2,15 @@
 layout: post
 title: "Building an Effective Swift Playground"
 subtitle: "Making the most out of the many quirks and features of playgrounds"
-date: 2019-04-06 16:00 -0400
-updated: 2020-05-05 19:00 -0500
+date: 2019-04-06T12:00:00-05:00
+updated: 2020-05-05T12:00:00-05:00
 ---
 
 [Swift Playgrounds for iPad](https://www.apple.com/swift/playgrounds/) [(and Mac!)](https://apps.apple.com/us/app/swift-playgrounds/id1496833156) is a really cool tool. It allows us to build experiences using real iOS APIs directly on iOS, and more importantly allows us to combine interactive experiences, code, and prose into a single composition. It's primarily used to teach kids to write code, but I could see it easily become a nice way to familiarize more experienced developers with a new API or framework in bite sized chunks.
 
 But there are a lot of pieces to playgrounds, and a lot you need to keep in mind. I've built multiple playgrounds as [WWDC scholarship applications]({{ "//2019/03/25/WWDC19-scholarship-application.html" | prepend: site.baseurl }}), and have watched or played with [many more](https://github.com/wwdc/2019). With this, I think I've gained some insight into how you can make your playground a really great experience. Here are some of my tips to building an effective playground.
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 _Before I begin, note that this post was updated in February 2020 with Swift Playgrounds 3.2 in mind. I originally wrote it in April of 2019 for Swift Playgrounds 2.2._
 

@@ -5,29 +5,27 @@ layout: homepage
 
 <div class="homepage">
     <h1 class="home-h1">{{ site.title }}</h1>
-    {% assign latest = site.posts.first %}
-    {% for post in site.posts %}
-      {% if post.categories[0] != "casual" %}
-        {% assign latest = post %}
-        {% break %}
-      {% endif %}
+    {% assign latest = collections.posts.first %}
+    {% for post in collections.posts reversed: true %}
+      {% assign latest = post %}
+      {% break %}
     {% endfor %}
     <div class="latest-post-link">
-      <div class='home-links'>Latest Post: <a href="{{ latest.url | prepend: site.baseurl }}">{{ latest.title }} <i
+      <div class='home-links'>Latest Post: <a href="{{ latest.url | prepend: site.baseurl }}">{{ latest.data.title }} <i
             class="fa fa-arrow-circle-right"></i></a></div>
     </div>
     
     <br />
-    {% for my_page in site.pages %}
+    {% for my_page in site.main_nav %}
       {% unless my_page.in_nav == false %}
         {% if my_page.title contains "" %}
-        <a class="home-links" href="{{ my_page.url | prepend: site.baseurl }}"> {{ my_page.title }} </a>&#9;
+        <a class="home-links" href="{{ my_page.permalink | prepend: site.baseurl }}"> {{ my_page.title }} </a>&#9;
         <br />
         <!---Needs some work--->
         {% endif %}
       {% endunless %}
     {% endfor %}
-    <br />
+    <div class="trans-rights-home">Trans rights are human rights.</div>
 </div>
 
 </center>

@@ -2,7 +2,7 @@
 layout: post
 title: "Edison Mail's Security Nightmare"
 subtitle: "How full access to my email was exposed to another user"
-date: 2020-05-23 13:00 -0400
+date: 2020-05-23T12:00:00-05:00
 ---
 
 Last Saturday, I woke up, updated some apps on my phone, and opened my email app, Edison Mail. I was greeted by a splash page telling me about a new account sync feature[^1], and to choose which email address was my primary account of the two I had in the app. I selected my Gmail address and tapped continue.
@@ -11,7 +11,7 @@ After I got into my inbox and my email reloaded, something was off. I noticed a 
 
 At first I thought it was a fluke bug—a very very bad fluke bug, but a fluke nonetheless. I emailed Edison support and promptly revoked access to my accounts to the app. It soon became clear that this was not just a fluke, but an _incredibly bad_ security issue. 
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ## How Edison Responded
 
