@@ -2,14 +2,14 @@
 layout: post
 title: "What If Developer ID Came To iOS?"
 subtitle: "This time, the solution is actually sweet"
-date: 2020-08-17 19:00 -0400
+date: 2020-08-17T12:00:00-05:00
 ---
 
 I have an iPhone. I prefer to use it, and its operating system, over other smartphones, but that means I am limited in how I can install apps onto it. Lately, with [all](https://twitter.com/dhh/status/1272604267933655045) of the [news](https://www.businessinsider.com/apple-explains-why-xbox-game-pass-is-not-on-iphone-2020-8) surrounding [issues](https://www.youtube.com/watch?v=euiSHuaw6Q4) in the App Store, I started to wonder: What would the iPhone and iPad look like if they allowed me to install apps from outside the App Store?
 
 Let's imagine it...
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ![Steve Jobs at WWDC 2007, promoting web apps as a "sweet solution"](/resources/developer-id/sweet-solution.png){: .img-thumbnail .mx-auto .d-block }
 

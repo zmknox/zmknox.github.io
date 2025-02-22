@@ -1,36 +1,10 @@
 <section>
-  <!-- Desktop -->
-  <div class="d-none d-lg-block">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-
-        <a class="navbar-brand" href="/">{{ site.title }}</a>
-
-        <!--desktop-->
-        <div class="collapse navbar-collapse navbar-expand-sm" id="navbarNav">
-          <ul class="navbar-nav">
-            {% for page in site.pages %}
-            {% unless page.in_nav == false %}
-            {% if page.title %}
-            <li class="nav-item"><a class="nav-link" href="{{page.permalink | prepend: site.baseurl }}">{{page.title}}</a>
-            </li>
-
-            {% endif %}
-            {% endunless %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <!-- Mobile (Centered) -->
-  <div class="d-xs-block d-lg-none">
+  <div class="d-xs-block">
     <div class="navbar navbar-dark">
       <a class="navbar-brand mx-auto" href="/">{{ site.title }}</a>
       <div class="navbar-collapse navbar-expand mx-auto" id="navbarNav">
       <ul class="navbar-nav mx-auto justify-content-center">
-        {% for page in site.pages %}
+        {% for page in site.main_nav %}
         {% unless page.in_nav == false %}
         {% if page.title %}
         <li class="nav-item"><a class="nav-link" href="{{page.permalink | prepend: site.baseurl }}">{{page.title}}</a>

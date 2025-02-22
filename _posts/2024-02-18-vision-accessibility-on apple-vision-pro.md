@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vision Accessibility on Apple&nbsp;Vision&nbsp;Pro
-date: 2024-02-18 15:00:00 -0500
+date: 2024-02-18T12:00:00-05:00
 ---
 
 I have low vision. A kind you can't really correct for with glasses or contacts. I also bought Apple&nbsp;Vision&nbsp;Pro at launch. _Why would I do this?_ Well because I'm a nerd who wants to see the future, but also because I was fascinated to see how Apple would handle accessibility for this new product. Apple's track record on accessibility in the past decade has been stellar[^1], in my opinion, with their teams adding [powerful](https://www.apple.com/newsroom/2023/05/apple-previews-live-speech-personal-voice-and-more-new-accessibility-features/) [options](https://www.apple.com/newsroom/2022/05/apple-previews-innovative-accessibility-features/) [every year](https://www.apple.com/newsroom/2021/05/apple-previews-powerful-software-updates-designed-for-people-with-disabilities/) and ensuring every new platform has accessibility support built in from the start.
@@ -9,7 +9,7 @@ I have low vision. A kind you can't really correct for with glasses or contacts.
 After watching [Apple’s WWDC23 session on visionOS accessibility](https://developer.apple.com/wwdc23/10034), I knew accessibility on visionOS was an important point for them. But even after consuming as much information on the platform as I could, I knew I had to try it for myself to know the answer to the important question: how well does it work _for me_?
 
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ![A screenshot of the Accessibility settings in visionOS. Options can be seen in the Vision heading for VoiceOver, Zoom, Display and Text Size, Motion, Spoken Content, Audio Descriptions (set to off), and Eye Input (set to Both Eyes). A Physical and Motor heading is visible at the bottom of the window, hinting at scrollable content.](/resources/vision-accessibility/accessibility-settings.png){: .img-fluid .mx-auto .d-block }
 

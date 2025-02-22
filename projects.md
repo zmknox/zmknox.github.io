@@ -10,10 +10,9 @@ This is a list of projects I've contributed to or worked on past and present. Th
 
 <center><h2>Current Projects</h2></center>
 
-<div class="project-card-columns">
-{% for project in site.data.projects %}
+{% for project in projects %}
 {% if project.current == true %}
-<div class="card project-card my-2">
+<div class="card project-card current-project-card my-3 mx-auto">
 
 {% if project.appstore %}
 <h3 class="project-heading">{{ project.name }}  <a href="{{ project.appstore }}"><img class="store-badge" src="{{ site.baseurl }}/resources/AppStore.png" alt="Download on the App Store"></a></h3>
@@ -49,12 +48,11 @@ This is a list of projects I've contributed to or worked on past and present. Th
 </div>
 {% endif %} 
 {% endfor %}
-</div>
 
 <center><h2 class="mt-5 mb-3">Completed / Inactive Projects</h2></center>
 
 <div class="project-card-columns">
-{% for project in site.data.projects %}
+{% for project in projects %}
 {% if project.current == false %}
 <div class="card project-card my-2">
 
@@ -96,6 +94,4 @@ This is a list of projects I've contributed to or worked on past and present. Th
 {% endif %}
 {% endfor %}
 </div>
-----------------------------
 
-I have also contributed to some [SRCT](http://srct.gmu.edu/) projects that may not be listed, which you can find here: [<i class="fab fa-github"></i> SRCT](https://github.com/SRCT).

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Creating a headless Ubuntu Virtual Machine on macOS"
-date:   2016-07-26 12:00:00 -0500
+title: "Creating a headless Ubuntu Virtual Machine on macOS"
+date: 2016-07-26T12:00:00-05:00
 categories: Mac macOS
 ---
 I really love my Mac, and I love macOS (though that new rename from OS X is a little odd), but sometimes, despite macOS being [Certified UNIX](http://www.opengroup.org/openbrand/register/brand3612.htm), development is sometimes just easier with a Linux distribution than the BSD based Darwin kernel and macOS that sits above it. To solve this problem, I decided to run a headless Ubuntu Server 16.04 LTS virtual machine, one that isn't confied to a virtual monitor that I can connect to over SSH, on top of macOS using VirtualBox.
@@ -14,7 +14,7 @@ To do this, you will need
 -   some command line experience
 
 If you have all of that, and some time, then you're ready to create your own headless Ubuntu virtual machine!
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 -----------------
 

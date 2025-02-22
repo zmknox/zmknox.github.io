@@ -2,13 +2,13 @@
 layout: post
 title: "Thoughts on WWDC18"
 subtitle: "From a first timer's and a scholarship winner's point of view"
-date: 2018-08-03 18:30 -0400
+date: 2018-08-03T12:00:00-05:00
 categories: wwdc
 ---
 
 This year, I was lucky enough to be awarded a scholarship to attend Apple's annual Worldwide Developers Conference. It was a really great conference and I thought I'd share some of my experiences. I didn't record nearly enough video to make a vlog, so this text and image heavy post will have to suffice.
 
-<!-- more -->
+<!-- excerpt --><!-- more -->
 
 ![Myself in front of McEnery Convention Center](/resources/wwdc18/meatdubdub.jpg){: .img-thumbnail .img-width .mx-auto .d-block }
 ###### _Photo Credit: Pat Murray ([@_patmurray](https://twitter.com/_patmurray))_

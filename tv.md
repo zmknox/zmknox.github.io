@@ -8,8 +8,8 @@ in_nav: false
 ---
 
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-    {% for show in site.data.tv %}
+<div class="tv-card-columns">
+    {% for show in tv %}
     <div class="col tv-col">
         <div class="card tv-card mx-auto">
             <img src="https://image.tmdb.org/t/p/w300{{ show.poster }}" class="card-img-top tv-poster" />

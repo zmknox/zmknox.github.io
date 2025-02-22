@@ -4,38 +4,24 @@
         "notes": "The most real feeling show about hackers, but that isn't what it's really about.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/62560-mr-robot/watch?locale=US",
-            "flatrate": [
-                {
-                    "logo_path": "/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
-                    "provider_id": 9,
-                    "provider_name": "Amazon Prime Video",
-                    "display_priority": 1
-                }
-            ],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
                     "provider_id": 2,
                     "provider_name": "Apple TV",
-                    "display_priority": 4
+                    "display_priority": 6
                 },
                 {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
-                    "provider_id": 10,
-                    "provider_name": "Amazon Video",
-                    "display_priority": 15
-                },
-                {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
                 }
             ]
         },
@@ -46,78 +32,38 @@
         "notes": "The trials and tribulations of making computers in the 80s. If you hadn't noticed, I enjoy computers.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/59659-halt-and-catch-fire/watch?locale=US",
-            "free": [
-                {
-                    "logo_path": "/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
-                    "provider_id": 9,
-                    "provider_name": "Amazon Prime Video",
-                    "display_priority": 1
-                }
-            ],
-            "flatrate": [
-                {
-                    "logo_path": "/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
-                    "provider_id": 9,
-                    "provider_name": "Amazon Prime Video",
-                    "display_priority": 1
-                },
-                {
-                    "logo_path": "/yFgm7vxwKZ4jfXIlPizlgoba2yi.jpg",
-                    "provider_id": 1854,
-                    "provider_name": "AMC Plus Apple TV Channel ",
-                    "display_priority": 22
-                },
-                {
-                    "logo_path": "/9edKQczyuMmQM1yS520hgmJbcaC.jpg",
-                    "provider_id": 528,
-                    "provider_name": "AMC+ Amazon Channel",
-                    "display_priority": 27
-                },
-                {
-                    "logo_path": "/ni2NgPmIqqJRXeiA8Zdj4UhBZnU.jpg",
-                    "provider_id": 635,
-                    "provider_name": "AMC+ Roku Premium Channel",
-                    "display_priority": 33
-                },
-                {
-                    "logo_path": "/xlonQMSmhtA2HHwK3JKF9ghx7M8.jpg",
-                    "provider_id": 526,
-                    "provider_name": "AMC+",
-                    "display_priority": 35
-                }
-            ],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
                     "provider_id": 2,
                     "provider_name": "Apple TV",
-                    "display_priority": 4
+                    "display_priority": 6
                 },
                 {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
-                    "provider_id": 10,
-                    "provider_name": "Amazon Video",
-                    "display_priority": 15
-                },
-                {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                },
+                {
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+                    "provider_id": 68,
+                    "provider_name": "Microsoft Store",
+                    "display_priority": 47
                 }
             ],
-            "ads": [
+            "flatrate": [
                 {
-                    "logo_path": "/z0h7mBHwm5KfMB2MKeoQDD2ngEZ.jpg",
-                    "provider_id": 207,
-                    "provider_name": "The Roku Channel",
-                    "display_priority": 29
+                    "logo_path": "/ovmu6uot1XVvsemM2dDySXLiX57.jpg",
+                    "provider_id": 526,
+                    "provider_name": "AMC+",
+                    "display_priority": 31
                 }
             ]
         },
@@ -130,13 +76,13 @@
             "link": "https://www.themoviedb.org/tv/54344-the-leftovers/watch?locale=US",
             "buy": [
                 {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
@@ -144,16 +90,16 @@
             ],
             "flatrate": [
                 {
-                    "logo_path": "/6Q3ZYUNA9Hsgj6iWnVsw2gR5V6z.jpg",
+                    "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
                     "provider_id": 1899,
                     "provider_name": "Max",
-                    "display_priority": 9
+                    "display_priority": 10
                 },
                 {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
-                    "provider_id": 486,
-                    "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
+                    "logo_path": "/erfmV26akboHUerxGjpl8pBwww3.jpg",
+                    "provider_id": 1825,
+                    "provider_name": "Max Amazon Channel",
+                    "display_priority": 11
                 }
             ]
         },
@@ -166,48 +112,54 @@
             "link": "https://www.themoviedb.org/tv/100088-the-last-of-us/watch?locale=US",
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
                 },
                 {
-                    "logo_path": "/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg",
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
                     "provider_id": 68,
                     "provider_name": "Microsoft Store",
-                    "display_priority": 53
+                    "display_priority": 47
                 }
             ],
             "flatrate": [
                 {
-                    "logo_path": "/6Q3ZYUNA9Hsgj6iWnVsw2gR5V6z.jpg",
+                    "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
                     "provider_id": 1899,
                     "provider_name": "Max",
-                    "display_priority": 9
+                    "display_priority": 10
                 },
                 {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
+                    "logo_path": "/erfmV26akboHUerxGjpl8pBwww3.jpg",
+                    "provider_id": 1825,
+                    "provider_name": "Max Amazon Channel",
+                    "display_priority": 11
+                },
+                {
+                    "logo_path": "/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
                     "provider_id": 486,
                     "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
+                    "display_priority": 126
                 }
             ]
         },
@@ -220,141 +172,142 @@
             "link": "https://www.themoviedb.org/tv/46533-the-americans/watch?locale=US",
             "flatrate": [
                 {
-                    "logo_path": "/zxrVdFjIjLqkfnwyghnfywTn3Lh.jpg",
+                    "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
                     "provider_id": 15,
                     "provider_name": "Hulu",
-                    "display_priority": 5
+                    "display_priority": 7
                 }
             ],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
                 }
             ]
         },
-        "poster": "/lD4gTLrI81Crs6CDwwjQrnkJrUm.jpg"
+        "poster": "/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg"
+    },
+    {
+        "name": "Silo",
+        "notes": "We do not know who built the Silo, but we will do everything we can to find out in this absolutely gripping apocalyptic mystery-box.",
+        "provider": {
+            "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=US",
+            "flatrate": [
+                {
+                    "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+                    "provider_id": 350,
+                    "provider_name": "Apple TV+",
+                    "display_priority": 3
+                },
+                {
+                    "logo_path": "/yFrZVSC4UnDpeIzX2svcRPgV5P5.jpg",
+                    "provider_id": 2243,
+                    "provider_name": "Apple TV Plus Amazon Channel",
+                    "display_priority": 275
+                }
+            ]
+        },
+        "poster": "/c2OijvbFEXBW1onbzuvENr4CGQB.jpg"
     },
     {
         "name": "Survivor",
         "notes": "There's quite a bit of interesting strategy and gameplay under the surface. If yoy're new, try seasons 28, 15, and 37.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/14658-survivor/watch?locale=US",
-            "buy": [
-                {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
-                    "provider_id": 10,
-                    "provider_name": "Amazon Video",
-                    "display_priority": 15
-                },
-                {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
-                    "provider_id": 3,
-                    "provider_name": "Google Play Movies",
-                    "display_priority": 16
-                },
-                {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
-                    "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
-                },
-                {
-                    "logo_path": "/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg",
-                    "provider_id": 68,
-                    "provider_name": "Microsoft Store",
-                    "display_priority": 53
-                }
-            ],
-            "ads": [
-                {
-                    "logo_path": "/t6N57S17sdXRXmZDAkaGP0NHNG0.jpg",
-                    "provider_id": 300,
-                    "provider_name": "Pluto TV",
-                    "display_priority": 106
-                }
-            ],
-            "free": [
-                {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
-                    "provider_id": 486,
-                    "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
-                }
-            ],
-            "fast": [],
             "flatrate": [
                 {
-                    "logo_path": "/xbhHHa1YgtpwhC8lb1NQ3ACVcLd.jpg",
+                    "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg",
                     "provider_id": 531,
                     "provider_name": "Paramount+",
                     "display_priority": 18
                 },
                 {
-                    "logo_path": "/9pdeflA0P1b8qlkeDA1oLfyvR06.jpg",
+                    "logo_path": "/tJqmTmQ8jp9WfyaZfApHK8lSywA.jpg",
                     "provider_id": 1853,
                     "provider_name": "Paramount Plus Apple TV Channel ",
                     "display_priority": 20
                 },
                 {
-                    "logo_path": "/3E0RkIEQrrGYazs63NMsn3XONT6.jpg",
+                    "logo_path": "/hExO4PtimLIYn3kBOrzsejNv7cT.jpg",
                     "provider_id": 582,
                     "provider_name": "Paramount+ Amazon Channel",
                     "display_priority": 24
                 },
                 {
-                    "logo_path": "/qlVSrZgfXlFw0Jj6hsYq2zi70JD.jpg",
+                    "logo_path": "/ywIoxSjoYJGUIbR6BfxUiCHdPi3.jpg",
                     "provider_id": 633,
                     "provider_name": "Paramount+ Roku Premium Channel",
-                    "display_priority": 31
+                    "display_priority": 28
+                }
+            ],
+            "buy": [
+                {
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+                    "provider_id": 10,
+                    "provider_name": "Amazon Video",
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/xL9SUR63qrEjFZAhtsipskeAMR7.jpg",
-                    "provider_id": 358,
-                    "provider_name": "DIRECTV",
-                    "display_priority": 58
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
                 },
                 {
-                    "logo_path": "/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-                    "provider_id": 1796,
-                    "provider_name": "Netflix basic with Ads",
-                    "display_priority": 220
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+                    "provider_id": 3,
+                    "provider_name": "Google Play Movies",
+                    "display_priority": 16
                 },
                 {
-                    "logo_path": "/2BPU00vSfCZ4XI2CnQCBv8rZk2f.jpg",
-                    "provider_id": 78,
-                    "provider_name": "CBS",
-                    "display_priority": 1000
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+                    "provider_id": 7,
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                },
+                {
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+                    "provider_id": 68,
+                    "provider_name": "Microsoft Store",
+                    "display_priority": 47
+                }
+            ],
+            "ads": [
+                {
+                    "logo_path": "/wQzSN83BnWVgO7xEh0SeTVqtrFv.jpg",
+                    "provider_id": 207,
+                    "provider_name": "The Roku Channel",
+                    "display_priority": 27
+                },
+                {
+                    "logo_path": "/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+                    "provider_id": 300,
+                    "provider_name": "Pluto TV",
+                    "display_priority": 80
                 }
             ]
         },
-        "poster": "/k2mLNjLFrmMXdXq4d5pn8qRd3bU.jpg"
+        "poster": "/1usR1nanbDvnc0LJlWd5TOylT9M.jpg"
     },
     {
         "name": "Euphoria",
@@ -363,48 +316,42 @@
             "link": "https://www.themoviedb.org/tv/85552-euphoria/watch?locale=US",
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
-                },
-                {
-                    "logo_path": "/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg",
-                    "provider_id": 68,
-                    "provider_name": "Microsoft Store",
-                    "display_priority": 53
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
                 }
             ],
             "flatrate": [
                 {
-                    "logo_path": "/6Q3ZYUNA9Hsgj6iWnVsw2gR5V6z.jpg",
+                    "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
                     "provider_id": 1899,
                     "provider_name": "Max",
-                    "display_priority": 9
+                    "display_priority": 10
                 },
                 {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
-                    "provider_id": 486,
-                    "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
+                    "logo_path": "/erfmV26akboHUerxGjpl8pBwww3.jpg",
+                    "provider_id": 1825,
+                    "provider_name": "Max Amazon Channel",
+                    "display_priority": 11
                 }
             ]
         },
@@ -417,48 +364,48 @@
             "link": "https://www.themoviedb.org/tv/79788-watchmen/watch?locale=US",
             "flatrate": [
                 {
-                    "logo_path": "/6Q3ZYUNA9Hsgj6iWnVsw2gR5V6z.jpg",
+                    "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
                     "provider_id": 1899,
                     "provider_name": "Max",
-                    "display_priority": 9
+                    "display_priority": 10
                 },
                 {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
-                    "provider_id": 486,
-                    "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
+                    "logo_path": "/erfmV26akboHUerxGjpl8pBwww3.jpg",
+                    "provider_id": 1825,
+                    "provider_name": "Max Amazon Channel",
+                    "display_priority": 11
                 }
             ],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
                 },
                 {
-                    "logo_path": "/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg",
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
                     "provider_id": 68,
                     "provider_name": "Microsoft Store",
-                    "display_priority": 53
+                    "display_priority": 47
                 }
             ]
         },
@@ -469,38 +416,44 @@
         "notes": "So often, you read about major past world event, but can't fully grasp what it felt like at the time and on the ground. This show gets it.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/87108-chernobyl/watch?locale=US",
-            "buy": [
-                {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
-                    "provider_id": 10,
-                    "provider_name": "Amazon Video",
-                    "display_priority": 15
-                },
-                {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
-                    "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
-                }
-            ],
             "flatrate": [
                 {
-                    "logo_path": "/6Q3ZYUNA9Hsgj6iWnVsw2gR5V6z.jpg",
+                    "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
                     "provider_id": 1899,
                     "provider_name": "Max",
-                    "display_priority": 9
+                    "display_priority": 10
                 },
                 {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
-                    "provider_id": 486,
-                    "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
+                    "logo_path": "/erfmV26akboHUerxGjpl8pBwww3.jpg",
+                    "provider_id": 1825,
+                    "provider_name": "Max Amazon Channel",
+                    "display_priority": 11
+                }
+            ],
+            "buy": [
+                {
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+                    "provider_id": 10,
+                    "provider_name": "Amazon Video",
+                    "display_priority": 5
+                },
+                {
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
+                    "provider_id": 7,
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                },
+                {
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+                    "provider_id": 68,
+                    "provider_name": "Microsoft Store",
+                    "display_priority": 47
                 }
             ]
         },
@@ -511,86 +464,98 @@
         "notes": "Politics is mean and ridiculous and full of petty fights. Maybe this show feels less outlandish now...",
         "provider": {
             "link": "https://www.themoviedb.org/tv/2947-veep/watch?locale=US",
-            "flatrate": [
-                {
-                    "logo_path": "/6Q3ZYUNA9Hsgj6iWnVsw2gR5V6z.jpg",
-                    "provider_id": 1899,
-                    "provider_name": "Max",
-                    "display_priority": 9
-                },
-                {
-                    "logo_path": "/1tLCqSH5xiViDxMiTVWl6DmE8hd.jpg",
-                    "provider_id": 486,
-                    "provider_name": "Spectrum On Demand",
-                    "display_priority": 169
-                }
-            ],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                }
+            ],
+            "flatrate": [
+                {
+                    "logo_path": "/fksCUZ9QDWZMUwL2LgMtLckROUN.jpg",
+                    "provider_id": 1899,
+                    "provider_name": "Max",
+                    "display_priority": 10
+                },
+                {
+                    "logo_path": "/erfmV26akboHUerxGjpl8pBwww3.jpg",
+                    "provider_id": 1825,
+                    "provider_name": "Max Amazon Channel",
+                    "display_priority": 11
                 }
             ]
         },
-        "poster": "/rsP68RZwUkhdi47hE8AEPLQNVfQ.jpg"
+        "poster": "/cdd78fGdaA3EbK2ToZRWcaaB1fx.jpg"
     },
     {
         "name": "30 Rock",
         "notes": "In which Comcast takes over the network and Tracy Morgan takes over SNL, more or less.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/4608-30-rock/watch?locale=US",
-            "flatrate": [
+            "buy": [
                 {
-                    "logo_path": "/zxrVdFjIjLqkfnwyghnfywTn3Lh.jpg",
-                    "provider_id": 15,
-                    "provider_name": "Hulu",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+                    "provider_id": 10,
+                    "provider_name": "Amazon Video",
                     "display_priority": 5
                 },
                 {
-                    "logo_path": "/xTHltMrZPAJFLQ6qyCBjAnXSmZt.jpg",
-                    "provider_id": 387,
-                    "provider_name": "Peacock Premium",
-                    "display_priority": 13
-                }
-            ],
-            "buy": [
-                {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
                     "provider_id": 2,
                     "provider_name": "Apple TV",
-                    "display_priority": 4
+                    "display_priority": 6
                 },
                 {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
-                    "provider_id": 10,
-                    "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+                    "provider_id": 3,
+                    "provider_name": "Google Play Movies",
+                    "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                }
+            ],
+            "flatrate": [
+                {
+                    "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
+                    "provider_id": 15,
+                    "provider_name": "Hulu",
+                    "display_priority": 7
+                },
+                {
+                    "logo_path": "/2aGrp1xw3qhwCYvNGAJZPdjfeeX.jpg",
+                    "provider_id": 386,
+                    "provider_name": "Peacock Premium",
+                    "display_priority": 14
+                },
+                {
+                    "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg",
+                    "provider_id": 387,
+                    "provider_name": "Peacock Premium Plus",
+                    "display_priority": 269
                 }
             ]
         },
@@ -603,46 +568,52 @@
             "link": "https://www.themoviedb.org/tv/4589-arrested-development/watch?locale=US",
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                },
+                {
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+                    "provider_id": 68,
+                    "provider_name": "Microsoft Store",
+                    "display_priority": 47
                 }
             ],
             "flatrate": [
                 {
-                    "logo_path": "/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+                    "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
                     "provider_id": 8,
                     "provider_name": "Netflix",
                     "display_priority": 0
                 },
                 {
-                    "logo_path": "/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+                    "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
                     "provider_id": 1796,
                     "provider_name": "Netflix basic with Ads",
-                    "display_priority": 220
+                    "display_priority": 174
                 }
             ]
         },
-        "poster": "/qMzwO952hMWQSCfHkp7IL20s4K7.jpg"
+        "poster": "/p4r4RD7RsNcJVoz0H6z3dBoTBtW.jpg"
     },
     {
         "name": "American Vandal",
@@ -651,24 +622,24 @@
             "link": "https://www.themoviedb.org/tv/73126-american-vandal/watch?locale=US",
             "buy": [
                 {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 }
             ],
             "flatrate": [
                 {
-                    "logo_path": "/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+                    "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
                     "provider_id": 8,
                     "provider_name": "Netflix",
                     "display_priority": 0
                 },
                 {
-                    "logo_path": "/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+                    "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
                     "provider_id": 1796,
                     "provider_name": "Netflix basic with Ads",
-                    "display_priority": 220
+                    "display_priority": 174
                 }
             ]
         },
@@ -681,14 +652,20 @@
             "link": "https://www.themoviedb.org/tv/71915-good-omens/watch?locale=US",
             "flatrate": [
                 {
-                    "logo_path": "/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
+                    "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
                     "provider_id": 9,
                     "provider_name": "Amazon Prime Video",
-                    "display_priority": 1
+                    "display_priority": 2
+                },
+                {
+                    "logo_path": "/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+                    "provider_id": 2100,
+                    "provider_name": "Amazon Prime Video with Ads",
+                    "display_priority": 255
                 }
             ]
         },
-        "poster": "/1ibIjP6puA4y2SfCn9icSehHrBu.jpg"
+        "poster": "/omgCpyBV5sUT8AkeIcEwdPPgKZC.jpg"
     },
     {
         "name": "I Think You Should Leave with Tim Robinson",
@@ -697,16 +674,16 @@
             "link": "https://www.themoviedb.org/tv/88728-i-think-you-should-leave-with-tim-robinson/watch?locale=US",
             "flatrate": [
                 {
-                    "logo_path": "/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+                    "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
                     "provider_id": 8,
                     "provider_name": "Netflix",
                     "display_priority": 0
                 },
                 {
-                    "logo_path": "/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+                    "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
                     "provider_id": 1796,
                     "provider_name": "Netflix basic with Ads",
-                    "display_priority": 220
+                    "display_priority": 174
                 }
             ]
         },
@@ -714,40 +691,33 @@
     },
     {
         "name": "Westworld",
-        "notes": "I know you don't like this show, but I really appreciate the world they've built and I want to see it expand.",
+        "notes": "I know you don't like this show, but I really appreciate the world they've built and I enjoyed it expand.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/63247-westworld/watch?locale=US",
-            "fast": [],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
                     "provider_id": 2,
                     "provider_name": "Apple TV",
-                    "display_priority": 4
+                    "display_priority": 6
                 },
                 {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
-                    "provider_id": 10,
-                    "provider_name": "Amazon Video",
-                    "display_priority": 15
-                },
-                {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
                 },
                 {
-                    "logo_path": "/shq88b09gTBYC4hA7K7MUL8Q4zP.jpg",
+                    "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
                     "provider_id": 68,
                     "provider_name": "Microsoft Store",
-                    "display_priority": 53
+                    "display_priority": 47
                 }
             ]
         },
@@ -758,44 +728,44 @@
         "notes": "You think you're watching a network sitcom, but you're actually learning philosophy.",
         "provider": {
             "link": "https://www.themoviedb.org/tv/66573-the-good-place/watch?locale=US",
-            "flatrate": [
-                {
-                    "logo_path": "/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
-                    "provider_id": 8,
-                    "provider_name": "Netflix",
-                    "display_priority": 0
-                },
-                {
-                    "logo_path": "/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-                    "provider_id": 1796,
-                    "provider_name": "Netflix basic with Ads",
-                    "display_priority": 220
-                }
-            ],
             "buy": [
                 {
-                    "logo_path": "/peURlLlr8jggOwK53fJ5wdQl05y.jpg",
-                    "provider_id": 2,
-                    "provider_name": "Apple TV",
-                    "display_priority": 4
-                },
-                {
-                    "logo_path": "/5NyLm42TmCqCMOZFvH4fcoSNKEW.jpg",
+                    "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
                     "provider_id": 10,
                     "provider_name": "Amazon Video",
-                    "display_priority": 15
+                    "display_priority": 5
                 },
                 {
-                    "logo_path": "/tbEdFQDwx5LEVr8WpSeXQSIirVq.jpg",
+                    "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+                    "provider_id": 2,
+                    "provider_name": "Apple TV",
+                    "display_priority": 6
+                },
+                {
+                    "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
                     "provider_id": 3,
                     "provider_name": "Google Play Movies",
                     "display_priority": 16
                 },
                 {
-                    "logo_path": "/21dEscfO8n1tL35k4DANixhffsR.jpg",
+                    "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg",
                     "provider_id": 7,
-                    "provider_name": "Vudu",
-                    "display_priority": 42
+                    "provider_name": "Fandango At Home",
+                    "display_priority": 37
+                }
+            ],
+            "flatrate": [
+                {
+                    "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+                    "provider_id": 8,
+                    "provider_name": "Netflix",
+                    "display_priority": 0
+                },
+                {
+                    "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+                    "provider_id": 1796,
+                    "provider_name": "Netflix basic with Ads",
+                    "display_priority": 174
                 }
             ]
         },

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WWDC18 Keynote Bingo (and a draft scorecard)"
-date: 2018-06-01 21:50 -0400
+date: 2018-06-01T12:00:00-05:00
 extlink: /bingo/wwdc2018/
 ---
 

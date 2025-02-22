@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Talk: Building Static Websites with Jekyll"
-date: 2018-03-08 12:00:00 -0500
+date: 2018-03-08T12:00:00-05:00
 extlink: https://go.gmu.edu/SRCTJekyllTalk
 ---
 
