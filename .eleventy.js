@@ -66,6 +66,10 @@ export default function (eleventyConfig) {
     excerpt_separator: "<!-- excerpt -->",
   });
 
+  eleventyConfig.addFilter("stripNBSP", function(value) {
+    return value.replace(/\&nbsp;/g, ' ');
+  });
+
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss", // or "rss", "json"
     outputPath: "/feed.xml",
