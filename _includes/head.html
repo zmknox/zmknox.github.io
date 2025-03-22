@@ -18,10 +18,10 @@
   <meta content="website" property="og:type">
   {% endif %}
 
-  {% if page.excerpt %}
+  {% if description %}
+  <meta content="{{ description | strip_html | strip_newlines }}" property="og:description">
+  {% elsif page.excerpt %}
   <meta content="{{ page.excerpt | strip_html | stripNBSP | strip_newlines | truncate: 250 }}" property="og:description">
-  {% elsif page.description %}
-  <meta content="{{ page.description | strip_html | strip_newlines }}" property="og:description">
   {% else %}
   <meta content="{{ site.description | strip_html | strip_newlines }}" property="og:description">
   {% endif %}
@@ -35,16 +35,22 @@
   <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
 
-  <!-- <meta property="og:image" content=""> -->
+  {% if ogImage %}
+  <meta property="og:image" content="{{ ogImage }}">
+  {% elsif layout == "post" %}
+  <meta property="og:image" content="/resources/post-og-image.png">
+  {% else %}
+  <meta property="og:image" content="/resources/page-og-image.png">
+  {% endif %}
 
-  {% if page.data.categories %}
-  {% for category in page.data.categories limit:1 %}
+  {% if categories %}
+  {% for category in categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
   {% endfor %}
   {% endif %}
 
-  {% if page.data.tags %}
-  {% for tag in page.data.tags %}
+  {% if tags %}
+  {% for tag in tags %}
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
   {% endif %}
@@ -56,7 +62,7 @@
 
   <!-- Fediverse -->
   <meta name="fediverse:creator" content="@zmk@snailedit.social">
-    <link rel="me" href="https://snailedit.social/@zmk">
+  <link rel="me" href="https://snailedit.social/@zmk">
   <link rel="me" "proven15913f">
 
   <!-- CSS -->
