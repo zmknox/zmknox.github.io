@@ -11,3 +11,5 @@ This provides a way for me to easily update static files in order to create a si
 features, like this blog!
 
 Look forward to more content here soon.
+
+<!-- excerpt -->

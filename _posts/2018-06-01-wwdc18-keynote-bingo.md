@@ -14,3 +14,5 @@ But wait, there's more!
 Earlier this week, Myke and Jason of [Upgrade](https://relay.fm/upgrade) did their WWDC18 keynote draft,
 and I decided to make an interactive scorecard for it also (you may have seen a link to it in their show
 notes...). Be sure to [Check that out as well](/bingo/wwdc2018/draft.html)
+
+<!-- excerpt -->
