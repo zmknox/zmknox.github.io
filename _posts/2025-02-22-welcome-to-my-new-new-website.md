@@ -8,7 +8,7 @@ categories: meta
 
 Hello and welcome to my _NEW_ new website. If everything goes well, it should look almost exactly the same[^1].
 
-Around nine years ago, I set this website up with [Jekyll]() and [GitHub Pages](). Since then, it's gone to a new host (I'm currently hosting it using [Cloudflare Pages]()), switched primary domain names (though most old links should still redirect), and now is undergoing a brain transplant. From Jekyll to [Eleventy]()!
+Around nine years ago, I set this website up with [Jekyll](https://jekyllrb.com) and [GitHub Pages](https://pages.github.com). Since then, it's gone to a new host (I'm currently hosting it using [Cloudflare Pages](https://pages.cloudflare.com)), switched primary domain names (though most old links should still redirect), and now is undergoing a brain transplant. From Jekyll to [Eleventy](https://www.11ty.dev)!
 
 <!-- excerpt --><!-- more -->
 
