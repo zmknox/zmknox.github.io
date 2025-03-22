@@ -7,9 +7,9 @@
   <meta content="{{ site.title }}" property="og:site_name">
 
   {% if title %}
-  <meta content="B{{ title | stripNBSP }}" property="og:title">
+  <meta content="{{ title | stripNBSP }}" property="og:title">
   {% else %}
-  <meta content="C{{ site.title }}" property="og:title">
+  <meta content="{{ site.title }}" property="og:title">
   {% endif %}
 
   {% if title %}
