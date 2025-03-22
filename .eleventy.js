@@ -11,6 +11,7 @@ export const config = {
 };
 
 export default function (eleventyConfig) {
+  eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addPassthroughCopy("css/main.css");
   eleventyConfig.addPassthroughCopy("css/post.css");
   // eleventyConfig.addPassthroughCopy("keybase.txt");
@@ -68,6 +69,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("stripNBSP", function(value) {
     return value.replace(/\&nbsp;/g, ' ');
+  });
+
+  eleventyConfig.addFilter("markdown", (content) => {
+    return markdownLib.render(content);
   });
 
   eleventyConfig.addPlugin(feedPlugin, {

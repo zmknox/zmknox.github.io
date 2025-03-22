@@ -21,7 +21,7 @@
   {% if description %}
   <meta content="{{ description | strip_html | strip_newlines }}" property="og:description">
   {% elsif page.excerpt %}
-  <meta content="{{ page.excerpt | strip_html | stripNBSP | strip_newlines | truncate: 250 }}" property="og:description">
+  <meta content="{{ page.excerpt | markdown | strip_html | stripNBSP | strip_newlines | truncate: 250 }}" property="og:description">
   {% else %}
   <meta content="{{ site.description | strip_html | strip_newlines }}" property="og:description">
   {% endif %}
