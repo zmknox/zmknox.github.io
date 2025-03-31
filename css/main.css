@@ -22,7 +22,12 @@
 
 .navbar-default .navbar-brand {
   color: #abc0ca !important;
+  font-family: "Gill Sans", system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size: 24pt;
+}
+
+.navbar-brand {
+  font-family: "Gill Sans", system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .footer-mobile {
@@ -268,6 +273,7 @@ code {
 @media (max-width: 575px) {
   .home-h1 {
     font-size: 72px;
+    font-family: "Gill Sans", system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-weight: 700;
     color: white;
   }
@@ -275,6 +281,7 @@ code {
 
 @media (min-width: 576px) {
   .home-h1 {
+    font-family: "Gill Sans", system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 148px;
     color: white;
   }

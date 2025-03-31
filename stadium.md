@@ -23,4 +23,4 @@ Stadium is created by me, [{{ site.name }}](https://twitter.com/zmknox). I hope 
 
 This app is free. I hope you understand that I may not be able to get to all of your messages.
 
-If you have any questions or comments, join [my Discord server](https://discord.gg/TaG9bnm) or feel free to send me an email: [stadium@zachknox.com](mailto:stadium@zachknox.com).
+If you have any questions or comments, join [my Discord server](https://discord.gg/TaG9bnm) or feel free to send me an email: [stadium@zmknox.com](mailto:stadium@zmknox.com).

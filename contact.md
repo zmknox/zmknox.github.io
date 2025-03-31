@@ -15,7 +15,7 @@ You can get in touch with me in a few ways:
 ### Direct Message
 
 The quickest way to get my attention is to send me a direct message somewhere. That might be
-on [social media](https://snailedit.social/@zmk), Discord, or something more secure like Signal or [<i class="fa fa-key"></i> Keybase](https://keybase.io/zmknox). If you don't have my contact info for these or any other messaging service, send me an email and I can send it over.
+on [social media](https://snailedit.social/@zmk), Discord, or something more secure like Signal. If you don't have my contact info for these or any other messaging service, send me an email and I can send it over.
 
 ### Email
 

@@ -21,6 +21,7 @@ _Before I begin, note that this post was updated in February 2020 with Swift Pla
 This first tip seems trivial, but I think it's important. Can you run a basic playground in Xcode? Absolutely. Unless you're prototyping, however, don't intend for your playground to run within Xcode. The experience of interacting and modifying a playground in the Swift Playgrounds app is so much more fun and inviting, and the abilities of the Playground Book format offer far more than a basic Xcode playground.
 
 <br />
+
 ## Use Playground Pages
 
 Look at a screenshot of Swift Playgrounds for iPad. What do you see?
@@ -42,6 +43,7 @@ If you want even more separation of tasks in your playground, and are building t
 Try using a [variety of markup options](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/) when writing your pages. One of my favorites is the ["Experiment" callout](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/Experiment.html), allowing you to add a callout of something that a user can try. Another useful piece is links, as you can link to other pages in your playground! If you want to link to simply the next page, that's even easier, by simply linking to `@next`.
 
 <br />
+
 ## Use Modules
 
 You don't need to put all of your code in your playground's pages, and you probably shouldn't! If you're building out complex views, data structures, algorithms, or whatever else, you should probably put the bulk of that code into **modules**. Swift Playgrounds 3 and newer allow you to use modules to separate your code, much like you would with frameworks in an app. This allows you to separate your backend/API code from your primary playground page experiences. This will keep your users focused on the main goals of your experience, while still giving you the ability to write an elaborate backend for them to play with. You can create modules simply by adding modules in the sidebar of the Swift Playgrounds app.
@@ -61,6 +63,7 @@ Modules are only for your code, however. There's another folder for everything e
 Prior to Swift Playgrounds 3, code not stored within pages was stored in a folder named `Sources/`. This provided many of the same benefits of the modules of today, but you were limited to, in effect, one private module. I would highly reccomend targeting Playgrounds 3 and newer in order to gain the ability to ue multiple modules as well as user-editable modules.
 
 <br />
+
 ## Use the Resources Folders
 
 Have any images, video, sound effects, or music? Have any plist or JSON files you need to read? Have any other static resource you want to use? The resources folders are where all of that goes! You can use `PublicResources/` if you want users to use your resources when writing code (such as if they need to select an image), and `PrivateResources` for anything else. You can access any of the resources in these as you would a file in the target of an iOS app. This provides an easy, no-fuss place to put anything you need to use in your playground that isn't code.
@@ -74,6 +77,7 @@ Additionally: If you only want resources to be accessible within certain parts o
 Want to use a storyboard to build your user interface? Or an Asset Catalog to keep all your image assets? I've got good news and bad news. You _can_ use them, but they first need to be compiled into `.storyboardc` and `.car` files respectively. The former can be done with `ibtool` in your terminal. The latter is a bit more involved. Luckily, Apple did the hard work for you with their Playground Book template.
 
 <br />
+
 ## Take Advantage of the Playground Book Format
 
 The Swift Playgrounds app actually supports two formats. A basic `.playground` bundle is quite simple, simply containing your pages, basic sources, and resources (this is what is created when you create s 'New Playground' in Xcode). A `.playgroundbook`, however, provides a lot more customization into how all of that content is presented. (I've actually already covered a few of these more advanced features, like page chapters and private modules).
@@ -95,11 +99,13 @@ But my favorite part about this template is that it will **compile your storyboa
 Apple’s Playground Book template isn’t updated as frequently as Swift and Xcode are, and the bundled framework binaries are (currently) locked to a specific Swift version. Until Apple resolves this, you may need to use this template with an older version of Xcode, which you can [download on Apple’s developer website](https://developer.apple.com/download/more/). As of this writing, you will need [Xcode 11.1](https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip).
 
 <br />
+
 ## Use Cutscenes for Showing Without Interactivity
 
 If you want to show something to a user without having interactive code and a live view, such as for introducing or defining a concept, you can use **cutscenes**. Cutscenes are treated like special pages within a chapter of a playground book, and are stored in a `.cutscenepage` folder. You can create a cutscene using any HTML, CSS, JavaScript, or SVGs you'd like, and can even include video! [Check out Apple's cutscene documentation](https://developer.apple.com/documentation/swift_playgrounds/structuring_content_for_swift_playgrounds/adding_a_cutscene_to_a_playground_book) if you want to learn more.
 
 <br />
+
 ## Focus Your Live Views on One Task
 
 Your live view is supposed to be a contained experience directly relevant to a playground page (we'll discuss pages later). **Your live view is not an app**. You don't need to have a title screen in there, or a credits screen, or a big about box. Or even a bunch of instructions. When your live view starts, it should be immediately ready to be played with. The one exception I can think of is a game where enemies start appearing immediately, in which case you may just need a  "tap to begin"—or you may just want to disable the live view from auto-starting. Any of that explanation text can be in a page's markup.
@@ -107,6 +113,7 @@ Your live view is supposed to be a contained experience directly relevant to a p
 Ideally, your live view will be just that—one view. Keeping each live view small and bite sized really helps to guide the experience, and keep the pace moving. If you have any pushed or presented views, try to keep them small or quick, as to not distract from the overall experience. Want to show more? Add more pages with different or modified live views!
 
 <br />
+
 ## Conform to `PlaygroundLiveViewSafeAreaContainer`
 
 You should conform your view to the [`PlaygroundLiveViewSafeAreaContainer` protocol](https://developer.apple.com/documentation/playgroundsupport/playgroundliveviewsafeareacontainer). Doing this gives you a layout guide which keeps the buttons shows by the Swift Playgrounds app in mind. You can use this to make sure your interface isn't hidden underneath those buttons (like the "Run My Code" button).
@@ -114,6 +121,7 @@ You should conform your view to the [`PlaygroundLiveViewSafeAreaContainer` proto
 Of note: I've found that in practice this doesn't provide me with a useful layout guide in views I push on top of my primary view controller, but your mileage may vary.
 
 <br />
+
 ## Sidenote: Detecting Device Orientation Isn't Fun
 
 Does your playground rely on knowing the orientation of the iPad to work right, such as if you're showing a camera view that needs to be right-side up? I've got bad news for you. when you try getting the device orientation from [`UIDevice.current.orientation`](https://developer.apple.com/documentation/uikit/uidevice/1620053-orientation), you'll always get a `.unknown` value. This is not helpful. In fact, this almost killed my WWDC19 scholarship submission. But all hope is not lost.
@@ -121,6 +129,7 @@ Does your playground rely on knowing the orientation of the iPad to work right, 
 iOS does actually provide a second way to get the orientation, sort of. [The `interfaceOrientation` property ot UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621373-interfaceorientation) will actually give us a useful value—but the API was deprecated in iOS 8. This is not ideal, but it does give you a way to, at least as of now (and probably not for long), get an orientation value. It is important to note, however, that left and right are opposite of what you might expect here, as it is returning the orientation of the interface, and not of the device.
 
 <br />
+
 ## Remember: You're Not Making an App
 
 There is so much more to playgrounds than just a weird way to show some view controller. Make the most of it! Putting all of these pieces together can make for a much richer experience, and provide a user with greater enjoyment when using your playground. Use pages to describe your live view, and to let your users change what it shows. Use cutscenes to help set the tone, without distracting the user. And of course, use the live view to add a cool interactive experience to tie it all together.

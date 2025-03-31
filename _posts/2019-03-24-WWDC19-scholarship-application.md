@@ -17,7 +17,7 @@ I'm super excited to have won a scholarship for my second (and final) time! See 
 <!-- excerpt --><!-- more -->
 
 <div class="embed-responsive">
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I guess I&#39;m heading back to San Jose!!!!! Super excited to be heading back to WWDC for a second year! <a href="https://twitter.com/hashtag/WWDC19?src=hash&amp;ref_src=twsrc%5Etfw">#WWDC19</a> <a href="https://twitter.com/hashtag/WWDCscholars?src=hash&amp;ref_src=twsrc%5Etfw">#WWDCscholars</a> <a href="https://t.co/Z5Eue3Wf8n">pic.twitter.com/Z5Eue3Wf8n</a></p>&mdash; Zach (@zmknox) <a href="https://twitter.com/zmknox/status/1117928749469720576?ref_src=twsrc%5Etfw">April 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I guess I&#39;m heading back to San Jose!!!!! Super excited to be heading back to WWDC for a second year! <a href="https://twitter.com/hashtag/WWDC19?src=hash&amp;ref_src=twsrc%5Etfw">#WWDC19</a> <a href="https://twitter.com/hashtag/WWDCscholars?src=hash&amp;ref_src=twsrc%5Etfw">#WWDCscholars</a> <a href="https://t.co/Z5Eue3Wf8n">pic.twitter.com/Z5Eue3Wf8n</a></p>&mdash; zmknox (@zmknox) <a href="https://twitter.com/zmknox/status/1117928749469720576?ref_src=twsrc%5Etfw">April 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 </div>
 
 <div class="embed-responsive embed-responsive-16by9">

@@ -65,9 +65,9 @@ Information collected from downloading this app from the App Store or purchasing
 <br />
 
 ## For All apps and sites:
-##### _Last Updated February 17, 2024_
+##### _Last Updated March 31, 2025_
 
-"We", "I", "me", "my", "us", and "{{ site.name }}" all refer to zmknox for purposes of this Privacy Policy.
+"We", "I", "me", "my", "us", "zmknox", "Zoe", and "Zoe Knox" all refer to Zoe Knox for purposes of this Privacy Policy.
 
 #### California Online Privacy Protection Act Compliance
 We comply with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.

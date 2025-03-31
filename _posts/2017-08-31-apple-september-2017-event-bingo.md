@@ -3,7 +3,6 @@ layout: post
 title: "Apple's 'Let's Meet at Our Place' Event Keynote Bingo"
 date: 2017-08-31T12:00:00-05:00
 categories: WWDC
-extlink: /bingo/apple092017/
 ---
 
 Another September, another Apple event! I have once again and created a bingo card generator for this one.
@@ -18,3 +17,5 @@ I've updated the bingo card generator for this event to include more items (some
 or red (to mark an incorrect item) to make it easier to play along while you watch the keynote.
 
 I also realize that many of these items are somewhat moot by the leaks from this weekend, but it's all for fun!
+
+_Note from the future: the bingo site this post refers to is no longer online. But you can still find my code for the generator on GitHub!_
