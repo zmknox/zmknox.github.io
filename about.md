@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-# 👋 Hi there, I'm {{ site.firstName }}!
+<h1>
+👋 Hi there, I'm {{ site.firstName }}!
+</h1>
 
 <div class="about-pronouns">
-<h4>({{ site.pronouns }})</h4>
+<h4>({{ site.pronouns }}), pronounced ZOH-ee</h4>
 </div>
 
 I'm a software developer. I build (mostly backend, serverless, automation + test focused) tools with [Node.js](https://nodejs.org/en/) for work, and iOS apps with [Swift](https://swift.org/) for me. I also write a web app or two here and there using various tools (this site uses [Eleventy](https://www.11ty.dev/), for example). I like to try new frameworks and tools, so I'd like to think that I know at least a little bit about a lot of things. Check out my [Projects page]({{ "/projects" | prepend: site.baseurl }}) to see everything I (publicly) work on.
