@@ -10,7 +10,7 @@ This year, I was lucky enough to be awarded a scholarship to attend Apple's annu
 
 <!-- excerpt --><!-- more -->
 
-![Myself in front of McEnery Convention Center](/resources/wwdc18/meatdubdub.jpg){: .img-thumbnail .img-width .mx-auto .d-block }
+![Myself in front of McEnery Convention Center](/resources/wwdc18/meatdubdub-edit.jpg){: .img-thumbnail .img-width .mx-auto .d-block }
 ###### _Photo Credit: Pat Murray ([@_patmurray](https://twitter.com/_patmurray))_
 
 ### Day 0 -- Scholarship Orientation... and one more thing...

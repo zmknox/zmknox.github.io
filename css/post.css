@@ -17,11 +17,3 @@ h3 {
 yt-fluid {
   height: 300px !important;
 }
-
-@media (min-width: 576px) {
-  .img-thumbnail-smaller {
-    max-height: 500px !important;
-    height: auto !important;
-    width: auto !important;
-  }
-}

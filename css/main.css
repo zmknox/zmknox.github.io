@@ -42,12 +42,12 @@ body {
 
 .page-stuff a {
   color: #0692dd !important;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .page-stuff a:hover {
   color: #0692dd !important;
-  text-decoration: none !important;
+  text-decoration: dotted !important;
   border-bottom: 1px dotted #0692dd;
   /* padding-bottom:0.5em; */
 }
@@ -72,12 +72,13 @@ body {
 
 a {
   color: #03a4fb;
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration: underline;
 }
 
 a:hover {
   color: #03a4fb !important;
-  text-decoration: none !important;
+  text-decoration: dotted !important;
   border-bottom: 1px dotted #03a4fb;
 }
 
@@ -283,6 +284,7 @@ code {
   .home-h1 {
     font-family: "Gill Sans", system-ui, -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 148px;
+    font-weight: 600;
     color: white;
   }
 }
@@ -542,4 +544,35 @@ h6 {
 
 .big-text {
   font-size: 40pt;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 576px) {
+  .img-thumbnail-smaller {
+    max-height: 500px !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .img-thumbnail-about {
+    max-height: 400px !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .about-columns img {
+    float: left;
+    margin-right: 10pt !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .img-thumbnail-about {
+    max-width: 70% !important;
+    height: auto !important;
+    width: auto !important;
+  }
 }

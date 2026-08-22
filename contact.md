@@ -4,22 +4,13 @@ title: Contact
 permalink: /contact/
 ---
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
- <script>
-   function onSubmit(token) {
-     document.getElementById("contact-form").submit();
-   }
- </script>
+<script>
+  function onSubmit(token) {
+    document.getElementById("contact-form").submit();
+  }
+</script>
 
-You can get in touch with me in a few ways:
-
-### Direct Message
-
-The quickest way to get my attention is to send me a direct message somewhere. That might be
-on [social media](https://snailedit.social/@zmk), Discord, or something more secure like Signal. If you don't have my contact info for these or any other messaging service, send me an email and I can send it over.
-
-### Email
-
-You can send me an email using this form below:
+You can send me an email using this form. Please feel free to reach out if you need anything!
 
 <form id="contact-form" action="https://formspree.io/f/mdopzrrg" method="POST">
     <div class="form-group row">
@@ -51,6 +42,8 @@ You can send me an email using this form below:
 </form>
 
 (You can also send an email to anything at this domain if you'd prefer)
+
+If you want to chat via something less formal or more than email (like Discord, Signal, etc), let me know and I can send you my usernames.
 
 ----------
 

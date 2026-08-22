@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- OpenGraph Tags -->
-  <meta content="{{ site.title }}" property="og:site_name">
+  <meta content="{{ site.titleTitle }}" property="og:site_name">
 
   {% if title %}
   <meta content="{{ title | stripNBSP }}" property="og:title">
@@ -56,7 +56,7 @@
   {% endif %}
 
   <!-- Standard head -->
-  <title>{% if title %}{{ title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if title %}{{ title | escape }} | {{ site.titleTitle | escape }}{% else %}{{ site.titleTitle | escape }}{% endif %}</title>
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
 

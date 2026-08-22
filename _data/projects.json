@@ -138,7 +138,7 @@
         "current": false
     },
     {
-        "name":"{{ site.title }}",
+        "name":"Zoe Knox (this website!)",
         "description":"This website is run on Cloudflare Pages and Eleventy. It has info about me and my projects.",
         "github":{
             "profile":"zmknox",
